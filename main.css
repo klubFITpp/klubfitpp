@@ -181,3 +181,15 @@ section {
     color: var(--yellow)
 }
 
+.refs__button {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin: .5em 0;
+    background-color: var(--yellow);
+    color: var(--black);
+    font-size: 1.5em;
+    padding: 1em;
+    text-decoration: none;
+}
