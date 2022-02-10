@@ -31,7 +31,7 @@ jobs:
         run: mkdir mnt
 
       - name: Mount SSHFS
-        run: sshfs -ologlevel=debug "${SSH_USER}@${SSH_HOST}:${DEPLOY_FOLDER}" mnt -p "$SSH_PORT" -o IdentityFile="$(pwd)/key" -o UserKnownHostsFile="$(pwd)/fingerprint"
+        run: sshfs -osshfs_debug,loglevel=debug "${SSH_USER}@${SSH_HOST}:${DEPLOY_FOLDER}" mnt -p "$SSH_PORT" -o IdentityFile="$(pwd)/key" -o UserKnownHostsFile="$(pwd)/fingerprint"
         env:
           SSH_USER: ${{ secrets.SSH_USER }}
           SSH_HOST: ${{ secrets.SSH_HOST }}
