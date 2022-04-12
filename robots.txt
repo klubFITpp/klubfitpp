@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /documents/
 
 Sitemap: https://www.klubfitpp.cz/sitemap.xml
