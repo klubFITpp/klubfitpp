@@ -193,3 +193,7 @@ section {
     padding: 1em;
     text-decoration: none;
 }
+
+#calendar {
+    text-align: center;
+}
