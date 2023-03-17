@@ -104,6 +104,25 @@ section {
         transform: rotate(-45deg) translate(.3em, -.3em);
     }
 }
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar__iframe {
+    width: 100%;
+    max-width: 1024px;
+    height: 600px;
+    border: 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .calendar {
+        display: none;
+    }
+}
 
 /* about */
 .about {
