@@ -124,6 +124,15 @@ section {
     }
 }
 
+.club__board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2em auto;
+    width: fit-content;
+}
+
 /* about */
 .about {
     display: flex;
