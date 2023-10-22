@@ -70,7 +70,7 @@ section {
     justify-content: center;
     min-height: 100vh;
     background: var(--white);
-    background: url("./images/background.jpg") no-repeat center center;
+    background: url("/images/background.jpg") no-repeat center center;
     background-size: cover;
 }
 
