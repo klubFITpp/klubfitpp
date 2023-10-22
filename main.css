@@ -68,15 +68,15 @@ section {
     justify-content: center;
     min-height: 100vh;
     background: var(--white);
-    background: url("/images/background.jpg") no-repeat center center;
+    background: url("./images/background.jpg") no-repeat center center;
     background-size: cover;
 }
 
 .hello__logo {
     width: 50vw;
     max-width: 720px;
-    box-shadow: 0 0 .5em rgba(255, 255, 255, .5);
-    background: rgba(255, 255, 255, .5);
+    box-shadow: 0 0 .5em var(--black);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .hello__arrow {
@@ -212,3 +212,19 @@ section {
     padding: 1em;
     text-decoration: none;
 }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+::-webkit-scrollbar-track {
+    background: var(--yellow);
+}
+  
+
+::-webkit-scrollbar-thumb {
+    background: var(--blue);
+}
+  
