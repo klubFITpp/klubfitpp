@@ -15,20 +15,21 @@ body {
 }
 
 .header-logo {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.6);
 }
 
 .header-nav {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(255,255,255,0.5) 40%, rgba(255,255,255,0) 100%);
 }
 
-#header-arrow {
+.header-arrow {
     animation: header-arrow-animation 1s infinite ease-in-out;
 }
 
 @keyframes header-arrow-animation {
     0% {
-        transform: rotate(45deg) translate(.3em, -.3em);
+        transform: rotate(45deg) translate(-.3em, -.3em);
     }
 
     50% {
@@ -36,6 +37,6 @@ body {
     }
 
     100% {
-        transform: rotate(45deg) translate(.3em, -.3em);
+        transform: rotate(45deg) translate(-.3em, -.3em);
     }
 }
