@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.main-header {
+    background-image: url('/assets/images/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-logo {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.header-nav {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#header-arrow {
+    animation: header-arrow-animation 1s infinite ease-in-out;
+}
+
+@keyframes header-arrow-animation {
+    0% {
+        transform: rotate(45deg) translate(.3em, -.3em);
+    }
+
+    50% {
+        transform: rotate(45deg) translate(0, 0);
+    }
+
+    100% {
+        transform: rotate(45deg) translate(.3em, -.3em);
+    }
+}
