@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scrollbar-color: #0073bc #f9b000;
+
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -19,9 +26,20 @@ body {
 }
 
 .header-nav {
-    background: rgba(255, 255, 255, 0);
-    background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(255,255,255,0.5) 40%, rgba(255,255,255,0) 100%);
+   /* background: rgba(255, 255, 255, 0);
+    background: linear-gradient(180deg, rgba(255,255,255,0.5), rgba(255,255,255,0.5) 40%, rgba(255,255,255,0) 100%);*/
+    position: relative;
 }
+
+.header-nav:after {
+    background: linear-gradient(to right, #0073bc 0%, #0073bc 55%, #f9b000 55%,#f9b000 100%);
+    position: absolute;
+    content: '';
+    height: 4px;
+    right: 0;
+    left: 0;
+    top: 100%;
+  }
 
 .header-arrow {
     animation: header-arrow-animation 1s infinite ease-in-out;
