@@ -2,5 +2,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+_drafts/
+_posts/
 node_modules
 vendor

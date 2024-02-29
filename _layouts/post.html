@@ -1,0 +1,28 @@
+{% include head.html %}
+  <body class="post">
+    <header class="hello__nav__wrapper">
+      <nav class="hello__nav">
+          <a href="/" class="hello__nav__item">Hlavní stránka</a>
+          <a href="/news" class="hello__nav__item">Aktuality</a>
+          <a href="/events" class="hello__nav__item__yellow">Akce</a>
+      </nav>
+  </header>
+  <div class="post__title__wrapper post__image" style="background-image: url({{ page.img | relative_url }});">
+    
+    <div class="post__title__background">
+      <h2 class="post__title">{{page.title}}</h2>
+    </div>
+    <div class="post__categories">
+      {% for category in page.categories limit:4 %}
+        <small class="post__category">{{category}}</small>
+      {% endfor %}
+    </div>
+  </div>
+  <main class="post__main">
+    <article class="post__article">
+          {{ content }}
+    </article>
+  </main>
+  
+  </body>
+{% include foot.html %}

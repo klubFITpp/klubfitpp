@@ -2,26 +2,101 @@
 layout: default
 title: Hlavní stránka
 ---
+<section class="hello">
+    <div class="hello__nav__wrapper">
+        <nav class="hello__nav">
+            <a href="/news" class="hello__nav__item">Aktuality</a>
+            <a href="/events" class="hello__nav__item">Akce</a>
+            <a href="/documents" class=" hello__nav__item__yellow">Dokumenty</a>
+        </nav>
+    </div>
 
-{% include header.html %}
+    <img class="hello__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo FIT++"/>
+    <span class="hello__arrow"></span>
+</section>
 
-<section class="m-auto w-10/12 max-w-2xl" id="about" >
-    <header class="mt-10 w-full">
-        <h3 class="text-primary-blue font-bold text-2xl text-center">Co je FIT++?</h3>
-    </header>
-    <p class="mt-10 text-center text-lg">
-        Jsme studenti FITu ČVUT, co mají svoji fakultu rádi a chtějí ji udělat ještě lepší.
-    </p>
-    <article class="mt-8">
-        <h4 class="text-xl font-semibold"><i class="ion ion-ios-calendar text-primary-yellow text-3xl mr-2"></i>Organizace akcí</h4>
-        <p class="text-left text-lg mt-3">Chtěl jsi uspořádat nějakou akci, ale potřeboval bys pomoct? Nebo bys chtěl pomáhat při akcích jako je DOD či Noc vědců? Pak je FIT++ přesně pro tebe!</p>
+<section class="about">
+  <h2 class="section__title">Co je FIT++?</h2>
+  <p>Jsme studenti FITu ČVUT, co mají svoji fakultu rádi a chtějí ji udělat ještě lepší.</p>
+  <article class="about__article">
+    <h3 class="about__article__title"><i class="about__article__title__icon ion ion-ios-calendar"></i> Organizace akcí</h3>
+    <p class="about__article__text">Chtěl jsi uspořádat nějakou akci, ale potřeboval bys pomoct? Nebo bys chtěl pomáhat při akcích jako je DOD či Noc vědců? Pak je FIT++ přesně pro tebe!</p>
+  </article>
+  <article class="about__article">
+    <h3 class="about__article__title"><i class="about__article__title__icon ion ion-ios-people"></i> Společné chvíle</h3>
+    <p class="about__article__text">Nebo chceš pouze na chvíli odsednout od programování a strávit pěkné chvíle s ostatními FIŤáky? Příležitostí ve FIT++ je plno!</p>
+  </article>
+  <article class="about__article">
+    <h3 class="about__article__title"><i class="about__article__title__icon ion ion-ios-bulb"></i> Lidi s nápady</h3>
+    <p class="about__article__text">Dobrých lidí s dobrými nápady je vždycky málo, a tak jsme se rozhodli, že by bylo super vás sdružovat.</p>
+  </article>
+</section>
+
+<section class="events">
+  <h2 class="section__title">Akce</h2>
+  <div class="events__article__wrapper ">
+    {% for post in site.posts limit:3 %}
+    <article class="event__article event__image" style="background-image: url({{ post.img | relative_url }});">
+      <div class="event__background ">
+          <h3 class="event__title">{{post.title}}</h3>
+          <div class="event__footer ">
+            <a class="event__link" href="{{post.url}}">Více</a>
+            <small class="event__date">{{ post.date | date: "%-d/%-m/%Y" }}</small>
+          </div>
+      </div>
     </article>
-    <article class="mt-8">
-        <h4 class="text-xl font-semibold"><i class="ion ion-ios-people text-primary-yellow text-3xl mr-2"></i>Společné chvíle</h4>
-        <p class="text-left text-lg mt-3">Nebo chceš pouze na chvíli odsednout od programování a strávit pěkné chvíle s ostatními FIŤáky? Příležitostí ve FIT++ je plno!</p>
+    {% endfor %}
+  </div>
+  <a class="events__more__link" href="/events">Další akce</a>
+</section>
+
+<section class="news">
+  <h2 class="section__title">Aktuality</h2>
+  <div class="news__article__wrapper">
+    {% for post in site.posts limit:3 %}
+    <article class="news__article ">
+      <div class="news__image" style="background-image: url({{ post.img | relative_url }});"></div>
+      <div class="news__text ">
+          <h3 class="news__title">{{post.title}}</h3>
+          <p class="news__short">{{post.short}}</p>
+          <div class="news__footer">
+            <a class="news__link" href="{{post.url}}">Přečíst</a>
+            <small class="news__date">{{ post.date | date: "%-d/%-m/%Y" }}</small>
+          </div>
+      </div>
     </article>
-    <article class="mt-8 ">
-        <h4 class="text-xl font-semibold"><i class="ion ion-ios-bulb text-primary-yellow text-3xl mr-2"></i>Lidi s nápady</h4>
-        <p class="text-left text-lg mt-3">Dobrých lidí s dobrými nápady je vždycky málo, a tak jsme se rozhodli, že by bylo super vás sdružovat.</p>
-    </article>
+    {% endfor %}
+  </div>
+  <a class="news__more__link" href="/news">Další články</a>
+</section>
+
+
+
+<section class="refs">
+  <h2 class="section__title">Přidej se k nám</h2>
+  <p class="refs__scream">Pomoz nám udělat FIT lepší!</p>
+  <p class="refs__scream">Napiš a přidej se k nám!</p>
+  <article class="refs__links">
+      <a class="refs__button" href="https://discord.gg/2Bh93cXGJ3">Přidej se do FIT++</a>
+  </article>
+</section>
+
+<section class="refs">
+  <h2 class="section__title">Kontakty</h2>
+  <article class="refs__links">
+    <a class="refs__links__link" href="https://facebook.com/klubFITpp"><i class="refs__links__link__logo ion ion-logo-facebook"></i> FITplusplus</a>
+    <a class="refs__links__link" href="https://instagram.com/klubFITpp"><i class="refs__links__link__logo ion ion-logo-instagram"></i> @klubFITpp</a>
+    <a class="refs__links__link" href="https://twitter.com/klubFITpp"><i class="refs__links__link__logo ion ion-logo-twitter"></i> @klubFITpp</a>
+    <a class="refs__links__link" href="mailto:fitpp@su.cvut.cz"><i class="refs__links__link__logo ion ion-ios-mail"></i> fitpp@su.cvut.cz</a>
+  </article>
+</section>
+
+<section class="refs">
+  <h2 class="section__title">Další zajímavé skupiny</h2>
+  <article class="refs__links">
+    <a class="refs__links__link" href="https://su.cvut.cz">Studentská unie ČVUT</a>
+    <a class="refs__links__link" href="https://casopis.fit.cvut.cz/">Fakultní časopis Buď FIT</a>
+    <a class="refs__links__link" href="https://seznamovak.fit.cvut.cz/">Seznamovák FIT</a>
+    <a class="refs__links__link" href="https://magistrovak.fit.cvut.cz/">Magistrovák FIT</a>
+  </article>
 </section>

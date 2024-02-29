@@ -7,6 +7,7 @@ module.exports = {
     './_posts/*.md',
     './*.md',
     './*.html',
+    './*/*.html',
   ],
   theme: {
     extend: {

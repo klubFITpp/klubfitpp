@@ -1,0 +1,59 @@
+---
+layout: default
+title: Aktuality
+pagination: 
+  enabled: true
+---
+
+<header class="hello__nav__wrapper">
+    <nav class="hello__nav">
+        <a href="/" class="hello__nav__item">Hlavní stránka</a>
+        <a href="/events" class="hello__nav__item">Akce</a>
+        <a href="/documents" class="hello__nav__item__yellow">Dokumenty</a>
+    </nav>
+</header>
+<section class="news">
+<h2 class="main__title">Aktuality</h2>
+<!-- This loops through the paginated posts -->
+<div class="news__article__wrapper">
+  {% for post in paginator.posts %}
+  <article class="news__article ">
+    <div class="news__image" style="background-image: url('{{ post.img | relative_url }}');"></div>
+    <div class="news__text ">
+        <h3 class="news__title">{{post.title}}</h3>
+        <p class="news__short">{{post.short}}</p>
+        <div class="news__footer">
+          <a class="news__link" href="{{post.url}}">Číst dále</a>
+          <small class="news__date">{{ post.date | date: "%-d/%-m/%Y" }}</small>
+        </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<div class="news__pagination w-max m-auto mt-6">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Předchozí</a>
+  {% else %}
+    <span class="text-gray-500">&laquo; Předchozí</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/news/' | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a href="/news/{{page}}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Následující &raquo;</a>
+  {% else %}
+    <span class="text-gray-500">Následující &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+</section>
