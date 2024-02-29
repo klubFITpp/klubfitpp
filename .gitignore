@@ -3,6 +3,5 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 _drafts/
-_posts/
 node_modules
 vendor
