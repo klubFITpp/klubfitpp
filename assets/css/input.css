@@ -328,11 +328,15 @@ section {
 }
 
 .events__article__wrapper {
-    @apply flex flex-col justify-start items-center lg:flex-row lg:justify-evenly;
+    @apply flex flex-col justify-start items-center max-w-7xl mx-auto lg:flex-row lg:justify-evenly;
+}
+
+.events__article__wrapper2 {
+    @apply flex flex-col justify-start items-center max-w-7xl mx-auto lg:flex-row lg:justify-evenly flex-wrap;
 }
 
 .event__article {
-    @apply h-60 w-80 mt-6 lg:mt-0;
+    @apply h-52 w-80 mt-6 lg:mt-0;
 }
 
 .event__background {

@@ -26,3 +26,6 @@ pagination:
 
   # Limit how many pagenated pages to create (default: 0, means all)
   limit: 0
+collections:
+  events:
+    output: true

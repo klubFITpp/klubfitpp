@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Akce
+pagination: 
+  enabled: true
+  collection: events
+  per_page: 6
 ---
 <header class="hello__nav__wrapper">
     <nav class="hello__nav">
@@ -12,6 +16,46 @@ title: Akce
 <section class="events">
     <h2 class="main__title">Akce</h2>
 </section>
+
+<div class="events__article__wrapper2">
+    {% for event in paginator.posts %}
+    <article class="event__article event__image" style="background-image: url({{ event.img | relative_url }});">
+        <div class="event__background ">
+            <h3 class="event__title">{{event.title}}</h3>
+            <div class="event__footer ">
+              <a class="event__link" href="{{event.url}}">Více</a>
+              <small class="event__date">{{ event.date | date: "%-d/%-m/%Y" }}</small>
+            </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+  
+  {% if paginator.total_pages > 1 %}
+  <div class="news__pagination w-max m-auto mt-6">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Předchozí</a>
+    {% else %}
+      <span class="text-gray-500">&laquo; Předchozí</span>
+    {% endif %}
+  
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <em>{{ page }}</em>
+      {% elsif page == 1 %}
+        <a href="{{ '/news/' | relative_url }}">{{ page }}</a>
+      {% else %}
+        <a href="/news/{{page}}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+  
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Následující &raquo;</a>
+    {% else %}
+      <span class="text-gray-500">Následující &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
 
 <section class="calendar">
     <iframe class="calendar__iframe" src="https://calendar.google.com/calendar/embed?wkst=2&ctz=Europe%2FPrague&showTitle=1&showDate=1&showPrint=0&showTabs=1&showCalendars=0&showTz=1&src=Zml0cHBAc3UuY3Z1dC5jeg"></iframe>

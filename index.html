@@ -35,13 +35,13 @@ title: Hlavní stránka
 <section class="events">
   <h2 class="section__title">Akce</h2>
   <div class="events__article__wrapper ">
-    {% for post in site.posts limit:3 %}
-    <article class="event__article event__image" style="background-image: url({{ post.img | relative_url }});">
+    {% for event in site.events limit:3 %}
+    <article class="event__article event__image" style="background-image: url({{ event.img | relative_url }});">
       <div class="event__background ">
-          <h3 class="event__title">{{post.title}}</h3>
+          <h3 class="event__title">{{event.title}}</h3>
           <div class="event__footer ">
-            <a class="event__link" href="{{post.url}}">Více</a>
-            <small class="event__date">{{ post.date | date: "%-d/%-m/%Y" }}</small>
+            <a class="event__link" href="{{event.url}}">Více</a>
+            <small class="event__date">{{ event.date | date: "%-d/%-m/%Y" }}</small>
           </div>
       </div>
     </article>
