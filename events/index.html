@@ -1,16 +1,18 @@
 ---
 layout: default
 title: Akce
+permalink: /events/
 pagination: 
   enabled: true
   collection: events
   per_page: 6
----
+--
+
 <header class="hello__nav__wrapper">
     <nav class="hello__nav">
         <a href="/" class="hello__nav__item">Hlavní stránka</a>
-        <a href="/news" class="hello__nav__item">Aktuality</a>
-        <a href="/documents" class="hello__nav__item__yellow">Dokumenty</a>
+        <a href="/news/" class="hello__nav__item">Aktuality</a>
+        <a href="/documents/" class="hello__nav__item__yellow">Dokumenty</a>
     </nav>
 </header>
 <section class="events">
@@ -20,39 +22,39 @@ pagination:
 <div class="events__article__wrapper2">
     {% for event in paginator.posts %}
     <article class="event__article event__image" style="background-image: url({{ event.img | relative_url }});">
-        <div class="event__background ">
-            <h3 class="event__title">{{event.title}}</h3>
-            <div class="event__footer ">
-              <a class="event__link" href="{{event.url}}">Více</a>
-              <small class="event__date">{{ event.date | date: "%-d/%-m/%Y" }}</small>
-            </div>
-        </div>
-      </article>
+      <div class="event__background ">
+          <h3 class="event__title">{{event.title}}</h3>
+          <div class="event__footer ">
+            <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
+            <a class="event__link" href="{{event.url}}">Více</a>
+          </div>
+      </div>
+    </article>
     {% endfor %}
   </div>
   
   {% if paginator.total_pages > 1 %}
-  <div class="news__pagination w-max m-auto mt-6">
+  <div class="paginator">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Předchozí</a>
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="paginator__choice"><i class="paginator__icon ion ion-ios-arrow-back"></i></a>
     {% else %}
-      <span class="text-gray-500">&laquo; Předchozí</span>
+    <span class="paginator__choice dead"><i class="paginator__icon ion ion-ios-arrow-back"></i></span>
     {% endif %}
   
     {% for page in (1..paginator.total_pages) %}
       {% if page == paginator.page %}
-        <em>{{ page }}</em>
+        <span class="paginator__choice selected">{{ page }}</span>
       {% elsif page == 1 %}
-        <a href="{{ '/news/' | relative_url }}">{{ page }}</a>
+        <a class="paginator__choice" href="{{ '/news/' | relative_url }}">{{ page }}</a>
       {% else %}
-        <a href="/news/{{page}}">{{ page }}</a>
+        <a class="paginator__choice " href="/news/{{page}}">{{ page }}</a>
       {% endif %}
     {% endfor %}
   
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}">Následující &raquo;</a>
+      <a href="{{ paginator.next_page_path | relative_url }}" class="paginator__choice"><i class="paginator__icon ion ion-ios-arrow-forward"></i></a>
     {% else %}
-      <span class="text-gray-500">Následující &raquo;</span>
+      <span class="paginator__choice dead"><i class="paginator__icon ion ion-ios-arrow-forward"></i></span>
     {% endif %}
   </div>
   {% endif %}

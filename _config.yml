@@ -29,3 +29,5 @@ pagination:
 collections:
   events:
     output: true
+  posts:
+    output: true

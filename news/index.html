@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Aktuality
+permalink: /news/
 pagination: 
   enabled: true
+  collection: posts
+  per_page: 6
 ---
 
 <header class="hello__nav__wrapper">
@@ -24,7 +27,7 @@ pagination:
         <p class="news__short">{{post.short}}</p>
         <div class="news__footer">
           <a class="news__link" href="{{post.url}}">Číst dále</a>
-          <small class="news__date">{{ post.date | date: "%-d/%-m/%Y" }}</small>
+          <small class="news__date">{{ post.date | date: "%-d. %-m. %Y" }}</small>
         </div>
     </div>
   </article>
@@ -32,27 +35,27 @@ pagination:
 </div>
 
 {% if paginator.total_pages > 1 %}
-<div class="news__pagination w-max m-auto mt-6">
+<div class="paginator">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Předchozí</a>
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="paginator__choice"><i class="paginator__icon ion ion-ios-arrow-back"></i></a>
   {% else %}
-    <span class="text-gray-500">&laquo; Předchozí</span>
+  <span class="paginator__choice dead"><i class="paginator__icon ion ion-ios-arrow-back"></i></span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em>{{ page }}</em>
+      <span class="paginator__choice selected">{{ page }}</span>
     {% elsif page == 1 %}
-      <a href="{{ '/news/' | relative_url }}">{{ page }}</a>
+      <a class="paginator__choice" href="{{ '/news/' | relative_url }}">{{ page }}</a>
     {% else %}
-      <a href="/news/{{page}}">{{ page }}</a>
+      <a class="paginator__choice " href="/news/{{page}}">{{ page }}</a>
     {% endif %}
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Následující &raquo;</a>
+    <a href="{{ paginator.next_page_path | relative_url }}" class="paginator__choice"><i class="paginator__icon ion ion-ios-arrow-forward"></i></a>
   {% else %}
-    <span class="text-gray-500">Následující &raquo;</span>
+    <span class="paginator__choice dead"><i class="paginator__icon ion ion-ios-arrow-forward"></i></span>
   {% endif %}
 </div>
 {% endif %}

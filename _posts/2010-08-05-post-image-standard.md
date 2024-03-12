@@ -7,7 +7,7 @@ categories:
 tags:
   - image
   - Post Formats
-img: "https://picsum.photos/1080/720"
+img: "/assets/images/articles/10.jpg"
 short: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
 Aenean fermentum risus id tortor. Nullam at arcu 
 a est sollicitudin euismod. Mauris metus. Duis pulvinar."
