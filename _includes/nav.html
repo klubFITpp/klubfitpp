@@ -1,0 +1,26 @@
+<div class="hello__nav__wrapper">     
+    <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo FIT++"/>
+    <nav class="hello__nav">
+        <a href="/" class="hello__nav__item   {% if page.title == "Hlavní stránka" %} hello__nav__item__selected {% endif %} ">Hlavní stránka</a>
+        <a href="/news" class="hello__nav__item {% if page.title == "Aktuality" %} hello__nav__item__selected {% endif %}">Aktuality</a>
+        <a href="/events" class="hello__nav__item {% if page.title == "Akce" %} hello__nav__item__selected {% endif %}">Akce</a>
+        <a href="/documents" class="hello__nav__item {% if page.title == "Dokumenty" %} hello__nav__item__selected {% endif %}">Dokumenty</a>
+    </nav>
+    <div class="hello__nav__burger hamburger" id="hamburger" onclick="toggleMenu()">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <script>
+      function toggleMenu() {
+          document.getElementById('hamburger').classList.toggle("change");
+          document.getElementById('nav_phone').classList.toggle('hidden');
+      }
+    </script>
+</div>
+<nav class="hello__nav__phone hidden" id="nav_phone">
+    <a href="/" class="hello__nav__item   {% if page.title == "Hlavní stránka" %} hello__nav__item__selected {% endif %} ">Hlavní stránka</a>
+    <a href="/news" class="hello__nav__item {% if page.title == "Aktuality" %} hello__nav__item__selected {% endif %}">Aktuality</a>
+    <a href="/events" class="hello__nav__item {% if page.title == "Akce" %} hello__nav__item__selected {% endif %}">Akce</a>
+    <a href="/documents" class="hello__nav__item {% if page.title == "Dokumenty" %} hello__nav__item__selected {% endif %}">Dokumenty</a>
+</nav>

@@ -7,14 +7,7 @@ pagination:
   collection: posts
   per_page: 6
 ---
-
-<header class="hello__nav__wrapper">
-    <nav class="hello__nav">
-        <a href="/" class="hello__nav__item">Hlavní stránka</a>
-        <a href="/events" class="hello__nav__item">Akce</a>
-        <a href="/documents" class="hello__nav__item__yellow">Dokumenty</a>
-    </nav>
-</header>
+{% include nav.html %}
 <section class="news">
 <h2 class="main__title">Aktuality</h2>
 <!-- This loops through the paginated posts -->

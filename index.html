@@ -3,13 +3,7 @@ layout: default
 title: Hlavní stránka
 ---
 <section class="hello">
-    <div class="hello__nav__wrapper">
-        <nav class="hello__nav">
-            <a href="/news" class="hello__nav__item">Aktuality</a>
-            <a href="/events" class="hello__nav__item">Akce</a>
-            <a href="/documents" class=" hello__nav__item__yellow">Dokumenty</a>
-        </nav>
-    </div>
+    {% include nav.html %}
 
     <img class="hello__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo FIT++"/>
     <span class="hello__arrow"></span>
