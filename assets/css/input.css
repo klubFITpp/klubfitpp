@@ -422,26 +422,49 @@ section {
 }
 
 .events__article__wrapper {
-    @apply flex flex-col justify-start items-center max-w-7xl mx-auto lg:flex-row lg:justify-evenly;
+    @apply flex flex-col justify-start items-center max-w-7xl mx-auto xl:flex-row lg:justify-evenly;
 }
 
 .events__article__wrapper2 {
-    @apply flex flex-col justify-start items-center max-w-7xl mx-auto lg:flex-row lg:justify-evenly flex-wrap;
+    @apply flex flex-col justify-start items-center max-w-7xl mx-auto xl:flex-row lg:justify-evenly flex-wrap;
 }
 
 .event__article {
-    @apply h-52 w-80 mt-6 lg:mt-0;
+    @apply w-96 aspect-video mt-6 lg:mt-0;
     @apply my-3 mx-4 flex-shrink-0;
 }
 
 .event__background {
     @apply w-full h-full p-4 flex flex-col justify-between items-center;
-    background: rgba(255, 255, 255, 0.487);
+    background-color: rgba(194, 194, 194, 0.2);
 }
 
 .event__title {
-    @apply  font-semibold text-left justify-start text-xl truncate overflow-hidden max-w-md whitespace-nowrap;
+    @apply  font-semibold p-2 text-center w-max max-w-full bg-primary-yellow justify-start text-xl overflow-hidden;
 }
+
+/*.event__article:nth-of-type(1)  {
+    background-color: rgba(101, 100, 100, 0.4);
+}
+
+.event__article:nth-of-type(2) .event__background {
+    background-color: rgba(101, 100, 100, 0.2);
+}
+
+.event__article:nth-of-type(3) .event__background {
+    background-color: rgba(194, 194, 194, 0.2);
+}
+
+.event__article:nth-of-type(1) .event__title {
+    @apply  font-semibold border-primary-blue border-4 p-1 text-center  w-max max-w-full justify-start text-xl overflow-hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.event__article:nth-of-type(2) .event__title {
+    @apply  font-semibold  text-center text-white bg-primary-blue p-2 w-max max-w-full justify-start text-xl overflow-hidden;
+}*/
+
+
 
 .event__footer {
     @apply flex justify-between;
@@ -466,11 +489,11 @@ section {
 }
 
 .news__image {
-    @apply w-64 h-48 max-h-48 mx-auto lg:mx-0 flex-shrink-0;
+    @apply  h-48 aspect-video max-h-48 mx-auto lg:mx-0 flex-shrink-0;
 }
 
 .news__text {
-    @apply flex-col items-start justify-start py-4 lg:py-2 pl-6;
+    @apply flex-col w-96 m-auto lg:w-full items-start pr-7 lg:pr-0 justify-start py-4 lg:py-2 pl-6;
 }
 
 .news__title {
@@ -482,7 +505,7 @@ section {
 }
 
 .news__footer {
-    @apply flex justify-start items-center;
+    @apply flex justify-between lg:justify-start items-center;
 }
 
 .news__link {
@@ -635,7 +658,7 @@ section {
 }
 
 .people__article {
-    @apply mx-4 flex-shrink-0 mt-6;
+    @apply mx-4 flex-shrink-0 mt-6 pb-6;
 }
 
 .people__article__name {

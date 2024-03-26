@@ -6,6 +6,7 @@ pagination:
   enabled: true
   collection: posts
   per_page: 6
+  sort_reverse: true
 ---
 {% include nav.html %}
 <section class="news">
@@ -41,7 +42,7 @@ pagination:
     {% elsif page == 1 %}
       <a class="paginator__choice" href="{{ '/news/' | relative_url }}">{{ page }}</a>
     {% else %}
-      <a class="paginator__choice " href="/news/{{page}}">{{ page }}</a>
+      <a class="paginator__choice " href="/news/page{{page}}/index.html">{{ page }}</a>
     {% endif %}
   {% endfor %}
 

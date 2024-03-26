@@ -6,6 +6,7 @@ pagination:
   enabled: true
   collection: events
   per_page: 6
+  sort_reverse: true
 ---
 
 {% include nav.html %}
@@ -39,9 +40,9 @@ pagination:
       {% if page == paginator.page %}
         <span class="paginator__choice selected">{{ page }}</span>
       {% elsif page == 1 %}
-        <a class="paginator__choice" href="{{ '/news/' | relative_url }}">{{ page }}</a>
+        <a class="paginator__choice" href="{{ '/events/' | relative_url }}">{{ page }}</a>
       {% else %}
-        <a class="paginator__choice " href="/news/{{page}}">{{ page }}</a>
+        <a class="paginator__choice " href="/events/page{{page}}/index.html">{{ page }}</a>
       {% endif %}
     {% endfor %}
   

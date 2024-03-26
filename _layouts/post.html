@@ -1,12 +1,6 @@
 {% include head.html %}
   <body class="post">
-    <header class="hello__nav__wrapper">
-      <nav class="hello__nav">
-          <a href="/" class="hello__nav__item">Hlavní stránka</a>
-          <a href="/news" class="hello__nav__item">Aktuality</a>
-          <a href="/events" class="hello__nav__item__yellow">Akce</a>
-      </nav>
-  </header>
+  {% include nav.html %}
   <div class="post__title__wrapper post__image" style="background-image: url({{ page.img | relative_url }});">
     
     <div class="post__title__background">

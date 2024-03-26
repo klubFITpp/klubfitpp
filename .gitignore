@@ -2,6 +2,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.paginator_v2/
 _drafts/
 node_modules
 vendor
