@@ -19,9 +19,16 @@
     scrollbar-color: var(--yellow) var(--blue);
 }
 
+html {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 body {
     width: 100%;
     min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     color: var(--black);
@@ -127,8 +134,8 @@ section {
         position: absolute;
         content: '';
         height: 4px;
-        right: 0;
-        left: 0;
+        right: -4;
+        left: -4;
         top: calc(100%);
     }
     
@@ -141,8 +148,8 @@ section {
         position: absolute;
         content: '';
         height: 4px;
-        right: -4px;
-        left: -4px;
+        right: 0px;
+        left: 0px;
         top: 100%;
     }
 }
@@ -493,7 +500,7 @@ section {
 }
 
 .news__text {
-    @apply flex-col w-96 m-auto lg:w-full items-start pr-7 lg:pr-0 justify-start py-4 lg:py-2 pl-6;
+    @apply flex-col w-96 m-auto lg:w-full items-start pr-7 lg:pr-0 justify-start py-4 lg:py-2 pl-2 sm:pl-6;
 }
 
 .news__title {
