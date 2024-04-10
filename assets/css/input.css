@@ -134,8 +134,9 @@ section {
         position: absolute;
         content: '';
         height: 4px;
-        right: -4;
-        left: -4;
+        right: -8px;
+        left: -8px;
+        z-index: 40;
         top: calc(100%);
     }
     
@@ -474,7 +475,7 @@ section {
 
 
 .event__footer {
-    @apply flex justify-between;
+    @apply flex justify-between w-full;
 }
 
 .event__link {

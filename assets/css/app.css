@@ -733,8 +733,9 @@ section {
     position: absolute;
     content: '';
     height: 4px;
-    right: -4;
-    left: -4;
+    right: -8px;
+    left: -8px;
+    z-index: 40;
     top: calc(100%);
   }
 }
@@ -1236,6 +1237,7 @@ section {
 
 .event__footer {
   display: flex;
+  width: 100%;
   justify-content: space-between;
 }
 
