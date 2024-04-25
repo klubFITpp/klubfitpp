@@ -4,7 +4,7 @@ title: Aktuality
 permalink: /news/
 pagination: 
   enabled: true
-  collection: posts
+  collection: news
   per_page: 6
   sort_reverse: true
 ---
@@ -13,7 +13,7 @@ pagination:
 <h2 class="main__title">Aktuality</h2>
 <!-- This loops through the paginated posts -->
 <div class="news__article__wrapper">
-  {% for post in paginator.posts %}
+  {% for post in paginator.news %}
   <article class="news__article ">
     <div class="news__image" style="background-image: url('{{ post.img | relative_url }}');"></div>
     <div class="news__text ">

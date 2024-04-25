@@ -48,8 +48,8 @@ title: Hlavní stránka
 <section class="news">
   <h2 class="section__title">Aktuality</h2>
   <div class="news__article__wrapper">
-    {% assign posts = site.posts | sort: 'date' | reverse  %}
-    {% for post in posts limit:3 %}
+    {% assign news = site.news | sort: 'date' | reverse  %}
+    {% for post in news limit:3 %}
     <article class="news__article ">
       <div class="news__image" style="background-image: url({{ post.img | relative_url }});"></div>
       <div class="news__text ">
@@ -78,17 +78,22 @@ title: Hlavní stránka
 <section class="people">
   <h2 class="section__title">Kdo za FIT++ stoji?</h2>
   <div class="people__wrapper">
+    {% assign people = site.people | sort: 'pos' %}
+    {% for person in people %}
     <article class="people__article">
-      <img class="people__article__img" src="{{ "/assets/images/people/1.jpg" | relative_url }}" alt="Ondřej Švec">
-      <h3 class="people__article__name">Ondřej Švec</h3>
-      <p class="people__article__role">Předseda</p>
-      <div class="people__article__contact">
+      <div class="people__article__img" style="background-image: url({{ person.img | relative_url }});"></div>
+      <h3 class="people__article__name">{{person.name}} {{person.surname}}</h3>
+      <p class="people__article__role">{{person.role1}}</p>
+      <p class="people__article__role">{{person.role2}}</p>
+      <!--<div class="people__article__contact">
         <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-ios-mail"></i></a>
         <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-instagram"></i></a>
         <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-facebook"></i></a>
         <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-twitter"></i></a>
-      </div> 
+      </div> -->
     </article>
+    {% endfor %}
+    <!--
     <article class="people__article">
       <img class="people__article__img" src="{{ "/assets/images/people/2.jpg" | relative_url }}" alt="Ondřej Švec">
       <h3 class="people__article__name">Ondřej Švec</h3>
@@ -144,6 +149,81 @@ title: Hlavní stránka
         <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-twitter"></i></a>
       </div> 
     </article>
+    -->
+  </div>
+  <div class="people__wrapper">
+    {% assign people = site.people | sort: 'pos' %}
+    {% for person in people %}
+    <article class="people__article">
+      <div class="people__article__img__sq" style="background-image: url({{ person.img | relative_url }});"></div>
+      <h3 class="people__article__name">{{person.name}} {{person.surname}}</h3>
+      <p class="people__article__role">{{person.role1}}</p>
+      <p class="people__article__role">{{person.role2}}</p>
+      <!--<div class="people__article__contact">
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-ios-mail"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-instagram"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-facebook"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-twitter"></i></a>
+      </div> -->
+    </article>
+    {% endfor %}
+    <!--
+    <article class="people__article">
+      <img class="people__article__img" src="{{ "/assets/images/people/2.jpg" | relative_url }}" alt="Ondřej Švec">
+      <h3 class="people__article__name">Ondřej Švec</h3>
+      <p class="people__article__role">Předseda</p>
+      <div class="people__article__contact">
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-ios-mail"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-instagram"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-facebook"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-twitter"></i></a>
+      </div> 
+    </article>
+    <article class="people__article">
+      <img class="people__article__img" src="{{ "/assets/images/people/3.jpg" | relative_url }}" alt="Ondřej Švec">
+      <h3 class="people__article__name">Ondřej Švec</h3>
+      <p class="people__article__role">Předseda</p>
+      <div class="people__article__contact">
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-ios-mail"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-instagram"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-facebook"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-twitter"></i></a>
+      </div> 
+    </article>
+    <article class="people__article">
+      <img class="people__article__img" src="{{ "/assets/images/people/4.jpg" | relative_url }}" alt="Ondřej Švec">
+      <h3 class="people__article__name">Ondřej Švec</h3>
+      <p class="people__article__role">Předseda</p>
+      <div class="people__article__contact">
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-ios-mail"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-instagram"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-facebook"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-twitter"></i></a>
+      </div> 
+    </article>
+    <article class="people__article">
+      <img class="people__article__img" src="{{ "/assets/images/people/5.jpg" | relative_url }}" alt="Ondřej Švec">
+      <h3 class="people__article__name">Ondřej Švec</h3>
+      <p class="people__article__role">Předseda</p>
+      <div class="people__article__contact">
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-ios-mail"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-instagram"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-facebook"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-twitter"></i></a>
+      </div> 
+    </article>
+    <article class="people__article">
+      <img class="people__article__img" src="{{ "/assets/images/people/6.jpg" | relative_url }}" alt="Ondřej Švec">
+      <h3 class="people__article__name">Ondřej Švec</h3>
+      <p class="people__article__role">Předseda</p>
+      <div class="people__article__contact">
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-ios-mail"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-instagram"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-facebook"></i></a>
+        <a class="people__article__contact__link" href="mailto:"><i class="people__article__contact__icon ion ion-logo-twitter"></i></a>
+      </div> 
+    </article>
+    -->
   </div>
 </section>
 

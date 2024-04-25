@@ -1631,9 +1631,15 @@ section {
 .people__article {
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   flex-shrink: 0;
   padding-bottom: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .people__article {
+    min-width: 18rem;
+  }
 }
 
 .people__article__name {
@@ -1641,9 +1647,19 @@ section {
 }
 
 .people__article__img {
-  height: 9rem;
-  width: 9rem;
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: 1 / 1;
+  width: 12rem;
   border-radius: 9999px;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .people__article__img {
+    width: 13rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1653,8 +1669,31 @@ section {
   }
 }
 
+.people__article__img__sq {
+  margin-left: auto;
+  margin-right: auto;
+  aspect-ratio: 1 / 1;
+  width: 12rem;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .people__article__img__sq {
+    width: 13rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .people__article__img__sq {
+    height: 13rem;
+    width: 13rem;
+  }
+}
+
 .people__article__name {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .people__article__contact {
@@ -1664,11 +1703,24 @@ section {
 }
 
 .people__article__role {
-  margin-top: 0.75rem;
+  margin-top: 0.25rem;
   text-align: center;
 }
 
+@media (min-width: 1024px) {
+  .people__article__role {
+    min-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .people__article__role {
+    min-height: 2.25rem;
+  }
+}
+
 .people__article__contact__link {
+  margin-top: 0.75rem;
   font-size: 1.5em;
   margin-left: 0.25rem;
   margin-right: 0.25rem;
