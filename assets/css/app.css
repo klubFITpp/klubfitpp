@@ -1168,19 +1168,80 @@ section {
   }
 }
 
-.event__article {
+.events__article__wrapper3 {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 80rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media (min-width: 1024px) {
+  .events__article__wrapper3 {
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1280px) {
+  .events__article__wrapper3 {
+    flex-direction: row;
+  }
+}
+
+.events__article__wrapper .event__article {
   margin-top: 1.5rem;
   aspect-ratio: 16 / 9;
   width: 24rem;
 }
 
 @media (min-width: 1024px) {
-  .event__article {
+  .events__article__wrapper .event__article {
     margin-top: 0px;
   }
 }
 
-.event__article {
+.events__article__wrapper .event__article {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.events__article__wrapper2 .event__article {
+  margin-top: 1.5rem;
+  width: 24rem;
+}
+
+@media (min-width: 1024px) {
+  .events__article__wrapper2 .event__article {
+    margin-top: 0px;
+  }
+}
+
+.events__article__wrapper2 .event__article {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.events__article__wrapper3 .event__article {
+  margin-top: 1.5rem;
+  width: 24rem;
+}
+
+@media (min-width: 1024px) {
+  .events__article__wrapper3 .event__article {
+    margin-top: 0px;
+  }
+}
+
+.events__article__wrapper3 .event__article {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
   margin-left: 1rem;
@@ -1212,6 +1273,30 @@ section {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
+}
+
+.events__article__wrapper2 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.events__article__wrapper2 .event__background {
+  aspect-ratio: 16 / 9;
+}
+
+.events__article__wrapper3 .event__background {
+  aspect-ratio: 16 / 9;
+}
+
+.events__article__wrapper3 .event__title {
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.events__article__wrapper3 .event__footer {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 /*.event__article:nth-of-type(1)  {
@@ -1543,13 +1628,6 @@ section {
 .post article ol li {
   list-style-type: decimal;
   text-align: left;
-}
-
-.post article code {
-  background-color: #eee;
-  border-radius: 3px;
-  font-family: courier, monospace;
-  padding: 2px 3px;
 }
 
 .post article blockquote {
