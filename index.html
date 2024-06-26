@@ -28,49 +28,18 @@ title: Hlavní stránka
 
 <section class="events">
   <h2 class="section__title">Akce</h2>
-  <div class="events__article__wrapper ">
+  <div class="events__article__wrapper">
     {% assign events = site.events | sort: 'date' | reverse  %}
     {% for event in events  limit:3 %}
-    <article class="event__article event__image" style="background-image: url({{ event.img | relative_url }});">
-      <div class="event__background ">
-          <h3 class="event__title">{{event.title}}</h3>
-          <div class="event__footer ">
-            <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
-            <a class="event__link" href="{{event.url}}">Více</a>
-          </div>
+    <article class="event__article " >    
+      <h3 class="event__title">{{event.title}}</h3>
+      <div class="event__background event__image" style="background-image: url({{ event.img | relative_url }});">
+      </div>
+      <div class="event__footer ">
+        <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
+        <a class="event__link" href="{{event.url}}">Více</a>
       </div>
     </article>
-    {% endfor %}
-  </div>
-
-  <div class="events__article__wrapper2">
-    {% for event in events  limit:3 %}
-    <article class="event__article " >    
-        <h3 class="event__title">{{event.title}}</h3>
-        <div class="event__background event__image" style="background-image: url({{ event.img | relative_url }});">
-        </div>
-        <div class="event__footer ">
-          <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
-          <a class="event__link" href="{{event.url}}">Více</a>
-        </div>
-    </article>
-
-    
-    {% endfor %}
-  </div>
-  <div class="events__article__wrapper3">
-    {% for event in events  limit:3 %}
-    <article class="event__article " >    
-        <h3 class="event__title">{{event.title}}</h3>
-        <div class="event__background event__image" style="background-image: url({{ event.img | relative_url }});">
-        </div>
-        <div class="event__footer ">
-          <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
-          <a class="event__link" href="{{event.url}}">Více</a>
-        </div>
-    </article>
-
-    
     {% endfor %}
   </div>
   <a class="events__more__link" href="/events">Další akce</a>
@@ -113,17 +82,6 @@ title: Hlavní stránka
     {% for person in people %}
     <article class="people__article">
       <div class="people__article__img" style="background-image: url({{ person.img | relative_url }});"></div>
-      <h3 class="people__article__name">{{person.name}} {{person.surname}}</h3>
-      <p class="people__article__role">{{person.role1}}</p>
-      <p class="people__article__role">{{person.role2}}</p>
-    </article>
-    {% endfor %}
-  </div>
-  <div class="people__wrapper">
-    {% assign people = site.people | sort: 'pos' %}
-    {% for person in people %}
-    <article class="people__article">
-      <div class="people__article__img__sq" style="background-image: url({{ person.img | relative_url }});"></div>
       <h3 class="people__article__name">{{person.name}} {{person.surname}}</h3>
       <p class="people__article__role">{{person.role1}}</p>
       <p class="people__article__role">{{person.role2}}</p>
