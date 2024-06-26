@@ -14,15 +14,15 @@ pagination:
     <h2 class="main__title">Akce</h2>
 </section>
 
-<div class="events__article__wrapper2">
+<div class="events__article__wrapper">
     {% for event in paginator.posts %}
-    <article class="event__article event__image" style="background-image: url({{ event.img | relative_url }});">
-      <div class="event__background ">
-          <h3 class="event__title">{{event.title}}</h3>
-          <div class="event__footer ">
-            <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
-            <a class="event__link" href="{{event.url}}">Více</a>
-          </div>
+    <article class="event__article " >    
+      <h3 class="event__title">{{event.title}}</h3>
+      <div class="event__background event__image" style="background-image: url({{ event.img | relative_url }});">
+      </div>
+      <div class="event__footer ">
+        <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
+        <a class="event__link" href="{{event.url}}">Více</a>
       </div>
     </article>
     {% endfor %}

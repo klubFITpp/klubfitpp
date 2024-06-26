@@ -222,18 +222,6 @@ section {
 .hello__nav__burger.change .bar3 {
     transform: rotate(45deg) translate(-8px, -8px);
 }
-  
-.hello__nav__burger.change .bar1 {
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-  
-.hello__nav__burger.change .bar2 {
-    opacity: 0;
-}
-  
-.hello__nav__burger.change .bar3 {
-    transform: rotate(45deg) translate(-8px, -8px);
-}
 
 .hello__logo {
     width: 50vw;
@@ -430,15 +418,12 @@ section {
 }
 
 .events__article__wrapper {
-    @apply flex flex-col justify-start items-center max-w-7xl mx-auto xl:flex-row lg:justify-evenly;
-}
-
-.events__article__wrapper2 {
     @apply flex flex-col justify-start items-center max-w-7xl mx-auto xl:flex-row lg:justify-evenly flex-wrap;
 }
 
-.event__article {
-    @apply w-96 aspect-video mt-6 lg:mt-0;
+
+.events__article__wrapper .event__article {
+    @apply w-96 mt-6 lg:mt-0;
     @apply my-3 mx-4 flex-shrink-0;
 }
 
@@ -451,28 +436,13 @@ section {
     @apply  font-semibold p-2 text-center w-max max-w-full bg-primary-yellow justify-start text-xl overflow-hidden;
 }
 
-/*.event__article:nth-of-type(1)  {
-    background-color: rgba(101, 100, 100, 0.4);
+.events__article__wrapper {
+    @apply my-10
 }
 
-.event__article:nth-of-type(2) .event__background {
-    background-color: rgba(101, 100, 100, 0.2);
+.events__article__wrapper .event__background{
+    @apply aspect-video;
 }
-
-.event__article:nth-of-type(3) .event__background {
-    background-color: rgba(194, 194, 194, 0.2);
-}
-
-.event__article:nth-of-type(1) .event__title {
-    @apply  font-semibold border-primary-blue border-4 p-1 text-center  w-max max-w-full justify-start text-xl overflow-hidden;
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.event__article:nth-of-type(2) .event__title {
-    @apply  font-semibold  text-center text-white bg-primary-blue p-2 w-max max-w-full justify-start text-xl overflow-hidden;
-}*/
-
-
 
 .event__footer {
     @apply flex justify-between w-full;
@@ -602,12 +572,7 @@ section {
     @apply list-decimal text-left;
 }
 
-.post article code { 
-    background-color: #eee;
-    border-radius: 3px;
-    font-family: courier, monospace;
-    padding: 2px 3px;
-}
+
 
 .post article blockquote {
     margin: 0;
@@ -674,10 +639,6 @@ section {
 }
 
 .people__article__img {
-    @apply rounded-full bg-cover bg-center w-48 md:w-52 mx-auto aspect-square lg:h-52 lg:w-52;
-}
-
-.people__article__img__sq {
     @apply bg-cover bg-center w-48 md:w-52 mx-auto aspect-square lg:h-52 lg:w-52;
 }
 
