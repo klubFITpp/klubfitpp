@@ -45,7 +45,7 @@ jobs:
       - name: Install dependencies
         run: bundle install
       - name: Install fixed paginate
-        run: gem install --local ./jekyll-paginate-v2-3.0.0.gem
+        run: gem install --local ./jekyll-paginate-v2-3.0.0.gem -i ./vendor/bundle
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
