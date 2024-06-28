@@ -43,6 +43,8 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Install dependencies
+        run: bundle install
+      - name: Install fixed paginate
         run: gem install --local ./jekyll-paginate-v2-3.0.0.gem
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
