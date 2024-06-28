@@ -1,10 +1,9 @@
 <div class="hello__nav__wrapper">     
    <a href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo FIT++"/></a>
     <nav class="hello__nav">
-        <a href="/" class="hello__nav__item   {% if page.title == "Hlavní stránka" %} hello__nav__item__selected {% endif %} ">Hlavní stránka</a>
-        <a href="/news" class="hello__nav__item {% if page.title == "Aktuality" %} hello__nav__item__selected {% endif %}">Aktuality</a>
-        <a href="/events" class="hello__nav__item {% if page.title == "Akce" %} hello__nav__item__selected {% endif %}">Akce</a>
-        <a href="/documents" class="hello__nav__item {% if page.title == "Dokumenty" %} hello__nav__item__selected {% endif %}">Dokumenty</a>
+        {% for link in site.data.navbar %}
+        <a href={{link.url}} class="hello__nav__item   {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title }}</a>
+        {% endfor %}
     </nav>
     <div class="hello__nav__burger hamburger" id="hamburger" onclick="toggleMenu()">
       <div class="bar1"></div>
@@ -19,8 +18,7 @@
     </script>
 </div>
 <nav class="hello__nav__phone hidden" id="nav_phone">
-    <a href="/" class="hello__nav__item   {% if page.title == "Hlavní stránka" %} hello__nav__item__selected {% endif %} ">Hlavní stránka</a>
-    <a href="/news" class="hello__nav__item {% if page.title == "Aktuality" %} hello__nav__item__selected {% endif %}">Aktuality</a>
-    <a href="/events" class="hello__nav__item {% if page.title == "Akce" %} hello__nav__item__selected {% endif %}">Akce</a>
-    <a href="/documents" class="hello__nav__item {% if page.title == "Dokumenty" %} hello__nav__item__selected {% endif %}">Dokumenty</a>
+    {% for link in site.data.navbar %}
+    <a href={{link.url}} class="hello__nav__item   {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title }}</a>
+    {% endfor %}
 </nav>

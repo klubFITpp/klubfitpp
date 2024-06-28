@@ -1,0 +1,10 @@
+- title: Hlavní stránka
+  url: /
+- title: Aktuality
+  url: /news
+- title: Akce
+  url: /events
+- title: Dokumenty
+  url: /documents
+# - title: Pro firmy
+#   url: /todo
