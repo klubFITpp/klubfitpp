@@ -3,6 +3,8 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .paginator_v2/
+.paginate-v2/
+paginate-v2/
 _drafts/
 node_modules
 vendor
