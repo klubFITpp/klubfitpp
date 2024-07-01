@@ -388,6 +388,7 @@ section {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 100%;
 }
 
 .refs__button:hover {
@@ -472,6 +473,7 @@ section {
 
 .news__text {
     @apply flex-col w-96 m-auto lg:w-full items-start pr-7 lg:pr-0 justify-start py-4 lg:py-2 pl-2 sm:pl-6;
+    max-width: 100%;
 }
 
 .news__title {
@@ -491,7 +493,7 @@ section {
 }
 
 .news__date {
-    @apply ml-24 text-base text-gray-600;
+    @apply ml-1 text-base text-gray-600;
 }
 
 /* POST */

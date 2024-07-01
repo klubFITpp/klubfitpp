@@ -1045,6 +1045,7 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100%;
 }
 
 .refs__button:hover {
@@ -1312,6 +1313,10 @@ section {
   }
 }
 
+.news__text {
+  max-width: 100%;
+}
+
 .news__title {
   max-width: 28rem;
   justify-content: flex-start;
@@ -1374,7 +1379,7 @@ section {
 }
 
 .news__date {
-  margin-left: 6rem;
+  margin-left: 0.25rem;
   font-size: 1rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
