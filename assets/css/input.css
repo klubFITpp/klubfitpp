@@ -426,11 +426,13 @@ section {
 .events__article__wrapper .event__article {
     @apply w-96 mt-6 lg:mt-0;
     @apply my-3 mx-4 flex-shrink-0;
+    max-width: 90%;
 }
 
 .event__background {
     @apply w-full h-full p-4 flex flex-col justify-between items-center;
     background-color: rgba(194, 194, 194, 0.2);
+    max-width: 100%;
 }
 
 .event__title {
@@ -450,7 +452,7 @@ section {
 }
 
 .event__link {
-    @apply  ml-24 block py-2 px-3 bg-primary-blue text-xl text-white  hover:bg-primary-blue-hover transition;
+    @apply ml-24 block py-2 px-3 bg-primary-blue text-xl text-white  hover:bg-primary-blue-hover transition;
 }
 
 .event__date {
@@ -493,7 +495,7 @@ section {
 }
 
 .news__date {
-    @apply ml-1 text-base text-gray-600;
+    @apply ml-1 lg:ml-24 text-base text-gray-600;
 }
 
 /* POST */

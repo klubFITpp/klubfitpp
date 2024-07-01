@@ -1162,6 +1162,7 @@ section {
   margin-left: 1rem;
   margin-right: 1rem;
   flex-shrink: 0;
+  max-width: 90%;
 }
 
 .event__background {
@@ -1173,6 +1174,7 @@ section {
   justify-content: space-between;
   padding: 1rem;
   background-color: rgba(194, 194, 194, 0.2);
+  max-width: 100%;
 }
 
 .event__title {
@@ -1384,6 +1386,12 @@ section {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .news__date {
+    margin-left: 6rem;
+  }
 }
 
 /* POST */
