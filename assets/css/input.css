@@ -677,3 +677,43 @@ section {
 .paginator__choice.dead {
     @apply bg-gray-400;
 }
+
+/* Pages */
+
+
+.page h1, .page h2, .page h3 {
+    text-align: center;
+    @apply text-primary-blue mt-4 mb-2;
+}
+
+.page {
+    @apply mt-10 justify-evenly p-8 max-w-7xl m-auto;
+}
+
+.page p {
+    margin-bottom: 1rem
+}
+
+.page h1 {
+    @apply text-4xl font-bold;
+}
+
+.page h2 {
+    @apply text-3xl font-bold;
+}
+
+.page h3 {
+    @apply text-2xl font-semibold;
+}
+
+.page h4 {
+    @apply text-2xl font-semibold;
+}
+
+.page h5 {
+    @apply text-xl font-bold;
+}
+
+.page h6 {
+    @apply text-lg font-bold;
+}
