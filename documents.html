@@ -1,0 +1,23 @@
+---
+layout: default
+title: Dokumenty
+---
+{% include nav.html %}
+<section class="refs">
+<h2 class="main__title">Dokumenty</h2>
+<article class="refs__links">
+    {% for docs_sec in site.data.documents %}
+        <h3 class="refs__links__title">{{ docs_sec.title }}</h3>
+        {% if docs_sec.description %}
+        <p class="refs__links__text">{{ docs_sec.description }}</p>
+        {% endif %}
+        {% for doc in docs_sec.links %}
+        <a class="refs__links__link" href="{{ doc.url }}"><i class="refs__links__link__download ion ion-ios-cloud-download"></i> {{ doc.name }}</a>
+        {% endfor %}
+        {% if docs_sec.other %}
+            {{ docs_sec.other }}
+        {% endif %}
+    {% endfor %}
+
+</article>
+</section>

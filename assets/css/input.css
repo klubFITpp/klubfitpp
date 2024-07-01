@@ -639,7 +639,7 @@ section {
 }
 
 .people__article__img {
-    @apply bg-cover bg-center w-48 md:w-52 mx-auto aspect-square lg:h-52 lg:w-52;
+    @apply rounded-full bg-cover bg-center w-48 md:w-52 mx-auto aspect-square lg:h-52 lg:w-52;
 }
 
 .people__article__name {

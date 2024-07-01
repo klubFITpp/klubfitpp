@@ -1,5 +1,5 @@
 ---
-title: "FIT++ Teambuilding 2023 aaaaaa aaaaaaa"
+title: "FIT++ Teambuilding 2023"
 layout: event
 categories:
   - FIT++ Teambuilding

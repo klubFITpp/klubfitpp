@@ -1,6 +1,7 @@
 ---
 title: "Testovací stránka"
 layout: event
+published: false
 categories:
   - HelloFIT
   - Akce
