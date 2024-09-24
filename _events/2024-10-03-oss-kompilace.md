@@ -9,7 +9,7 @@ tags:
   - Open Study Session
   - Kompilace
   - Workshop
-img: "/assets/images/event/oss_kopilace.png"
+img: "/assets/images/event/oss_kompilace.png"
 ---
 
 <!-- G++ pedantická zeď mrtka.c? -->
