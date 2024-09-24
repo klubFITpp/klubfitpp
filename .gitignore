@@ -8,3 +8,4 @@ paginate-v2/
 _drafts/
 node_modules
 vendor
+.DS_store
