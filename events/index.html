@@ -16,15 +16,17 @@ pagination:
 
 <div class="events__article__wrapper">
     {% for event in paginator.posts %}
+    <a href="{{event.url}}">
     <article class="event__article " >    
       <h3 class="event__title">{{event.title}}</h3>
       <div class="event__background event__image" style="background-image: url({{ event.img | relative_url }});">
       </div>
       <div class="event__footer ">
         <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
-        <a class="event__link" href="{{event.url}}">Více</a>
+        <span class="event__link" href="{{event.url}}">Více</span>
       </div>
     </article>
+    </a>
     {% endfor %}
   </div>
   

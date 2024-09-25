@@ -31,15 +31,17 @@ title: Hlavní stránka
   <div class="events__article__wrapper">
     {% assign events = site.events | sort: 'date' | reverse  %}
     {% for event in events  limit:3 %}
-    <article class="event__article " >    
-      <h3 class="event__title">{{event.title}}</h3>
-      <div class="event__background event__image" style="background-image: url({{ event.img | relative_url }});">
-      </div>
-      <div class="event__footer ">
-        <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
-        <a class="event__link" href="{{event.url}}">Více</a>
-      </div>
-    </article>
+    <a href="{{event.url}}">
+      <article class="event__article " >    
+        <h3 class="event__title">{{event.title}}</h3>
+        <div class="event__background event__image" style="background-image: url({{ event.img | relative_url }});">
+        </div>
+        <div class="event__footer ">
+          <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
+          <span class="event__link" href="{{event.url}}">Více</span>
+        </div>
+      </article>
+    </a>
     {% endfor %}
   </div>
   <a class="events__more__link" href="/events">Další akce</a>
@@ -51,9 +53,9 @@ title: Hlavní stránka
     {% assign news = site.news | sort: 'date' | reverse  %}
     {% for post in news limit:3 %}
     <article class="news__article ">
-      <div class="news__image" style="background-image: url({{ post.img | relative_url }});"></div>
+      <a href="{{post.url}}"><div class="news__image" style="background-image: url({{ post.img | relative_url }});"></div></a>
       <div class="news__text ">
-          <h3 class="news__title ">{{post.title}}</h3>
+          <a href="{{post.url}}"><h3 class="news__title ">{{post.title}}</h3></a>
           <p class="news__short">{{post.short}}</p>
           <div class="news__footer">
             <a class="news__link" href="{{post.url}}">Přečíst</a>

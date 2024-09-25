@@ -15,9 +15,13 @@ pagination:
 <div class="news__article__wrapper">
   {% for post in paginator.posts %}
   <article class="news__article ">
+    <a href="{{post.url}}">
     <div class="news__image" style="background-image: url('{{ post.img | relative_url }}');"></div>
+    </a>
     <div class="news__text ">
-        <h3 class="news__title">{{post.title}}</h3>
+        <a href="{{post.url}}">
+          <h3 class="news__title">{{post.title}}</h3>
+        </a>
         <p class="news__short">{{post.short}}</p>
         <div class="news__footer">
           <a class="news__link" href="{{post.url}}">Číst dále</a>
