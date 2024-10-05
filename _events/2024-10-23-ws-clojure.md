@@ -17,7 +17,7 @@ i ahead-of-time kompilaci. I přesto, že je kompilovaný, zůstává kompletně
 podporovaná i za běhu programu. Jednoduše interaguje s Javou, může tedy využívat libovolné Java knihovny
 a všechny další výhody JVM v plné míře. Také lze případně volat Clojure z Javy.
 
-Je to dialekt Lispu a sdílí s ním přístup "kód jako data" a mocný system maker. Je převážně funkcionální a
+Je to dialekt LISPu a sdílí s ním přístup "kód jako data" a mocný systém maker. Je převážně funkcionální a
 založený na imutabilních datových strukturách. Za potřeby měnitelného stavu nabízí systém softwarové transakční
 paměti (STM) a systém agentů pro zajištění čistého a správného návrhu vícevláknového programování.
 
@@ -36,6 +36,6 @@ Na unixových systémech lze vše rozběhnout s pomocí package managerů. Pro W
 
 ... and you're good to go!
 
-Kdybyste měli mít jakékoliv problémy, napište na Discord Honzovi Šuráňovi(@Honza_Suran).
+Kdybyste měli jakékoliv problémy, napište na Discord Honzovi Šuráňovi(@Honza_Suran).
 
-Už se na Tebe těšíme!
+Těšíme se na Tebe!
