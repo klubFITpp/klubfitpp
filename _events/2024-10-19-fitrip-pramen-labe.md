@@ -12,7 +12,7 @@ img: "/assets/images/event/fitrip-pramen-labe.png"
 
 Ahoj!
 
-S dalším semestrem se nám přiblížil i další FITrip! 👟 Nejen na pramen Labe 🌊 se s námi můžete vyškrábat v sobotu 19.  10.
+S dalším semestrem se nám přiblížil i další FITrip! 👟 Nejen na pramen Labe 🌊 se s námi můžete vyškrábat v sobotu 19. 10.
 
 Ujdeme vydatných 17.5km z Horních Míseček, kolem Pančavského vodopáu vystoupáme až k Labské boudě, od které nás čeká rovinka až ke slibovanému prameni Labe. Trochu energie nabereme cestou zpátky na Vosecké boudě nebo na Krakonošově snídani. 🍺 Výlet zakončíme sestupem přes Mumlavské vodopády do Harrachova, odkud se vrátíme autobusem.
 
