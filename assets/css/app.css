@@ -1398,6 +1398,11 @@ section {
 
 /* POST */
 
+section.post {
+  margin: 0;
+  padding: 3em 0em;
+}
+
 .post article p, .post article ul, .post article ol, .post article h1, .post article h2, .post article h3, .post article h4, .post article code{
   -ms-word-wrap: break-word;
   word-wrap: break-word;
@@ -1405,7 +1410,6 @@ section {
 
 .post__title__wrapper {
   position: relative;
-  margin-top: 3.5rem;
   height: -moz-max-content;
   height: max-content;
   min-height: 7rem;

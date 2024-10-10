@@ -1,7 +1,8 @@
-{% include head.html %}
-  <body>
-  <div class="post">
-  {% include nav.html %}
+---
+layout: default
+---
+{% include nav.html %}
+<section class="post">
   <div class="post__title__wrapper post__image" style="background-image: url({{ page.img | relative_url }});">
     
     <div class="post__title__background">
@@ -19,6 +20,4 @@
     </article>
   </main>
 
-</div>
-{% include foot.html %}
-</body>
+  </section>
