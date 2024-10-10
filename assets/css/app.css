@@ -1805,3 +1805,17 @@ footer .footer_colums {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+.foot__button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin: .5em 0;
+  background-color: var(--yellow);
+  color: var(--black);
+  font-size: 1em;
+  padding: 0.5em;
+  text-decoration: none;
+  transition: background-color 300ms;
+}

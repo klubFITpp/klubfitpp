@@ -1,5 +1,6 @@
 {% include head.html %}
-  <body class="post">
+  <body>
+  <div class="post">
   {% include nav.html %}
   <div class="post__title__wrapper post__image" style="background-image: url({{ page.img | relative_url }});">
     
@@ -17,6 +18,7 @@
           {{ content }}
     </article>
   </main>
-  
-  </body>
+
+</div>
 {% include foot.html %}
+</body>
