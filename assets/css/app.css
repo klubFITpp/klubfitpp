@@ -1755,6 +1755,25 @@ section {
   margin-bottom: 1rem
 }
 
+.page a {
+  text-decoration: underline;
+  outline-color: transparent;
+}
+
+.page a:link {
+  color: #aa83e0;
+}
+
+.page a:visited {
+  color: #120682;
+}
+
+.page a:hover,
+.page a:focus,
+.page a:active {
+  color: #7e3add;
+}
+
 .page h1 {
   font-size: 2.25rem;
   line-height: 2.5rem;
