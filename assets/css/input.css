@@ -511,7 +511,7 @@ section {
 
 .post__title__background {
     @apply w-full h-full flex justify-center items-center px-4 pt-8 pb-6;
-    background: rgba(255, 255, 255, 0.757);
+    background: rgb(249, 176, 0, 0.5);
 }
 
 .post__title {
@@ -528,6 +528,11 @@ section {
 
 .post__main {
     @apply mt-10 flex justify-evenly p-8 max-w-7xl m-auto;
+}
+
+.post__img {
+    @apply m-auto mt-10 w-full max-w-screen-md;
+    /* max-width: 50%; */
 }
 
 .post__article {

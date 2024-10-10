@@ -1,7 +1,7 @@
 {% include head.html %}
   <body class="post">
   {% include nav.html %}
-  <div class="post__title__wrapper post__image" style="background-image: url({{ page.img | relative_url }});">
+  <div class="post__title__wrapper">
     
     <div class="post__title__background">
       <h2 class="post__title">{{page.title}}</h2>
@@ -12,6 +12,7 @@
       {% endfor %}
     </div>
   </div>
+  <img class="post__img" src="{{ page.img | relative_url }}">
   <main class="post__main">
     <article class="post__article">
           {{ content }}
