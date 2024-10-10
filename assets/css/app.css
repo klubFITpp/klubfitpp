@@ -698,7 +698,6 @@ section {
   margin: auto;
   display: none;
   height: 100%;
-  max-width: 72rem;
   justify-content: space-evenly;
   vertical-align: top;
   font-size: 1.5rem;
@@ -810,11 +809,28 @@ section {
 
 .hello__nav__logo {
   margin: 0.5rem;
+  display: none;
   height: 2.5rem;
 }
 
 @media (min-width: 768px) {
   .hello__nav__logo {
+    display: flex;
+  }
+}
+
+.hello__nav__logo__filler {
+  flex-grow: 1;
+  max-width: 40vw;
+}
+
+.hello__nav__logo__phone {
+  margin: 0.5rem;
+  height: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .hello__nav__logo__phone {
     display: none;
   }
 }

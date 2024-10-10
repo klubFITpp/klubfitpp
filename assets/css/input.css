@@ -121,7 +121,7 @@ section {
 }
 
 .hello__nav {
-    @apply hidden m-auto md:flex justify-evenly align-top /* w-10/12 */ max-w-6xl h-full text-2xl font-extrabold;
+    @apply hidden m-auto md:flex justify-evenly align-top /* w-10/12 */ /* max-w-6xl */ h-full text-2xl font-extrabold;
 }
 
 .hello__nav__phone {
@@ -170,7 +170,7 @@ section {
 }
 
 .hello__nav__item__selected {
-    @apply  relative text-primary-yellow hover:text-primary-yellow cursor-default;
+    @apply relative text-primary-yellow hover:text-primary-yellow cursor-default;
 }
 
 .hello__nav__phone .hello__nav__item, .hello__nav__phone .hello__nav__item__yellow {
@@ -178,6 +178,15 @@ section {
 }
 
 .hello__nav__logo {
+    @apply hidden md:flex h-10 m-2;
+}
+
+.hello__nav__logo__filler {
+    @apply grow;
+    max-width: 40vw;
+}
+
+.hello__nav__logo__phone {
     @apply md:hidden h-10 m-2;
 }
 
