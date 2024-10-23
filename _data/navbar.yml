@@ -4,9 +4,9 @@
   url: /news
 - title: Akce
   url: /events
-- title: Dokumenty
-  url: /documents
 - title: Přidej se
   url: /pridejse
+- title: Dokumenty
+  url: /documents
 - title: Pro firmy
   url: /pro_firmy
