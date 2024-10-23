@@ -1400,7 +1400,7 @@ section {
 
 section.post {
   margin: 0;
-  padding: 3em 0em;
+  padding: 3rem 0rem;
 }
 
 .post article p, .post article ul, .post article ol, .post article h1, .post article h2, .post article h3, .post article h4, .post article code{
