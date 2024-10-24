@@ -750,3 +750,19 @@ section {
 .page h6 {
     @apply text-lg font-bold;
 }
+
+.page ul, .page ol {
+    @apply text-center text-wrap mt-4 mb-2 ml-6;
+}
+
+.page ul li, .page ol li {
+    @apply pb-2;
+}
+
+.page ul li {
+    @apply list-disc text-left;
+}
+
+.page ol li {
+    @apply list-decimal text-left;
+}

@@ -43,3 +43,8 @@ Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. 
 
 - připoj se na FIT++ discord a nastav si jako přezdívku na serveru svoje jméno
 - Podepiš přihlášku do klubu - přijď na akci FIT++ a tam někoho oslov, nebo napiš někomu z představenstva, ideálně HR, (odkaz na profily) a domluv se na podepsání smlouvy.
+
+
+  <article class="refs__links">
+      <a class="refs__button" style="text-decoration: none" href="https://discord.gg/2Bh93cXGJ3">Připoj se na FIT++ Discord</a>
+  </article>

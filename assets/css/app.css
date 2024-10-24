@@ -1809,3 +1809,25 @@ section {
   line-height: 1.75rem;
   font-weight: 700;
 }
+
+.page ul, .page ol {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+  text-wrap: wrap;
+  text-align: center;
+}
+
+.page ul li, .page ol li {
+  padding-bottom: 0.5rem;
+}
+
+.page ul li {
+  list-style-type: disc;
+  text-align: left;
+}
+
+.page ol li {
+  list-style-type: decimal;
+  text-align: left;
+}
