@@ -1,9 +1,11 @@
-- title: Hlavní stránka
-  url: /
+# - title: Hlavní stránka
+#   url: /
 - title: Aktuality
   url: /news
 - title: Akce
   url: /events
+- title: Přidej se
+  url: /pridejse
 - title: Dokumenty
   url: /documents
 - title: Pro firmy
