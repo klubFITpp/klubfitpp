@@ -215,24 +215,20 @@
   description: "FIT++ vyhlašuje volby do představenstva."
   links:
     - name: "Informace k volbám"
-      url: "/documents/volby2018/volby-do-Predstavenstva-2018-2019.pdf"
-    - name: "Termíny voleb a volební místnosti"
-      url: "/documents/volby2018/volby-do-Predstavenstva-2018-2019_terminy.pdf"
+      url: "/documents/volby2018/volby.pdf"
     - name: "Kandidátky"
-      url: "/documents/volby2018/volby-do-Predstavenstva-2018-2019_kandidatky.pdf"
+      url: "/documents/volby2018/kandidatky.pdf"
     - name: "Výsledky voleb"
-      url: "/documents/volby2018/volby-do-Predstavenstva-2018-2019_vysledky.pdf"
+      url: "/documents/volby2018/vysledky.pdf"
 - title: "Volby do Představenstva FIT++<br>na volební období únor 2017 až leden 2018"
   description: "FIT++ vyhlašuje volby do představenstva."
   links:
     - name: "Informace k volbám"
-      url: "/documents/volby2017/volby-do-Predstavenstva-2017-2018.pdf"
-    - name: "Termíny voleb a volební místnosti"
-      url: "/documents/volby2017/volby-do-Predstavenstva-2017-2018_terminy.pdf"
+      url: "/documents/volby2017/volby.pdf"
     - name: "Kandidátky"
-      url: "/documents/volby2017/volby-do-Predstavenstva-2017-2018_kandidatky.pdf"
+      url: "/documents/volby2017/kandidatky.pdf"
     - name: "Výsledky voleb"
-      url: "/documents/volby2017/volby-do-Predstavenstva-2017-2018_vysledky.pdf"
+      url: "/documents/volby2017/vysledky.pdf"
 
 
 - title: Hlasování Per Rollam ohledně výroční zprávy za rok 2021
