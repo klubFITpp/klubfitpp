@@ -1816,7 +1816,6 @@ section.post {
   font-weight: 700;
 }
 
-
 .page ul, .page ol {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -1837,6 +1836,7 @@ section.post {
 .page ol li {
   list-style-type: decimal;
   text-align: left;
+}
 
 .footer_flex{
   flex:1;
