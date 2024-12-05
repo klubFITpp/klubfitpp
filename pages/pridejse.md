@@ -24,11 +24,11 @@ Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. 
 
 **Jak se můžu zapojit?**
 
-- Přijď na jakoukoliv akci, kterou najdeš tady v kalendáři
+- Přijď na jakoukoliv akci, kterou najdeš [tady v kalendáři](/events)
 - Sleduj channel [help-needed](https://discord.com/channels/808276641603649607/1288795322524635176) na Discordu a zapoj se do projektu, který hledá dobrovolníky nebo pracovníky
 - Napiš na Discord, že máš nápad, a my ti ho pomůžeme zrealizovat
-- Přijď na zasedání představenstva a společně něco vymyslíme
-- Kandiduj do představenstva a buď nositelem myšlenky
+- Přijď na zasedání Představenstva a společně něco vymyslíme
+- Kandiduj do Představenstva a buď nositelem myšlenky
 
 **Co tam v tom klubu vlastně děláte?**
 
@@ -42,7 +42,7 @@ Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. 
 **Jak se můžu oficiálně stát členem/členkou?** 
 
 - připoj se na FIT++ discord a nastav si jako přezdívku na serveru svoje jméno
-- Podepiš přihlášku do klubu - přijď na akci FIT++ a tam někoho oslov, nebo napiš někomu z představenstva, ideálně HR, (odkaz na profily) a domluv se na podepsání smlouvy.
+- Podepiš přihlášku do klubu - přijď na akci FIT++ a tam někoho oslov, nebo napiš někomu z Představenstva, ideálně HR, (odkaz na profily) a domluv se na podepsání smlouvy.
 
 
   <article class="refs__links">
