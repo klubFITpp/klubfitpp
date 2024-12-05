@@ -123,7 +123,7 @@ section {
 }
 
 .hello__nav {
-    @apply hidden m-auto md:flex justify-evenly align-top /* w-10/12 */ /* max-w-6xl */ h-full text-2xl font-extrabold;
+    @apply hidden m-auto md:flex justify-evenly align-top h-full text-2xl font-extrabold;
 }
 
 .hello__nav__phone {
@@ -773,6 +773,7 @@ section.post {
 
 .page ol li {
     @apply list-decimal text-left;
+}
 
 .footer_flex{
     flex:1;
