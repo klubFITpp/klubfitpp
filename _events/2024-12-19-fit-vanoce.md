@@ -23,6 +23,7 @@ přijďte společně oslavit kouzlo Vánoc a zakončit letošní rok naší trad
 🍪 Zdobení perníčků
 🎄 Stromeček
 🍷 Svařák
+🎲 Deskovky
 🎁 Secret Santa
 
 Přijďte si užít večer plný radosti, přátelství a vánoční pohody. Also, bude 🍷svařák.
