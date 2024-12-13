@@ -14,7 +14,7 @@ Milé studentstvo i nestudentstvo,
 přijďte společně oslavit kouzlo Vánoc a zakončit letošní rok naší tradiční vánoční událostí! 🎶🎄
 
 📅 Kdy: 19.12.
-⏰ Čas: 11:30
+⏰ Čas: 12:00
 📍 Kde: TH:A 1455
 
 Čeká vás:
