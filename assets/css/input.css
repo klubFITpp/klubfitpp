@@ -123,7 +123,7 @@ section {
 }
 
 .hello__nav {
-    @apply hidden m-auto md:flex justify-evenly align-top w-10/12 max-w-6xl h-full text-2xl font-extrabold;
+    @apply hidden m-auto md:flex justify-evenly align-top h-full text-2xl font-extrabold;
 }
 
 .hello__nav__phone {
@@ -172,7 +172,7 @@ section {
 }
 
 .hello__nav__item__selected {
-    @apply  relative text-primary-yellow hover:text-primary-yellow cursor-default;
+    @apply relative text-primary-yellow hover:text-primary-yellow cursor-default;
 }
 
 .hello__nav__phone .hello__nav__item, .hello__nav__phone .hello__nav__item__yellow {
@@ -180,7 +180,16 @@ section {
 }
 
 .hello__nav__logo {
-    @apply md:hidden h-10 m-2;   
+    @apply hidden md:flex h-10 m-2;
+}
+
+.hello__nav__logo__filler {
+    @apply grow;
+    max-width: 40vw;
+}
+
+.hello__nav__logo__phone {
+    @apply md:hidden h-10 m-2;
 }
 
 .hello__nav__burger {
@@ -705,6 +714,26 @@ section.post {
     margin-bottom: 1rem
 }
 
+
+.page a {
+    text-decoration: underline;
+  outline-color: transparent;
+}
+
+.page a:link {
+  color: #aa83e0;
+}
+
+.page a:visited {
+  color: #120682;
+}
+
+.page a:hover,
+.page a:focus,
+.page a:active {
+    color: #7e3add;
+}
+
 .page h1 {
     @apply text-4xl font-bold;
 }
@@ -727,6 +756,23 @@ section.post {
 
 .page h6 {
     @apply text-lg font-bold;
+}
+
+
+.page ul, .page ol {
+    @apply text-center text-wrap mt-4 mb-2 ml-6;
+}
+
+.page ul li, .page ol li {
+    @apply pb-2;
+}
+
+.page ul li {
+    @apply list-disc text-left;
+}
+
+.page ol li {
+    @apply list-decimal text-left;
 }
 
 .footer_flex{
