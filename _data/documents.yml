@@ -144,7 +144,7 @@
 #      url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_kandidatky.pdf"
 #    - name: "Výsledky voleb"
 #      url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_vysledky.pdf"
-- title: |
+- title: |+
     Volby do Představenstva FIT++
     <br>
     na volební období únor 2024 až leden 2025
@@ -158,7 +158,7 @@
       url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_kandidatky.pdf"
     - name: "Výsledky voleb"
       url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_vysledky.pdf"
-- title: 
+- title: |
     Doplňovací volby do Představenstva FIT++
     <br>
     na volební období únor 2023 až leden 2024
