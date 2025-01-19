@@ -140,8 +140,8 @@
   links:
     - name: "Informace k volbám"
       url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026.pdf"
-#    - name: "Termíny voleb a volební místnosti"
-#      url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_terminy.pdf"
+    - name: "Termíny voleb a volební místnosti"
+      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_terminy.pdf"
     - name: "Kandidátky"
       url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_kandidatky.pdf"
 #    - name: "Výsledky voleb"
