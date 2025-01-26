@@ -146,8 +146,8 @@
       url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_terminy.pdf"
     - name: "Kandidátky"
       url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_kandidatky.pdf"
-#    - name: "Výsledky voleb"
-#      url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_vysledky.pdf"
+    - name: "Výsledky voleb"
+      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_vysledky.pdf"
 - title: |+
     Volby do Představenstva FIT++
     <br>
