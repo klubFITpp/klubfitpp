@@ -1,7 +1,7 @@
 - title: "Informace o klubu FIT++"
   links:
     - name: "Stanovy"
-      url: "/documents/stanovy_2019.pdf"
+      url: "/documents/stanovy_2025.pdf"
     - name: "Jednací řád"
       url: "/documents/jednaci_rad_2019.pdf"
     - name: "Volební řád FIT++"
@@ -128,6 +128,8 @@
       url: "/documents/zapis/161220.pdf"
 - title: "Zrušené dokumenty"
   links:
+    - name: "Stanovy (zrušeny 6. 2. 2025)"
+      url: "/documents/zrusene/stanovy_2019.pdf"
     - name: "Volební řád (zrušen 29. 12. 2020)"
       url: "/documents/zrusene/volebni_rad_2018.pdf"
     - name: "Volební řád (zrušen 12. 12. 2023)"
