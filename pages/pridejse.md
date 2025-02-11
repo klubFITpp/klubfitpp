@@ -10,11 +10,11 @@ Studuješ na Fakultě informačních technologií a chceš poznat aktivní FIŤ�
 
 Tak jsi tady správně!
 
-Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. Pořádáme akce jako [Hello FIT](https://klubfitpp.cz/hellofit), FIT párty, deskovky na fakultě, FITripy, LAN párty a spoustu další edukačních nebo zábavných eventů, na kterých se můžeš nejenom dozvědět knowlage nad rámec předmětů ve škole, ale hlavně poznat spoustu aktivních lidí z fakulty.
+Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. Pořádáme akce jako [Hello FIT](https://klubfitpp.cz/hellofit), FIT párty, deskovky na fakultě, FITripy, LAN párty a spoustu další edukačních nebo zábavných eventů, na kterých se můžeš nejenom dozvědět knowledge nad rámec předmětů ve škole, ale hlavně poznat spoustu aktivních lidí z fakulty.
 
 **Proč bych se měl\* přidat?**
 
-- Rozšíříš si kontakty, poznáš nové kamarády nejenom z FIT ale i z dalších fakult nebo studentských spolků
+- Rozšíříš si kontakty, poznáš nové kamarády nejenom z FIT, ale i z dalších fakult nebo studentských spolků
 - Dostaneš přednostní možnost zapojit se do pomoci fakultě na eventech jako COFIT, DOD,.., které jsou zaplacené
 - Na edukačních eventech si můžeš rozšířit obzory mimo hranice předmětů
 - Můžeš si vyzkoušet organizaci eventu - softskill, který se fakt hodí
@@ -32,16 +32,16 @@ Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. 
 
 **Co tam v tom klubu vlastně děláte?**
 
-- plánujeme eventy - zařizujeme prostory, hledáme finance, sháníme dobrovolníky
-- vytváříme grafické materiály
-- komunikujeme s fakultou a sponzory
-- publikujeme na sociální sítě
-- vyvíjíme vlastní web, databázi členů, staráme se o FIT++ Discord
-- snažíme se o well-being studentů fakulty, pomáháme prvákům s nástupem na univerzitu
+- Plánujeme eventy - zařizujeme prostory, hledáme finance, sháníme dobrovolníky
+- Vytváříme grafické materiály
+- Komunikujeme s fakultou a sponzory
+- Publikujeme na sociální sítě
+- Vyvíjíme vlastní web, databázi členů, staráme se o FIT++ Discord
+- Snažíme se o well-being studentů fakulty, pomáháme prvákům s nástupem na univerzitu
 
 **Jak se můžu oficiálně stát členem/členkou?** 
 
-- připoj se na FIT++ discord a nastav si jako přezdívku na serveru svoje jméno
+- Připoj se na FIT++ discord a nastav si jako přezdívku na serveru svoje jméno
 - Podepiš přihlášku do klubu - přijď na akci FIT++ a tam někoho oslov, nebo napiš někomu z Představenstva, ideálně HR, (odkaz na profily) a domluv se na podepsání smlouvy.
 
 
