@@ -717,15 +717,15 @@ section.post {
 
 .page a {
     text-decoration: underline;
-  outline-color: transparent;
+    outline-color: transparent;
 }
 
 .page a:link {
-  color: #aa83e0;
+    color: #aa83e0;
 }
 
 .page a:visited {
-  color: #120682;
+    color: #120682;
 }
 
 .page a:hover,
