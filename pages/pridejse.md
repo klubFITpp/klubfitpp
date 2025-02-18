@@ -10,9 +10,9 @@ Studuješ na Fakultě informačních technologií a chceš poznat aktivní FIŤ�
 
 Tak jsi tady správně!
 
-Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. Pořádáme akce jako [Hello FIT](https://klubfitpp.cz/hellofit), FIT párty, deskovky na fakultě, FITripy, LAN párty a spoustu další edukačních nebo zábavných eventů, na kterých se můžeš nejenom dozvědět knowledge nad rámec předmětů ve škole, ale hlavně poznat spoustu aktivních lidí z fakulty.
+Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. Pořádáme akce jako [Hello FIT](/hellofit), FIT párty, deskovky na fakultě, FITripy, LAN párty a spoustu další edukačních nebo zábavných eventů, na kterých se můžeš nejenom dozvědět knowledge nad rámec předmětů ve škole, ale hlavně poznat spoustu aktivních lidí z fakulty.
 
-### Proč bych se měl\*a přidat?
+### Proč bych se měl/a přidat?
 
 - Rozšíříš si kontakty, poznáš nové kamarády nejenom z FIT, ale i z dalších fakult nebo studentských spolků
 - Dostaneš přednostní možnost zapojit se do pomoci fakultě na eventech jako COFIT, DOD,.., které jsou zaplacené
@@ -20,7 +20,7 @@ Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. 
 - Můžeš si vyzkoušet organizaci eventu - softskill, který se fakt hodí
 - Aktivita ve studentském spolku je ceněná v CVčku
 - Jako dobrovolník dostaneš **zdarma klubové tričko**
-- Odneseš si dobrý pocit, že jsi udělal něco dobrého pro FIŤáckou komunitu
+- Odneseš si dobrý pocit, že jsi udělal/a něco dobrého pro FIŤáckou komunitu
 
 ### Jak se můžu zapojit?
 
