@@ -310,7 +310,7 @@ section {
 }
 
 .about__article__title__icon {
-    padding: 0 .5em 0 0;
+    @apply pr-4;
     font-size: 2em;
     color: var(--yellow)
 }
@@ -359,14 +359,14 @@ section {
 }
 
 .refs__links__link__logo {
+    @apply pr-4;
     font-size: 2em;
-    width: 1.5em;
     color: var(--yellow)
 }
 
 .refs__links__link__download {
+    @apply pr-4;
     font-size: 1.5em;
-    width: 1.5em;
     color: var(--yellow)
 }
 
@@ -674,11 +674,15 @@ section.post {
 /* PAGINATOR */
 
 .paginator {
-    @apply mb-10 w-max m-auto mt-6;
+    @apply mb-10 w-max m-auto mt-6 flex flex-row;
 }
 
 .paginator__choice {
-    @apply  px-4 py-2 bg-primary-blue mx-1 text-2xl text-white  hover:bg-primary-blue-hover transition;
+    @apply px-4 py-2 bg-primary-blue mx-1 text-2xl text-white hover:bg-primary-blue-hover transition inline-flex items-center justify-center;
+}
+
+.paginator__arrow.paginator__arrow {
+    @apply px-2;
 }
 
 .paginator__choice.selected {
@@ -749,6 +753,10 @@ footer .footer_line {
 
 footer .footer_colums {
     @apply grid sm:grid-cols-2
+}
+
+footer .refs__links__link__logo {
+  font-size: 1.75rem;
 }
 
 .foot__button {
