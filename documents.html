@@ -12,7 +12,7 @@ title: Dokumenty
         <p class="refs__links__text">{{ docs_sec.description }}</p>
         {% endif %}
         {% for doc in docs_sec.links %}
-        <a class="refs__links__link" href="{{ doc.url }}"><i class="refs__links__link__download ion ion-ios-cloud-download"></i> {{ doc.name }}</a>
+        <a class="refs__links__link" href="{{ doc.url }}"><iconify-icon class="refs__links__link__download" icon="ion:ios-cloud-download"></iconify-icon> {{ doc.name }}</a>
         {% endfor %}
         {% if docs_sec.other %}
             {{ docs_sec.other }}
