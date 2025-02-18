@@ -283,7 +283,7 @@ sup {
 
 /*
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
-2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=192016)
 3. Remove gaps between table borders by default.
 */
 
@@ -689,7 +689,7 @@ section {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   .hello__nav__wrapper {
     display: block;
     border-bottom-width: 4px;
@@ -709,7 +709,7 @@ section {
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   .hello__nav {
     display: flex;
   }
@@ -732,13 +732,13 @@ section {
   font-weight: 700;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   .hello__nav__phone {
     display: none;
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 919px) {
   .hello__nav__item__selected:after {
     --tw-bg-opacity: 1;
     background-color: rgb(249 176 0 / var(--tw-bg-opacity, 1));
@@ -752,7 +752,7 @@ section {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 919px) {
   .hello__nav__wrapper:after {
     z-index: 40;
     background: linear-gradient(to right, #0073bc 0%, #0073bc 55%, #f9b000 55%,#f9b000 100%);
@@ -817,7 +817,7 @@ section {
   height: 2.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   .hello__nav__logo {
     display: flex;
   }
@@ -833,7 +833,7 @@ section {
   height: 2.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   .hello__nav__logo__phone {
     display: none;
   }
@@ -849,7 +849,7 @@ section {
   font-weight: 600;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   .hello__nav__burger {
     display: none;
   }
@@ -1642,7 +1642,7 @@ section.post {
   background-position: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   .people__article__img {
     width: 13rem;
   }
