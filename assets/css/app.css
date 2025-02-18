@@ -557,7 +557,7 @@ video {
 :root {
   --blue: #0073bc;
   --yellow: #f9b000;
-  --blue-hover: #0073bc;
+  --blue-hover: #003cbc;
   --yellow-hover: #f9b000;
   --white: #fefefe;
   --black: #343434;
@@ -1569,10 +1569,13 @@ section.post {
 
 .post article a:link,
 .post article a:visited,
-.post article a:hover,
-.post article a:focus,
 .post article a:active {
   color: var(--blue);
+}
+
+.post article a:focus,
+.post article a:hover {
+	color: var(--blue-hover);
 }
 
 .post article  img {
@@ -1774,10 +1777,13 @@ section.post {
 
 .page a:link,
 .page a:visited,
-.page a:hover,
-.page a:focus,
 .page a:active {
     color: var(--blue);
+}
+
+.page a:hover,
+.page a:focus {
+	color: var(--blue-hover);
 }
 
 .page h1 {
