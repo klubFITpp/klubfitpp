@@ -1,8 +1,11 @@
 <div class="hello__nav__wrapper">     
-   <a href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo FIT++"/></a>
+   <a href="/"> <img class="hello__nav__logo__phone" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo FIT++"/></a>
     <nav class="hello__nav">
+        <a class="{% if page.title == "Hlavní stránka" %} hello__nav__item__selected {% endif %}" href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo FIT++"/></a>
+        <span class="hello__nav__logo__filler"></span>
         {% for link in site.data.navbar %}
-        <a href={{link.url}} class="hello__nav__item   {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title }}</a>
+        <a href={{link.url}} class="hello__nav__item {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title }}</a>
+        <span class="hello__nav__logo__filler"></span>
         {% endfor %}
     </nav>
     <div class="hello__nav__burger hamburger" id="hamburger" onclick="toggleMenu()">
