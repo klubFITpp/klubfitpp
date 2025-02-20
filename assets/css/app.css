@@ -1044,20 +1044,6 @@ section {
   color: var(--yellow);
 }
 
-.refs__button {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  width: 100%;
-  margin: .5em 0;
-  background-color: var(--yellow);
-  color: var(--black);
-  font-size: 1.5em;
-  padding: 1em;
-  text-decoration: none;
-  transition: background-color 300ms;
-}
-
 .event__image,
 .post__image,
 .news__image {
@@ -1874,6 +1860,20 @@ footer .footer_colums {
 
 footer .refs__links__link__logo {
   font-size: 1.75rem;
+}
+
+.refs__button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin: .5em 0;
+  background-color: var(--yellow);
+  color: var(--black);
+  font-size: 1.5em;
+  padding: 1em;
+  text-decoration: none;
+  transition: background-color 300ms;
 }
 
 .foot__button {
