@@ -46,5 +46,5 @@ Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. 
 
 
   <article class="refs__links">
-      <a class="refs__button" style="text-decoration: none" href="https://discord.gg/2Bh93cXGJ3">Připoj se na FIT++ Discord</a>
+      <a class="refs__button" style="text-decoration: none; color: black" href="https://discord.gg/2Bh93cXGJ3">Připoj se na FIT++ Discord</a>
   </article>
