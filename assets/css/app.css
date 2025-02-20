@@ -283,7 +283,7 @@ sup {
 
 /*
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
-2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=192016)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
 3. Remove gaps between table borders by default.
 */
 
@@ -1042,20 +1042,6 @@ section {
   padding-right: 1rem;
   font-size: 1.5em;
   color: var(--yellow);
-}
-
-.refs__button {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  width: 100%;
-  margin: .5em 0;
-  background-color: var(--yellow);
-  color: var(--black);
-  font-size: 1.5em;
-  padding: 1em;
-  text-decoration: none;
-  transition: background-color 300ms;
 }
 
 .event__image,
@@ -1874,6 +1860,20 @@ footer .footer_colums {
 
 footer .refs__links__link__logo {
   font-size: 1.75rem;
+}
+
+.refs__button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin: .5em 0;
+  background-color: var(--yellow);
+  color: var(--black);
+  font-size: 1.5em;
+  padding: 1em;
+  text-decoration: none;
+  transition: background-color 300ms;
 }
 
 .foot__button {
