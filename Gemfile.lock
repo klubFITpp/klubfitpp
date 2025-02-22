@@ -1,5 +1,6 @@
-PATH
-  remote: paginate-v2
+GIT
+  remote: https://github.com/klubFITpp/jekyll-paginator.git
+  revision: d06ec37298568f97c2a33589790cdcd2f5f4831e
   specs:
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
