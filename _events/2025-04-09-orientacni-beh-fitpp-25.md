@@ -7,7 +7,7 @@ categories:
 tags:
   - Orientační běh
   - Akce
-img: "/assets/images/event/orientacni-beh-fitpp-25.jpg"
+img: "/assets/images/event/orientacni-beh-fitpp-25.webp"
 ---
 
 Rádi bychom vás pozvali na třetí ročník orienťáku organizovaného studentským klubem FIT++. Nevadí, že jste mapu nikdy nedrželi, přijďte sami nebo vezměte parťáka a pojďte se proběhnout po kampusu. Letos jsme zmapovali zase další kousek, tak se podíváte jinam než minule.
