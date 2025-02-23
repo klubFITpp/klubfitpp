@@ -15,4 +15,4 @@ Rádi bychom vás pozvali na třetí ročník orienťáku organizovaného studen
 We would like to invite you to the third year of annual orienteering race organized by the student club FIT++. It doesn't matter if you've never seen an orienteering map before, come alone or grab a partner and go for a run around the campus. We have extended the mapped area, so you will get to see new places!
 
 [Přihlašovací formulář/Signup form](https://shorturl.at/MHFXr)  
-[Propozice](https://drive.google.com/file/d/1WZx1MgNuEc-bDM7CS_p7yP6pT40AjTWN/view?usp=sharing)  
+[Propozice/Outlines](https://drive.google.com/file/d/1WZx1MgNuEc-bDM7CS_p7yP6pT40AjTWN/view?usp=sharing)  
