@@ -84,6 +84,12 @@
     display: none;
   }
 
+  iconify-icon {
+   display: inline-block;
+   width: 1em;
+   height: 1em;
+  }
+
   section {
     position: relative;
     padding: 3em 2em;
