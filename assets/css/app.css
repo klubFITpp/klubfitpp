@@ -689,7 +689,7 @@ section {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 920px) {
+@media (min-width: 768px) {
   .hello__nav__wrapper {
     display: block;
     border-bottom-width: 4px;
@@ -700,8 +700,6 @@ section {
   margin: auto;
   display: none;
   height: 100%;
-  width: 83.333333%;
-  max-width: 72rem;
   justify-content: space-evenly;
   vertical-align: top;
   font-size: 1.5rem;
@@ -709,7 +707,7 @@ section {
   font-weight: 700;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 768px) {
   .hello__nav {
     display: flex;
   }
@@ -732,7 +730,7 @@ section {
   font-weight: 700;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 768px) {
   .hello__nav__phone {
     display: none;
   }
@@ -817,7 +815,7 @@ section {
   height: 2.5rem;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 768px) {
   .hello__nav__logo {
     display: flex;
   }
@@ -833,7 +831,7 @@ section {
   height: 2.5rem;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 768px) {
   .hello__nav__logo__phone {
     display: none;
   }
@@ -849,7 +847,7 @@ section {
   font-weight: 600;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 768px) {
   .hello__nav__burger {
     display: none;
   }
@@ -1042,6 +1040,20 @@ section {
   padding-right: 1rem;
   font-size: 1.5em;
   color: var(--yellow);
+}
+
+.refs__button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin: .5em 0;
+  background-color: var(--yellow);
+  color: var(--black);
+  font-size: 1.5em;
+  padding: 1em;
+  text-decoration: none;
+  transition: background-color 300ms;
 }
 
 .event__image,
@@ -1561,7 +1573,7 @@ section.post {
 
 .post article a:focus,
 .post article a:hover {
-	color: var(--blue-hover);
+  color: var(--blue-hover);
 }
 
 .post article  img {
@@ -1631,7 +1643,7 @@ section.post {
   background-position: center;
 }
 
-@media (min-width: 920px) {
+@media (min-width: 768px) {
   .people__article__img {
     width: 13rem;
   }
@@ -1764,12 +1776,12 @@ section.post {
 .page a:link,
 .page a:visited,
 .page a:active {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 .page a:hover,
 .page a:focus {
-	color: var(--blue-hover);
+  color: var(--blue-hover);
 }
 
 .page h1 {
@@ -1860,20 +1872,6 @@ footer .footer_colums {
 
 footer .refs__links__link__logo {
   font-size: 1.75rem;
-}
-
-.refs__button {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  width: 100%;
-  margin: .5em 0;
-  background-color: var(--yellow);
-  color: var(--black);
-  font-size: 1.5em;
-  padding: 1em;
-  text-decoration: none;
-  transition: background-color 300ms;
 }
 
 .foot__button {
