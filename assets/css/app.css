@@ -1429,7 +1429,7 @@ section.post {
   padding-right: 1rem;
   padding-top: 2rem;
   padding-bottom: 1.5rem;
-  background: rgb(249, 176, 0, 0.5);
+  background: var(--yellow);
 }
 
 .post__title {
