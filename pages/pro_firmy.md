@@ -24,5 +24,5 @@ Jsme nezisková organizace fungující jen za podpory dobrovolníků a díky i d
 
 
 
-Pokud máte zájem o spolupráci nebo chcete vědět více, neváhejte nás kontaktovat na emailové adrese fitpp@su.cvut.cz. Těšíme se na spolupráci a společné projekty, které přinesou prospěch jak studentům, tak vaší firmě.
+Pokud máte zájem o spolupráci nebo chcete vědět více, neváhejte nás kontaktovat na emailové adrese [fitpp@su.cvut.cz](mailto:fitpp@su.cvut.cz). Těšíme se na spolupráci a společné projekty, které přinesou prospěch jak studentům, tak Vaší firmě.
 
