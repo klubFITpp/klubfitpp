@@ -34,6 +34,8 @@ body {
     color: var(--black);
     letter-spacing: 0.5px;
     background-color: var(--slate);
+    display: flex;
+    flex-direction: column;
     @apply w-screen min-h-screen overflow-x-hidden overflow-y-auto bg-slate-50;
 }
 
@@ -500,13 +502,18 @@ section {
 
 /* POST */
 
+section.post {
+    margin: 0;
+    padding: 3rem 0rem;
+}
+
 .post article p, .post article ul, .post article ol, .post article h1, .post article h2, .post article h3, .post article h4, .post article code{
     -ms-word-wrap: break-word;
     word-wrap: break-word;
 }
 
 .post__title__wrapper {
-    @apply h-max min-h-28 w-screen mt-14 relative;
+    @apply h-max min-h-28 w-screen relative;
 }
 
 .post__title__background {
@@ -725,4 +732,40 @@ section {
 
 .page h6 {
     @apply text-lg font-bold;
+}
+
+.footer_flex{
+    flex:1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer_line {
+    height: 0.2rem;
+    background-color: var(--blue);
+    margin-bottom: 0.5rem;
+}
+
+footer .footer_colums {
+    @apply grid sm:grid-cols-2
+}
+
+.foot__button {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin: .5em 0;
+    background-color: var(--yellow);
+    color: var(--black);
+    font-size: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+    transition: background-color 300ms;
 }

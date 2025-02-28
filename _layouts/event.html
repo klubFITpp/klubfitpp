@@ -1,23 +1,24 @@
-{% include head.html %}
-  <body class="post">
-  {% include nav.html %}
-  <div class="post__title__wrapper">
-    
+---
+layout: default
+---
+
+{% include nav.html %}
+<section class="post">
+  <div
+    class="post__title__wrapper post__image"
+    style="background-image: url({{ page.img | relative_url }});"
+  >
     <div class="post__title__background">
       <h2 class="post__title">{{page.title}}</h2>
     </div>
     <div class="post__categories">
       {% for category in page.categories limit:4 %}
-        <small class="post__category">{{category}}</small>
+      <small class="post__category">{{category}}</small>
       {% endfor %}
     </div>
   </div>
-  <img class="post__img" src="{{ page.img | relative_url }}">
+  <img class="post__img" src="{{ page.img | relative_url }}" />
   <main class="post__main">
-    <article class="post__article">
-          {{ content }}
-    </article>
+    <article class="post__article">{{ content }}</article>
   </main>
-  
-  </body>
-{% include foot.html %}
+</section>

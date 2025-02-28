@@ -1,7 +1,7 @@
 - title: "Informace o klubu FIT++"
   links:
     - name: "Stanovy"
-      url: "/documents/stanovy_2019.pdf"
+      url: "/documents/stanovy_2025.pdf"
     - name: "Jednací řád"
       url: "/documents/jednaci_rad_2019.pdf"
     - name: "Volební řád FIT++"
@@ -26,8 +26,18 @@
       url: "/documents/vyrocniZpravy/2016.pdf"
 - title: "Zápisy ze schůzí představenstva FIT++"
   links:
-    - name: "24. 9. 2024 - neschváleno"
-      url: "https://docs.google.com/document/d/1LGiDPCkkGUb0TM5G9VnYYNTK1gM8CL-l/edit"
+    - name: "4. 2. 2025 - neschváleno"
+      url: "https://docs.google.com/document/d/1h13-NoWEO4kbuY6qo_L4hEcIm52ajY2Q/edit"
+    - name: "17. 1. 2025"
+      url: "/documents/zapis/250117.pdf"
+    - name: "19. 12. 2024"
+      url: "/documents/zapis/241219.pdf"
+    - name: "3. 12. 2024"
+      url: "/documents/zapis/241203.pdf"
+    - name: "22. 10. 2024"
+      url: "/documents/zapis/241022.pdf"
+    - name: "24. 9. 2024"
+      url: "/documents/zapis/240924.pdf"
     - name: "26. 6. 2024"
       url: "/documents/zapis/240626.pdf"
     - name: "9. 5. 2024"
@@ -118,6 +128,8 @@
       url: "/documents/zapis/161220.pdf"
 - title: "Zrušené dokumenty"
   links:
+    - name: "Stanovy (zrušeny 6. 2. 2025)"
+      url: "/documents/zrusene/stanovy_2019.pdf"
     - name: "Volební řád (zrušen 29. 12. 2020)"
       url: "/documents/zrusene/volebni_rad_2018.pdf"
     - name: "Volební řád (zrušen 12. 12. 2023)"
@@ -126,6 +138,20 @@
       url: "/documents/zrusene/jednaci_rad.pdf"
     - name: "Stanovy (zrušeny 16. 10. 2019)"
       url: "/documents/zrusene/stanovy.pdf"
+- title: |+
+    Volby do Představenstva FIT++
+    <br>
+    na volební období únor 2025 až leden 2026
+  description: "FIT++ vyhlašuje volby do představenstva."
+  links:
+    - name: "Informace k volbám"
+      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026.pdf"
+    - name: "Termíny voleb a volební místnosti"
+      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_terminy.pdf"
+    - name: "Kandidátky"
+      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_kandidatky.pdf"
+    - name: "Výsledky voleb"
+      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_vysledky.pdf"
 - title: |+
     Volby do Představenstva FIT++
     <br>
@@ -147,13 +173,13 @@
   description: "FIT++ vyhlašuje doplňovací volby do představenstva."
   links:
     - name: "Informace k volbám"
-      url: "/documents/volby2023/doplnovaci-volby-do-Predstavenstva-2023-2024.pdf"
+      url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024.pdf"
     - name: "Termíny voleb a volební místnosti"
-      url: "/documents/volby2023/doplnovaci-volby-do-Predstavenstva-2023-2024_terminy.pdf"
+      url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_terminy.pdf"
     - name: "Kandidátky"
-      url: "/documents/volby2023/doplnovaci-volby-do-Predstavenstva-2023-2024_kandidatky.pdf"
+      url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_kandidatky.pdf"
     - name: "Výsledky voleb"
-      url: "/documents/volby2023/doplnovaci-volby-do-Predstavenstva-2023-2024_vysledky.pdf"
+      url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_vysledky.pdf"
 - title: "Volby do Představenstva FIT++<br>na volební období únor 2023 až leden 2024"
   description: "FIT++ vyhlašuje volby do představenstva."
   links:
@@ -213,24 +239,20 @@
   description: "FIT++ vyhlašuje volby do představenstva."
   links:
     - name: "Informace k volbám"
-      url: "/documents/volby2018/volby-do-Predstavenstva-2018-2019.pdf"
-    - name: "Termíny voleb a volební místnosti"
-      url: "/documents/volby2018/volby-do-Predstavenstva-2018-2019_terminy.pdf"
+      url: "/documents/volby2018/volby.pdf"
     - name: "Kandidátky"
-      url: "/documents/volby2018/volby-do-Predstavenstva-2018-2019_kandidatky.pdf"
+      url: "/documents/volby2018/kandidatky.pdf"
     - name: "Výsledky voleb"
-      url: "/documents/volby2018/volby-do-Predstavenstva-2018-2019_vysledky.pdf"
+      url: "/documents/volby2018/vysledky.pdf"
 - title: "Volby do Představenstva FIT++<br>na volební období únor 2017 až leden 2018"
   description: "FIT++ vyhlašuje volby do představenstva."
   links:
     - name: "Informace k volbám"
-      url: "/documents/volby2017/volby-do-Predstavenstva-2017-2018.pdf"
-    - name: "Termíny voleb a volební místnosti"
-      url: "/documents/volby2017/volby-do-Predstavenstva-2017-2018_terminy.pdf"
+      url: "/documents/volby2017/volby.pdf"
     - name: "Kandidátky"
-      url: "/documents/volby2017/volby-do-Predstavenstva-2017-2018_kandidatky.pdf"
+      url: "/documents/volby2017/kandidatky.pdf"
     - name: "Výsledky voleb"
-      url: "/documents/volby2017/volby-do-Predstavenstva-2017-2018_vysledky.pdf"
+      url: "/documents/volby2017/vysledky.pdf"
 
 
 - title: Hlasování Per Rollam ohledně výroční zprávy za rok 2021

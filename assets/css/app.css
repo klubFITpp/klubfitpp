@@ -583,6 +583,8 @@ body {
   color: var(--black);
   letter-spacing: 0.5px;
   background-color: var(--slate);
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   width: 100vw;
   overflow-y: auto;
@@ -1396,6 +1398,11 @@ section {
 
 /* POST */
 
+section.post {
+  margin: 0;
+  padding: 3rem 0rem;
+}
+
 .post article p, .post article ul, .post article ol, .post article h1, .post article h2, .post article h3, .post article h4, .post article code{
   -ms-word-wrap: break-word;
   word-wrap: break-word;
@@ -1403,7 +1410,6 @@ section {
 
 .post__title__wrapper {
   position: relative;
-  margin-top: 3.5rem;
   height: -moz-max-content;
   height: max-content;
   min-height: 7rem;
@@ -1782,4 +1788,46 @@ section {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 700;
+}
+
+.footer_flex{
+  flex:1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .footer_line {
+  height: 0.2rem;
+  background-color: var(--blue);
+  margin-bottom: 0.5rem;
+}
+
+footer .footer_colums {
+  display: grid;
+}
+
+@media (min-width: 640px) {
+  footer .footer_colums {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.foot__button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin: .5em 0;
+  background-color: var(--yellow);
+  color: var(--black);
+  font-size: 1em;
+  padding: 0.5em;
+  text-decoration: none;
+  transition: background-color 300ms;
 }
