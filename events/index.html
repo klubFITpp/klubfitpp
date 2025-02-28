@@ -33,9 +33,9 @@ pagination:
   {% if paginator.total_pages > 1 %}
   <div class="paginator">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}" class="paginator__choice paginator__arrow"><iconify-icon class="paginator__icon" icon="ion:ios-arrow-back"></iconify-icon></a>
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="paginator__choice paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-back"></iconify-icon></a>
     {% else %}
-    <span class="paginator__choice dead paginator__arrow"><iconify-icon class="paginator__icon" icon="ion:ios-arrow-back"></iconify-icon></span>
+    <span class="paginator__choice dead paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-back"></iconify-icon></span>
     {% endif %}
   
     {% for page in (1..paginator.total_pages) %}
@@ -49,9 +49,9 @@ pagination:
     {% endfor %}
   
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | relative_url }}" class="paginator__choice paginator__arrow"><iconify-icon class="paginator__icon" icon="ion:ios-arrow-forward"></iconify-icon></a>
+      <a href="{{ paginator.next_page_path | relative_url }}" class="paginator__choice paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-forward"></iconify-icon></a>
     {% else %}
-      <span class="paginator__choice dead paginator__arrow"><iconify-icon class="paginator__icon" icon="ion:ios-arrow-forward"></iconify-icon></span>
+      <span class="paginator__choice dead paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-forward"></iconify-icon></span>
     {% endif %}
   </div>
   {% endif %}
