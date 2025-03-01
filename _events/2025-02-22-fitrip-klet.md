@@ -20,5 +20,3 @@ Při kompilaci obsahu batohu nezapomeň na pořádné oblečení, FIT++ / FIT tr
 Těšíme se na Tebe! 💛💙
 
 PS: Jízdenky na vlaky je cenově výhodnější (za obě cesty s ISIC ~293 Kč místo ~393 Kč) koupit u obou dopravců zvlášť, tj. nekupovat to přes IDOS. Jízdenky na GWTrain se dají koupit na [https://www.jizdenkagw.cz/sumava](https://www.jizdenkagw.cz/sumava) nebo přímo ve vlaku.
-
-![](/assets/images/event/fitrip-klet.png)

@@ -29,5 +29,3 @@ přijďte společně oslavit kouzlo Vánoc a zakončit letošní rok naší trad
 Přijďte si užít večer plný radosti, přátelství a vánoční pohody. Also, bude 🍷svařák.
 
 Těšíme se na vás! 💛💙
-
-![](/assets/images/event/fit-vanoce-24.png)
