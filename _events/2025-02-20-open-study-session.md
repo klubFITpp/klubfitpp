@@ -17,5 +17,3 @@ První čtvrtek se můžete těšit na téma "**Jak na druhý semestr**", kde v�
 Na akci se můžete těšit také na **drobné občerstvení**.
 
 Budeme se na vás těšit! 💙💛
-
-![](/assets/images/event/oss_b242.png)

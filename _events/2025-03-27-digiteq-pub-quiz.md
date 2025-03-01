@@ -19,5 +19,3 @@ Potvrďte prosím svou účast prostřednictvím [tohoto formuláře](https://ww
 Těšíme se na vás! 💙💛
 
 FIT++ & Tým Digiteq
-
-![](/assets/images/event/digiteq-pub-quiz.png)

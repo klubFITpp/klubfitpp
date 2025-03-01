@@ -1429,7 +1429,7 @@ section.post {
   padding-right: 1rem;
   padding-top: 2rem;
   padding-bottom: 1.5rem;
-  background: rgba(255, 255, 255, 0.757);
+  background: var(--yellow);
 }
 
 .post__title {
@@ -1464,6 +1464,14 @@ section.post {
   max-width: 80rem;
   justify-content: space-evenly;
   padding: 2rem;
+}
+
+.post__img {
+  margin: auto;
+  margin-top: 2.5rem;
+  width: 100%;
+  max-width: 768px;
+  /* max-width: 50%; */
 }
 
 .post__article {
