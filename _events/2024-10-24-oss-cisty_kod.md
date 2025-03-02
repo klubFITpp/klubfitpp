@@ -1,5 +1,5 @@
 ---
-title: "OSS - Čistý kód"
+title: "OSS / Čistý kód"
 layout: event
 categories:
   - Open Study Session

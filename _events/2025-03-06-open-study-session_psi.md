@@ -1,0 +1,15 @@
+---
+title: "Open Study Session / PSI - Jak na laborky"
+layout: event
+categories:
+  - Open Study Session
+  - Workshop
+tags:
+  - Open Study Session
+  - Workshop
+img: "/assets/images/event/oss_psi.webp"
+---
+
+Plaveš v pojmech jako je default gateway, DHCP nebo linková vrstva? Zajímalo by tě, jak si rozjet simulátor síťové laboratoře GNS3 pro snadnou přípravu na laborky? V tom případě přijď na čtvrteční Open Study Session, tentokrát věnovanou předmětu PSI! 🌐 Zopakujeme pojmy, prakticky je vyzkoušíme a mrkneme i na počítání subnetů, které se bude hodit do 1. testu.
+
+Zkrátka tento večer bude ideální příležitostí pro networking nejen u drobného občerstvení, ale i ve tvém notebooku. Těšíme se na tebe! 💙💛

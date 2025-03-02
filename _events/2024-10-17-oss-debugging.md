@@ -1,5 +1,5 @@
 ---
-title: "OSS - Debugging"
+title: "OSS / Debugging"
 layout: event
 categories:
   - Open Study Session
