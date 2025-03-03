@@ -746,7 +746,7 @@ section {
   }
 }
 
-@media screen and (min-width: 919px) {
+@media screen and (min-width: 1024px) {
   .hello__nav__item__selected:after {
     --tw-bg-opacity: 1;
     background-color: rgb(249 176 0 / var(--tw-bg-opacity, 1));
@@ -760,7 +760,7 @@ section {
   }
 }
 
-@media screen and (max-width: 919px) {
+@media screen and (max-width: 1024px) {
   .hello__nav__wrapper:after {
     z-index: 40;
     background: linear-gradient(
