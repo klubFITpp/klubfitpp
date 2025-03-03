@@ -3,8 +3,8 @@
     "tailwindcss": "^3.4.1"
   },
   "scripts": {
-		"css": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --watch",
-		"serve": "jekyll serve",
-		"bundle": "bundle exec jekyll serve"
-	}
+    "css": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --watch",
+    "serve": "jekyll serve",
+    "bundle": "bundle exec jekyll serve"
+  }
 }
