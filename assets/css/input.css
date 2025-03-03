@@ -337,7 +337,7 @@
   }
 
   .about__article__title__icon {
-    @apply pr-4;
+    @apply mr-4;
     font-size: 2em;
     color: var(--yellow);
   }
@@ -386,13 +386,13 @@
   }
 
   .refs__links__link__logo {
-    @apply pr-4;
+    @apply mr-4;
     font-size: 2em;
     color: var(--yellow);
   }
 
   .refs__links__link__download {
-    @apply pr-4;
+    @apply mr-4;
     font-size: 1.5em;
     color: var(--yellow);
   }

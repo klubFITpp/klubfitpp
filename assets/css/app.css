@@ -1002,7 +1002,7 @@ section {
 }
 
 .about__article__title__icon {
-  padding-right: 1rem;
+  margin-right: 1rem;
   font-size: 2em;
   color: var(--yellow);
 }
@@ -1054,13 +1054,13 @@ section {
 }
 
 .refs__links__link__logo {
-  padding-right: 1rem;
+  margin-right: 1rem;
   font-size: 2em;
   color: var(--yellow);
 }
 
 .refs__links__link__download {
-  padding-right: 1rem;
+  margin-right: 1rem;
   font-size: 1.5em;
   color: var(--yellow);
 }
