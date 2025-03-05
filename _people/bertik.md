@@ -7,5 +7,5 @@ role2: ""
 email: "fitpp@bertik23.tech"
 discord: "bertik23"
 img: "/assets/images/people/bertik.jpg"
-pos: 7
+pos: 6
 ---
