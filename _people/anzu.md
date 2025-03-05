@@ -6,6 +6,6 @@ role1: "FIT++ HR"
 role2: "Členka představenstva"
 email: ""
 discord: ""
-img: "/assets/images/people/anzu.jpg"
+img: "/assets/images/people/anzu.webp"
 pos: 3
 ---

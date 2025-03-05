@@ -1,5 +1,5 @@
 ---
-title: "Open Study Session / 1. test SAP"
+title: "OSS / 1. test SAP"
 layout: event
 categories:
   - Open Study Session

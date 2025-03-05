@@ -1,5 +1,5 @@
 ---
-title: "Open Study Session / PSI - Jak na laborky"
+title: "OSS / PSI - Jak na laborky"
 layout: event
 categories:
   - Open Study Session
