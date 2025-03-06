@@ -660,7 +660,7 @@ section.post {
 }
 
 .people__article {
-  @apply mx-4 flex-shrink-0 mt-8 pb-6 lg:min-w-72;
+  @apply mx-4 flex-shrink-0 mt-8 pb-6 lg:min-w-72 flex flex-col;
 }
 
 .people__article__name {

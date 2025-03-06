@@ -4,7 +4,7 @@ surname: "Kopal"
 nick: ""
 role1: "Předseda"
 role2: ""
-email: ""
+email: "predsedaFIT@su.cvut.cz"
 discord: ""
 img: "/assets/images/people/vojta.webp"
 pos: 1

@@ -2,9 +2,9 @@
 name: "Kryštof"
 surname: "Machart"
 nick: ""
-role1: "FIT++ PR"
-role2: "Člen představenstva"
-email: ""
+role1: "Člen představenstva"
+role2: "FIT++ PR"
+email: "pr.fitpp@su.cvut.cz"
 discord: ""
 img: "/assets/images/people/krystof.webp"
 pos: 5
