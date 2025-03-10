@@ -15,11 +15,11 @@ Děkujeme odcházejícím členům Představenstva Báře a Standovi za úžasno
 
 Těšíme se na rok 2025, na mnoho akcí a zážitků s vámi všemi! 💙💛
 
-Vaše Představenstvo 2025<br>
-Vojtěch Kopal - Předseda<br>
-Matyáš Rak - Místopředseda, Pokladník<br>
-Andrea Jeřábková - HR<br>
-Matěj Široký - Projekťák<br>
+Vaše Představenstvo 2025  
+Vojtěch Kopal - Předseda  
+Matyáš Rak - Místopředseda, Pokladník  
+Andrea Jeřábková - HR  
+Matěj Široký - Projekťák  
 Kryštof Machart - PR
 
 ![](/assets/images/news/predstavenstvo2025.jpg)
