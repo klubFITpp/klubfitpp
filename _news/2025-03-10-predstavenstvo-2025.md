@@ -18,7 +18,7 @@ Těšíme se na rok 2025, na mnoho akcí a zážitků s vámi všemi! 💙💛
 Vaše Představenstvo 2025  
 Vojtěch Kopal - Předseda  
 Matyáš Rak - Místopředseda, Pokladník  
-Andrea Jeřábková - HR  
+Andrea Jeřábková - HR, PR  
 Matěj Široký - Projekťák  
 Kryštof Machart - PR
 
