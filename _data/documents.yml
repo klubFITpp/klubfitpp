@@ -8,6 +8,8 @@
       url: "/documents/volebni_rad_2023.pdf"
 - title: "Výroční zprávy"
   links:
+    - name: "Výroční zpráva za rok 2024"
+      url: "/documents/vyrocniZpravy/2024.pdf"
     - name: "Výroční zpráva za rok 2023"
       url: "/documents/vyrocniZpravy/2023.pdf"
     - name: "Výroční zpráva za rok 2022"
@@ -257,7 +259,6 @@
       url: "/documents/volby2017/kandidatky.pdf"
     - name: "Výsledky voleb"
       url: "/documents/volby2017/vysledky.pdf"
-
 
 - title: Hlasování Per Rollam ohledně výroční zprávy za rok 2021
   description: Představenstvo FIT++ schvaluje výroční zprávu FIT++ za rok 2021.
