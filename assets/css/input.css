@@ -457,7 +457,7 @@ section.events .events__article__wrapper {
 }
 
 .event__title {
-  @apply font-semibold p-2 text-center w-max max-w-full bg-primary-yellow justify-start text-xl overflow-hidden;
+  @apply font-semibold p-2 text-center bg-primary-yellow justify-start text-xl grow-0;
 }
 
 .events__article__wrapper {
@@ -469,7 +469,7 @@ section.events .events__article__wrapper {
 }
 
 .event__title_wrapper {
-  @apply w-full;
+  @apply w-full flex flex-row justify-start;
 }
 
 .event__footer {

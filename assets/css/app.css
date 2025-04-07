@@ -1236,11 +1236,8 @@ section.events .events__article__wrapper {
 }
 
 .event__title {
-  width: -moz-max-content;
-  width: max-content;
-  max-width: 100%;
+  flex-grow: 0;
   justify-content: flex-start;
-  overflow: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(249 176 0 / var(--tw-bg-opacity, 1));
   padding: 0.5rem;
@@ -1260,7 +1257,10 @@ section.events .events__article__wrapper {
 }
 
 .event__title_wrapper {
+  display: flex;
   width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .event__footer {
