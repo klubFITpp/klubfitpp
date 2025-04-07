@@ -45,7 +45,7 @@ pagination:
         {% elsif page == 1 %}
           <a class="paginator__choice" href="{{ '/events/' | relative_url }}">{{ page }}</a>
         {% else %}
-          {% assign prev_page = page | minus: 1 %}
+          {% assign prev_page = page | minus: 2 %}
           {% assign next_page = page | plus: 1 %}
           <a class="paginator__choice  {% if paginator.page < next_page and paginator.page > prev_page %}paginator__show-always{% endif %}" href="/events/page{{page}}/index.html">{{ page }}</a>
         {% endif %}

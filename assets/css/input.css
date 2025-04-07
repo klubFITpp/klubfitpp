@@ -432,9 +432,9 @@
 
 .events__article__wrapper {
   @apply w-full max-w-7xl mx-auto px-8 md:px-16;
-  @apply grid md:grid-cols-2 lg:grid-cols-3;
+  @apply grid gap-4 md:grid-cols-2 lg:grid-cols-3;
 }
-section.events .events__article__wrapper * {
+section.events .events__article__wrapper > * {
   @apply max-w-96;
 }
 section.events .events__article__wrapper {
@@ -446,9 +446,8 @@ section.events .events__article__wrapper {
 }
 
 .events__article__wrapper .event__article {
-  @apply w-full mt-6 lg:mt-0 flex flex-col grow-0;
-  @apply my-3 mx-4 flex-shrink-0;
-  max-width: 90%;
+  @apply w-full flex flex-col grow-0;
+  @apply flex-shrink-0;
 }
 
 .event__background {
@@ -469,12 +468,16 @@ section.events .events__article__wrapper {
   @apply aspect-video;
 }
 
+.event__title_wrapper {
+  @apply w-full;
+}
+
 .event__footer {
   @apply flex justify-between w-full;
 }
 
 .event__link {
-  @apply ml-24 block py-2 px-3 bg-primary-blue text-xl text-white  hover:bg-primary-blue-hover transition;
+  @apply block py-2 px-3 bg-primary-blue text-xl text-white  hover:bg-primary-blue-hover transition;
 }
 
 .event__date {
