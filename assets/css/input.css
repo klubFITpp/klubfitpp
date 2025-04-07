@@ -715,6 +715,20 @@ section.post {
   @apply bg-gray-400;
 }
 
+.paginator__pages * {
+  @apply hidden lg:inline-block;
+}
+
+.paginator__pages .paginator__show-always {
+  @apply inline-block;
+}
+
+.paginator__pages *:last-of-type,
+.paginator__pages *:nth-child(1) {
+  display: inline-block;
+}
+
+
 /* Pages */
 
 .page h1,

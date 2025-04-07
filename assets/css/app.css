@@ -1774,6 +1774,25 @@ section.post {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
 }
 
+.paginator__pages * {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .paginator__pages * {
+    display: inline-block;
+  }
+}
+
+.paginator__pages .paginator__show-always {
+  display: inline-block;
+}
+
+.paginator__pages *:last-of-type,
+.paginator__pages *:nth-child(1) {
+  display: inline-block;
+}
+
 /* Pages */
 
 .page h1,
