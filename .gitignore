@@ -9,4 +9,4 @@ _drafts/
 node_modules
 vendor
 .DS_store
-assets/app.css
+assets/css/app.css
