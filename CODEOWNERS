@@ -1,0 +1,7 @@
+.github @Bertik23
+
+*.{html,css,js} @Bertik23 @marekvospel
+package{,-lock}.json @Bertik23 @marekvospel
+Gemfile{,.lock} @Bertik23 @marekvospel
+_config.yml @Bertik23 @marekvospel
+{pages,events,news} @Bertik23 @marekvospel
