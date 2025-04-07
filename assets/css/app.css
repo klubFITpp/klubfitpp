@@ -1009,10 +1009,6 @@ section {
 
 /* documents */
 
-.refs__scream {
-  text-align: center;
-}
-
 .refs__links {
   margin: 2em auto;
   width: -moz-fit-content;
@@ -1171,9 +1167,18 @@ section {
   }
 }
 
+.events__article__wrapper a {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
 .events__article__wrapper .event__article {
   margin-top: 1.5rem;
-  width: 24rem;
+  display: flex;
+  width: 100%;
+  flex-grow: 0;
+  flex-direction: column;
 }
 
 @media (min-width: 1024px) {

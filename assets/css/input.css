@@ -434,8 +434,12 @@
   @apply flex flex-col justify-start items-center max-w-7xl mx-auto xl:flex-row lg:justify-evenly flex-wrap;
 }
 
+.events__article__wrapper a {
+  @apply w-full flex flex-col;
+}
+
 .events__article__wrapper .event__article {
-  @apply w-96 mt-6 lg:mt-0;
+  @apply w-full mt-6 lg:mt-0 flex flex-col grow-0;
   @apply my-3 mx-4 flex-shrink-0;
   max-width: 90%;
 }
