@@ -44,7 +44,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1 #8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
         with:
-          ruby-version: '3.2' # Not needed with a .ruby-version file
+          ruby-version: "3.2" # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
@@ -54,6 +54,8 @@ jobs:
       #   run: bundle install
       # - name: Install fixed paginate
       #   run: gem install --local ./jekyll-paginate-v2-3.0.0.gem -i ./vendor/bundle
+      - name: Generate css with Tailwindcss
+        run: npm run css
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -74,4 +76,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
