@@ -438,7 +438,7 @@ section.events .events__article__wrapper > * {
   @apply max-w-96;
 }
 section.events .events__article__wrapper {
-  @apply flex flex-row items-center justify-start lg:justify-evenly 
+  @apply flex flex-col items-center justify-start lg:justify-evenly lg:flex-row;
 }
 
 .events__article__wrapper a {
