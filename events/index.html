@@ -18,7 +18,9 @@ pagination:
     {% for event in paginator.posts %}
     <a href="{{event.url}}">
     <article class="event__article " >    
-      <h3 class="event__title">{{event.title}}</h3>
+      <div class="event__title_wrapper">
+        <h3 class="event__title">{{event.title}}</h3>
+      </div>
       <div class="event__background event__image" style="background-image: url({{ event.img | relative_url }});">
       </div>
       <div class="event__footer ">
@@ -38,15 +40,19 @@ pagination:
     <span class="paginator__choice dead paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-back"></iconify-icon></span>
     {% endif %}
   
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="paginator__choice selected">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a class="paginator__choice" href="{{ '/events/' | relative_url }}">{{ page }}</a>
-      {% else %}
-        <a class="paginator__choice " href="/events/page{{page}}/index.html">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
+    <div class="paginator__pages">
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <span class="paginator__choice selected">{{ page }}</span>
+        {% elsif page == 1 %}
+          <a class="paginator__choice" href="{{ '/events/' | relative_url }}">{{ page }}</a>
+        {% else %}
+          {% assign prev_page = page | minus: 2 %}
+          {% assign next_page = page | plus: 1 %}
+          <a class="paginator__choice  {% if paginator.page < next_page and paginator.page > prev_page %}paginator__show-always{% endif %}" href="/events/page{{page}}/index.html">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
   
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | relative_url }}" class="paginator__choice paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-forward"></iconify-icon></a>
