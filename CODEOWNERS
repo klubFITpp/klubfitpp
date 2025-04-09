@@ -1,7 +1,9 @@
-.github @Bertik23
+.github @klubfitpp/webdev++
 
-*.{html,css,js} @Bertik23 @marekvospel
-package{,-lock}.json @Bertik23 @marekvospel
-Gemfile{,.lock} @Bertik23 @marekvospel
-_config.yml @Bertik23 @marekvospel
-{pages,events,news} @Bertik23 @marekvospel
+*.{html,css,js} @klubfitpp/webdev++
+package{,-lock}.json @klubfitpp/webdev++
+Gemfile{,.lock} @klubfitpp/webdev++
+_config.yml @klubfitpp/webdev++
+{pages,events,news} @klubfitpp/webdev++
+
+{_people,documents} @klubfitpp/predstavenstvo
