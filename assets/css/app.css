@@ -1009,10 +1009,6 @@ section {
 
 /* documents */
 
-.refs__scream {
-  text-align: center;
-}
-
 .refs__links {
   margin: 2em auto;
   width: -moz-fit-content;
@@ -1617,6 +1613,12 @@ section.post {
   margin-right: auto;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+}
+
+.post article th,
+.post article td {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 /* PEOPLE */
