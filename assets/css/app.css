@@ -1655,6 +1655,12 @@ section.post {
   margin-bottom: 0.5rem;
 }
 
+.post article th,
+.post article td {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 /* PEOPLE */
 
 .people {

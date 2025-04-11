@@ -663,6 +663,11 @@ section.post {
   @apply mx-auto mt-4 mb-2;
 }
 
+.post article th,
+.post article td {
+  @apply px-2;
+}
+
 /* PEOPLE */
 
 .people {
