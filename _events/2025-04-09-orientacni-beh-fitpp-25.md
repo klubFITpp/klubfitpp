@@ -94,12 +94,12 @@ We would like to invite you to the third year of annual orienteering race organi
 
 |Pozice|Jméno 1              |Jméno 2           |Čas    |
 |------|---------------------|------------------|-------|
-| 01   |Veronika Arnoštová   |                  |30:37:00|
-| 02   |Michaela Šklíbová    |                  |33:32:00|
-| 03   |Anna Tulachová       |Štěpán Kožina     |35:03:00|
-| 04   |Svatava Voltrová     |                  |37:49:00|
-| 05   |Pavla Svítilová      |                  |43:43:00|
-| 06   |Marcela Šrůtová      |                  |57:08:00|
+| 01   |Veronika Arnoštová   |                  |0:30:37|
+| 02   |Michaela Šklíbová    |                  |0:33:32|
+| 03   |Anna Tulachová       |Štěpán Kožina     |0:35:03|
+| 04   |Svatava Voltrová     |                  |0:37:49|
+| 05   |Pavla Svítilová      |                  |0:43:43|
+| 06   |Marcela Šrůtová      |                  |0:57:08|
 
 <br>
 
@@ -107,7 +107,7 @@ We would like to invite you to the third year of annual orienteering race organi
 
 |Pozice|Jméno 1              |Jméno 2           |Čas    |
 |------|---------------------|------------------|-------|
-| 01   |Tomáš Motus          |                  |34:13:00|
+| 01   |Tomáš Motus          |                  |0:34:13|
 | 02   |Karolína Slonková    |                  |0:35:36|
 | 03   |Alice Fousková       |Blanka Havlátová  |0:36:20|
 | 04   |František Tichý      |                  |0:39:17|
