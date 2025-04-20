@@ -1,0 +1,9 @@
+.github @klubfitpp/webdev
+
+*.{html,css,js} @klubfitpp/webdev
+package{,-lock}.json @klubfitpp/webdev
+Gemfile{,.lock} @klubfitpp/webdev
+_config.yml @klubfitpp/webdev
+{pages,events,news} @klubfitpp/webdev
+
+{_people,documents} @klubfitpp/predstavenstvo
