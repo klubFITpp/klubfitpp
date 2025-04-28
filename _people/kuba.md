@@ -7,5 +7,5 @@ role2: ""
 email: ""
 discord: ""
 img: "/assets/images/people/kuba.jpg"
-pos: 7
+pos: 8
 ---
