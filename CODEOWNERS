@@ -1,9 +1,16 @@
 .github @klubfitpp/webdev
 
-*.{html,css,js} @klubfitpp/webdev
-package{,-lock}.json @klubfitpp/webdev
-Gemfile{,.lock} @klubfitpp/webdev
+*.html @klubfitpp/webdev
+*.css @klubfitpp/webdev
+*.js @klubfitpp/webdev
+package.json @klubfitpp/webdev
+package-lock.json @klubfitpp/webdev
+Gemfile @klubfitpp/webdev
+Gemfile.lock @klubfitpp/webdev
 _config.yml @klubfitpp/webdev
-{pages,events,news} @klubfitpp/webdev
+pages @klubfitpp/webdev
+events @klubfitpp/webdev
+news @klubfitpp/webdev
 
-{_people,documents} @klubfitpp/predstavenstvo
+_people @klubfitpp/predstavenstvo
+documents @klubfitpp/predstavenstvo
