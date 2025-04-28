@@ -1,6 +1,6 @@
 ---
 name: "Šimon"
-surname: "Ratajs"
+surname: "Rataj"
 nick: "ratajs"
 role1: "Tajemník"
 role2: ""
