@@ -125,7 +125,7 @@
   }
 
   .hello__nav__wrapper {
-      
+
       @apply absolute z-20 top-0 left-0 bg-slate-50 w-screen h-14 shadow-lg flex justify-between lg:block lg:border-b-4 border-primary-blue w-full;
   }
 
@@ -609,8 +609,15 @@ section.post {
 
 .post article ul,
 .post article ol {
-  @apply w-max text-center m-auto mt-4 mb-2;
+  @apply w-full text-center m-auto mt-4 mb-2;
 }
+
+.post article li ul,
+.post article li ol {
+  @apply ml-6;
+}
+
+
 .post article ul li {
   @apply list-disc text-left;
 }
