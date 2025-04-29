@@ -10,11 +10,12 @@ img: "/assets/images/event/sifrovacka.webp"
 
 - **Kdy**: 27. 9. 2025
 - **Co**: Nelineární denní šifrovací hra určená pro začátečníky nebo mírně pokročilé. Týmy 1-5 lidí.
+- **Za kolik**: Zdarma
+- **Registrace**: do 25. 9., [zde](https://forms.gle/dtm5AwBNP7Ftwm9q8){:target="_blank" rel="noopener noreferrer"}
 - **Start**: 13:00 z plácku před Národní technickou knihovnou v Dejvicích
 - **Volná definice Dejvic**: Okolí vzdálené až 2.5 km vzdušnou čarou od Národní Technické knihovny v Dejvicích
 - **Tématika**: Záchrana říše pohádek
-- **Startovné**: Dobrovolné, bude možnost nám ho předat na konci akce
-- **Výhry**: By FIT++ & SU ČVUT
+- **Výhry**: FIT++ merch
 
 ## Obecná pravidla
 - Tým se NEsmí v průběhu hry dělit.
@@ -47,6 +48,3 @@ img: "/assets/images/event/sifrovacka.webp"
 Mailem přímo na klub FIT++: [fitpp@su.cvut.cz](mailto:fitpp@su.cvut.cz) (reakce v řádu dní) nebo přes Discord (reakce v řádu hodin):
 - Hlavní organizátor Maruška: taraxacum.pampeliska
 - Pravá ruka Jirka: jirka.badatel
-
-## Odkazy
-- [Registrace](https://forms.gle/dtm5AwBNP7Ftwm9q8){:target="_blank" rel="noopener noreferrer"}
