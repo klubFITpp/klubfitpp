@@ -10,24 +10,24 @@ title: Hlavní stránka
 </section>
 
 <section class="about">
-  <h2 class="section__title">Co je FIT++?</h2>
-  <p>Jsme studenti FIT ČVUT, co mají svoji fakultu rádi a chtějí ji udělat ještě lepší.</p>
+  <h2 class="section__title">{{ "home.about.title" | t }}</h2>
+  <p>{{ "home.about.subtitle" | t }}</p>
   <article class="about__article">
-    <h3 class="about__article__title"><iconify-icon noobserver class="about__article__title__icon" icon="ion:ios-calendar"></iconify-icon> Organizace akcí</h3>
-    <p class="about__article__text">Chtěl/a bys uspořádat nějakou akci, ale potřebuješ pomoct? Nebo bys chtěl/a pomáhat při akcích jako je DOD či Noc vědců? Pak je FIT++ přesně pro tebe!</p>
+    <h3 class="about__article__title"><iconify-icon noobserver class="about__article__title__icon" icon="ion:ios-calendar"></iconify-icon>{{ "home.about.events.title" | t }}</h3>
+    <p class="about__article__text">{{ "home.about.events.description" | t }}</p>
   </article>
   <article class="about__article">
-    <h3 class="about__article__title"><iconify-icon noobserver class="about__article__title__icon" icon="ion:ios-people"></iconify-icon> Společné chvíle</h3>
-    <p class="about__article__text">Nebo chceš pouze na chvíli odsednout od programování a strávit pěkné chvíle s ostatními FIŤáky? Příležitostí ve FIT++ je plno!</p>
+    <h3 class="about__article__title"><iconify-icon noobserver class="about__article__title__icon" icon="ion:ios-people"></iconify-icon>{{ "home.about.community.title" | t }}</h3>
+    <p class="about__article__text">{{ "home.about.community.description" | t }}</p>
   </article>
   <article class="about__article">
-    <h3 class="about__article__title"><iconify-icon noobserver class="about__article__title__icon" icon="ion:ios-bulb"></iconify-icon> Lidi s nápady</h3>
-    <p class="about__article__text">Dobrých lidí s dobrými nápady je vždycky málo, a tak jsme se rozhodli, že by bylo super vás sdružovat.</p>
+    <h3 class="about__article__title"><iconify-icon noobserver class="about__article__title__icon" icon="ion:ios-bulb"></iconify-icon>{{ "home.about.ideas.title" | t }}</h3>
+    <p class="about__article__text">{{ "home.about.ideas.description" | t }}</p>
   </article>
 </section>
 
 <section class="events">
-  <h2 class="section__title">Nadcházející akce</h2>
+  <h2 class="section__title">{{ "home.events.upcoming" | t }}</h2>
   <div class="events__article__wrapper">
     {% assign today = 'now' | date: "%s" %} <!-- Get today's date as a timestamp -->
     {% assign yesterday = today | minus: 86400 %}
@@ -47,7 +47,7 @@ title: Hlavní stránka
               </div>
               <div class="event__footer ">
                 <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
-                <span class="event__link" href="{{event.url}}">Více</span>
+                <span class="event__link" href="{{event.url}}">{{ "home.events.more_info" | t }}</span>
               </div>
             </article>
           </a>
@@ -55,11 +55,11 @@ title: Hlavní stránka
       {% endif %}
     {% endfor %}
   </div>
-  <a class="events__more__link" href="/events">Další akce</a>
+  <a class="events__more__link" href="/events">{{ "home.events.other" | t }}</a>
 </section>
 
 <section class="news">
-  <h2 class="section__title">Aktuality</h2>
+  <h2 class="section__title">{{ "home.about.articles.title" | t }}</h2>
   <div class="news__article__wrapper">
     {% assign news = site.news | sort: 'date' | reverse  %}
     {% for post in news limit:3 %}
@@ -69,18 +69,19 @@ title: Hlavní stránka
           <a href="{{post.url}}"><h3 class="news__title ">{{post.title}}</h3></a>
           <p class="news__short">{{post.short}}</p>
           <div class="news__footer">
-            <a class="news__link" href="{{post.url}}">Přečíst</a>
+            <a class="news__link" href="{{post.url}}">{{ "home.articles.more_info" | t }}</a>
             <small class="news__date">{{ post.date | date: "%-d. %-m. %Y" }}</small>
           </div>
       </div>
     </article>
     {% endfor %}
   </div>
-  <a class="news__more__link" href="/news">Další články</a>
+  <a class="news__more__link" href="/news">{{ "home.articles.other" | t }}</a>
 </section>
 
 <section class="people">
-  <h2 id="lide" class="section__title">Kdo za FIT++ stoji?</h2>
+  <h2 id="lide" class="section__title">{{ "home.people" | t }}</h2>
+  <!-- TODO: probs anglicky role? -->
   <div class="people__wrapper">
     {% assign people = site.people | sort: 'pos' %}
     {% for person in people %}
@@ -89,14 +90,14 @@ title: Hlavní stránka
       <h3 class="people__article__name">{{person.name}} {{person.surname}}</h3>
       <p class="people__article__role">{{person.role1}}</p>
       <p class="people__article__role">{{person.role2}}</p>
-	  <a href="mailto:{{person.email}}" class="people__article__role">{{person.email}}</a>
+      <a href="mailto:{{person.email}}" class="people__article__role">{{person.email}}</a>
     </article>
     {% endfor %}
   </div>
 </section>
 
 <section class="refs">
-  <h2 class="section__title">Další zajímavé skupiny</h2>
+  <h2 class="section__title">{{ "home.refs" | t }}</h2>
   <article class="refs__links">
     <a class="refs__links__link" href="https://su.cvut.cz" target="_blank" rel="noopener noreferrer">Studentská unie ČVUT</a>
     <a class="refs__links__link" href="https://seznamovak.fit.cvut.cz/" target="_blank" rel="noopener noreferrer">Seznamovák FIT</a>

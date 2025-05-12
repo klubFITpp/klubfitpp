@@ -1,0 +1,29 @@
+nav:
+  logo_alt: "FIT++ logo"
+
+foot:
+  join: "Přidej se k nám!"
+
+home:
+  about:
+    title: "Co je FIT++?"
+    subtitle: "Jsme studenti FIT ČVUT, co mají svoji fakultu rádi a chtějí ji udělat ještě lepší."
+    events:
+      title: "Organizace akcí"
+      description: "Chtěl/a bys uspořádat nějakou akci, ale potřebuješ pomoct? Nebo bys chtěl/a pomáhat při akcích jako je DOD či Noc vědců? Pak je FIT++ přesně pro tebe!"
+    community:
+      title: "Společné chvíle"
+      description: "Nebo chceš pouze na chvíli odsednout od programování a strávit pěkné chvíle s ostatními FIŤáky? Příležitostí ve FIT++ je plno!"
+    ideas:
+      title: "Lidi s nápady"
+      description: "Dobrých lidí s dobrými nápady je vždycky málo, a tak jsme se rozhodli, že by bylo super vás sdružovat."
+  events:
+    upcoming: "Nadcházející akce"
+    other: "Další akce"
+    more_info: "Více"
+  articles:
+    title: "Aktuality"
+    other: "Další články"
+    more_info: "Přečíst"
+  people: "Kdo za FIT++ stojí?"
+  refs: "Další zajímavé skupiny"
