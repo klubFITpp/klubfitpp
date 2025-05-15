@@ -4,24 +4,24 @@
   <meta name="robots" content="index, follow">
   <meta name="author" content="Antonín Kříž, https://www.antoninkriz.eu">
 
-  <meta name="description" content="Jsme studenti FITu ČVUT, co mají svoji fakultu rádi a chtějí ji udělat ještě lepší. Pořádáme akce pro studenty a sdružujeme dobré lidi s dobrými nápady.">
   <meta name="keywords" content="fitplusplus, fitpp, fit plus plus, fit cvut, fit, cvut, klub, studentsky klub, student, studenti, akce, hellofit, hello fit, ceske vysoke uceni technicke, su, studentska unie, studentska, unie, dod, den otevrenych dveri">
 
   <meta property="og:url" content="https://www.klubfitpp.cz/">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="cs_CZ">
+  <meta http-equiv="Content-Language" content="{{site.active_lang}}">
   <meta property="og:title" content="Klub FIT++">
-  <meta property="og:description" content="Jsme studenti FITu ČVUT, co mají svoji fakultu rádi a chtějí ji udělat ještě lepší. Pořádáme akce pro studenty a sdružujeme dobré lidi s dobrými nápady.">
-  <meta property="og:image" content=""{{ "/assets/images/icon-255.png" | relative_url }}"">
+  {% assign fallback_desc = 'home.about.subtitle' | t %}
+  <meta property="og:description" content="{{ page.description[site.active_lang] | default: page.description['cs'] | default: page.description | default: fallback_desc }}">
+  <meta property="og:image" content="{{ '/assets/images/icon-255.png' | relative_url }}">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="255">
   <meta property="og:image:height" content="255">
-  <meta property="og:image:alt" content="Logo FIT++">
+  <meta property="og:image:alt" content="{{ 'nav.logo_alt' | t }}">
   <link rel="canonical" href="https://www.klubfitpp.cz">
 
   <link rel="preconnect" href="https://fonts.bunny.net">
   <link href="https://fonts.bunny.net/css?family=montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,920,920i" rel="stylesheet" />
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>{{ page.title[site.active_lang] | default: page.title['cs'] | default: page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url }}?{{ site.time | date: '%s' }}">
   <link rel="stylesheet" href="{{ "/assets/css/code.css" | relative_url }}">
 
