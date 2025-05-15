@@ -2,6 +2,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "FIT++" # the name of your site, e.g. ACME Corp.
 layouts_dir: _layouts
+exclude:
+  - paginate-v2
+  - jekyll-paginate-v2-3.0.0.gem
+  - tailwind.config.js
+  - README.md
+  - package.json
+  - package-lock.json
+  - CODEOWNERS
 gems:
   - jekyll-paginate-v2
 markdown: kramdown
