@@ -43,6 +43,17 @@ module Jekyll
 
       "/".concat(site.active_lang).concat(input)
     end
+
+    def tindex(input)
+      site = @context.registers[:site]
+      default_lang = site.config['default_lang'] || 'en'
+
+      if input.is_a?(Hash)
+        return input[site.active_lang] || link.title['cs']
+      else
+        return input
+      end
+    end
   end
 end
 

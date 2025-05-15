@@ -27,3 +27,9 @@ home:
     more_info: "Přečíst"
   people: "Kdo za FIT++ stojí?"
   refs: "Další zajímavé skupiny"
+
+articles:
+  read_more: "číst dále"
+
+events:
+  read_more: "Více"

@@ -7,8 +7,8 @@
       <a class="{% if page.title == "Hlavní stránka" %} hello__nav__item__selected {% endif %}" href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="{{ 'nav.logo_alt' | t }}"/></a>
       <span class="hello__nav__logo__filler"></span>
       {% for link in site.data.navbar %}
-      <a href={{ link.url | fixnavlink }} class="hello__nav__item {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title }}</a>
-      <span class="hello__nav__logo__filler"></span>
+        <a href={{ link.url | fixnavlink }} class="hello__nav__item {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title | tindex }}</a>
+        <span class="hello__nav__logo__filler"></span>
       {% endfor %}
   </nav>
   <div class="hello__nav__burger hamburger" id="hamburger" onclick="toggleMenu()">
@@ -25,6 +25,6 @@
 </div>
 <nav class="hello__nav__phone hidden" id="nav_phone">
     {% for link in site.data.navbar %}
-    <a href={{ link.url | fixnavlink }} class="hello__nav__item   {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title }}</a>
+    <a href={{ link.url | fixnavlink }} class="hello__nav__item   {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title | tindex }}</a>
     {% endfor %}
 </nav>

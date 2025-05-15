@@ -7,3 +7,10 @@ foot:
 home:
   about:
     title: "What is FIT++?"
+    subtitle: "TODO"
+
+articles:
+  read_more: "Read more"
+
+events:
+  read_more: "More"

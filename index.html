@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Hlavní stránka
+title:
+  cs: Hlavní stránka
+  en: Home page
 ---
 <section class="hello">
     {% include nav.html %}
@@ -59,7 +61,7 @@ title: Hlavní stránka
 </section>
 
 <section class="news">
-  <h2 class="section__title">{{ "home.about.articles.title" | t }}</h2>
+  <h2 class="section__title">{{ "home.articles.title" | t }}</h2>
   <div class="news__article__wrapper">
     {% assign news = site.news | sort: 'date' | reverse  %}
     {% for post in news limit:3 %}
