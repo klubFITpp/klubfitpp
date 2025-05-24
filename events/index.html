@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Akce
+title:
+  cs: Akce
+  en: Events
 permalink: /events/
-pagination: 
+pagination:
   enabled: true
   collection: events
   per_page: 6
@@ -10,14 +12,15 @@ pagination:
 ---
 
 {% include nav.html %}
+
 <section class="events">
-    <h2 class="main__title">Akce</h2>
+  <h2 class="main__title">{{ page.title | tindex }}</h2>
 </section>
 
 <div class="events__article__wrapper">
-    {% for event in paginator.posts %}
+  {% for event in paginator.posts %}
     <a href="{{event.url}}">
-    <article class="event__article " >    
+    <article class="event__article " >
       <div class="event__title_wrapper">
         <h3 class="event__title">{{event.title}}</h3>
       </div>
@@ -25,21 +28,21 @@ pagination:
       </div>
       <div class="event__footer ">
         <small class="event__date">{{ event.date | date: "%-d. %-m. %Y" }}</small>
-        <span class="event__link" href="{{event.url}}">Více</span>
+        <span class="event__link" href="{{event.url}}">{{ 'events.read_more' | t }}</span>
       </div>
     </article>
     </a>
-    {% endfor %}
-  </div>
-  
-  {% if paginator.total_pages > 1 %}
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
   <div class="paginator">
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | relative_url }}" class="paginator__choice paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-back"></iconify-icon></a>
     {% else %}
     <span class="paginator__choice dead paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-back"></iconify-icon></span>
     {% endif %}
-  
+
     <div class="paginator__pages">
       {% for page in (1..paginator.total_pages) %}
         {% if page == paginator.page %}
@@ -53,14 +56,14 @@ pagination:
         {% endif %}
       {% endfor %}
     </div>
-  
+
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path | relative_url }}" class="paginator__choice paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-forward"></iconify-icon></a>
     {% else %}
       <span class="paginator__choice dead paginator__arrow"><iconify-icon noobserver class="paginator__icon" icon="ion:ios-arrow-forward"></iconify-icon></span>
     {% endif %}
   </div>
-  {% endif %}
+{% endif %}
 
 <section class="calendar">
     <iframe class="calendar__iframe" src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FPrague&showPrint=0&title=FIT%2B%2B%20Akce&showCalendars=0&src=Y184MDM0MmJjMWFmNDc1YTU4MzI3YmRmNWJhNzMzM2I4NjM5MDQ3NDRmMTlmY2E4NTZhNzkzMWYyZTVhM2JkYTdjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23F9B000"></iframe>
