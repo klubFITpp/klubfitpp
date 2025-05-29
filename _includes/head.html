@@ -21,7 +21,11 @@
 
   <link rel="preconnect" href="https://fonts.bunny.net">
   <link href="https://fonts.bunny.net/css?family=montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,920,920i" rel="stylesheet" />
-  <title>{{ page.title[site.active_lang] | default: page.title['cs'] | default: page.title }} - {{ site.title }}</title>
+  {% if page.page_title %}
+    <title>{{ page.page_title[site.active_lang] | default: page.page_title['cs'] | default: page.page_title }} - {{ site.title }}</title>
+  {% else %}
+    <title>{{ page.title[site.active_lang] | default: page.title['cs'] | default: page.title }} - {{ site.title }}</title>
+  {% endif %}
   <link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url }}?{{ site.time | date: '%s' }}">
   <link rel="stylesheet" href="{{ "/assets/css/code.css" | relative_url }}">
 
