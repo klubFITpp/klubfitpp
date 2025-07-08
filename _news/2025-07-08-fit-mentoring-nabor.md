@@ -18,7 +18,7 @@ short: "FIT Mentoring - nábor"
 Určitě si pamatuješ, že začátek studia na FITu přinesl hodně otázek, obav a nejasností. Proto od září spouštíme program FIT Mentoring, ve kterém se studenti **budou moct obracet na zaběhlejší studenty** s jakýmikoliv dotazy.
 Chceš pomáhat nastupujícím fiťákům a ulehčit jim tak přestup ze střední na vysokou? Máš nějaký tip jak zvládnout DML, PA1 nebo jenom trik jak to všechno stihnout a nevyhořet? Právě **tebe hledáme**!
 
-Projekt FIT Mentoring je nový projekt klubu FIT++ primárně cílený jako one-on-one pomoc (nejen) prvákům, podobně jako projekt Open Study Session.
+FIT Mentoring je nový projekt klubu FIT++ primárně cílený jako one-on-one pomoc (nejen) prvákům, podobně jako projekt Open Study Session.
 Myšlenkou je mít **tým studentů** (tzv. "mentorů"), kteří rádi pomůžou s různorodými situacemi, se kterými se na FITu můžeme setkat, např.:
 - zařizování kolejí
 - orientace po kampusu
