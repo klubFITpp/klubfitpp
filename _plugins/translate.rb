@@ -49,7 +49,7 @@ module Jekyll
       default_lang = site.config['default_lang'] || 'en'
 
       if input.is_a?(Hash)
-        return input[site.active_lang] || link.title['cs']
+        return input[site.active_lang] || input&.[]['title']&.[][default_lang]
       else
         return input
       end
