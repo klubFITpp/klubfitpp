@@ -3,8 +3,7 @@
     <img class="hello__nav__logo__phone" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="{{ 'nav.logo_alt' | t }}"/>
   </a>
   <nav class="hello__nav">
-      <!-- TODO: probably want to check based on path? -->
-      <a class="{% if page.title == "Hlavní stránka" %} hello__nav__item__selected {% endif %}" href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="{{ 'nav.logo_alt' | t }}"/></a>
+      <a class="{% if page.url == "/" %} hello__nav__item__selected {% endif %}" href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="{{ 'nav.logo_alt' | t }}"/></a>
       <span class="hello__nav__logo__filler"></span>
       {% for link in site.data.navbar %}
         <a href={{ link.url | fixnavlink }} class="hello__nav__item {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title | tindex }}</a>
