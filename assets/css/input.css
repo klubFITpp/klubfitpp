@@ -189,6 +189,10 @@
     @apply text-primary-blue hover:text-primary-blue-hover transition h-full p-2;
   }
 
+  .hello__nav__lang {
+    @apply flex flex-row items-center gap-2 p-2 h-full uppercase;
+  }
+
   .hello__nav__item__selected {
     @apply relative text-primary-yellow hover:text-primary-yellow cursor-default;
   }

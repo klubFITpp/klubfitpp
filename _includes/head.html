@@ -33,4 +33,21 @@
   <link rel="icon" type="image/png" href="{{ "/assets/images/icon-32.png" | relative_url }}" sizes="32x32">
   <link rel="icon" type="image/png" href="{{ "/assets/images/icon-96.png" | relative_url }}" sizes="96x96">
   <link rel="icon" type="image/png" href="{{ "/assets/images/icon-255.png" | relative_url }}" sizes="255x255">
+
+  <meta http-equiv="Content-Language" content="{{site.active_lang}}">
+
+  {% if page.lang == site.default_lang %}
+  <link rel="canonical" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+  {% else %}
+  <link rel="canonical" {% static_href %}href="/{{page.lang}}{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+  {% endif %}
+  <link rel="alternate" hreflang="{{site.default_lang}}" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+  <link rel="alternate" hreflang="x-default" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+
+  {% for lang in site.languages %}
+    {% if lang == site.default_lang %}
+      {% continue %}
+    {% endif %}
+    <link rel="alternate" hreflang="{{lang}}" {% static_href %}href="/{{lang}}{{page.url | remove_first: ''}}"{% endstatic_href %} />
+  {% endfor %}
 </head>

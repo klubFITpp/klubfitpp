@@ -10,6 +10,19 @@
         <a href={{ link.url | fixnavlink }} class="hello__nav__item {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title | tindex }}</a>
         <span class="hello__nav__logo__filler"></span>
       {% endfor %}
+      <!-- Do budoucnosti to mby chce nejakej dropdown, ale zatim to asi staci -->
+      {% if site.active_lang == 'cs' %}
+      <a class="hello__nav__lang" {% static_href %}href="/en{{ page.url }}"{% endstatic_href %} data-polyglot="no-translate">
+        <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+        en
+      </a>
+      {% endif %}
+      {% if site.active_lang == 'en' %}
+      <a class="hello__nav__lang" {% static_href %}href="{{ page.url }}"{% endstatic_href %}>
+        <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+        cs
+      </a>
+      {% endif %}
   </nav>
   <div class="hello__nav__burger hamburger" id="hamburger" onclick="toggleMenu()">
     <div class="bar1"></div>
@@ -27,4 +40,17 @@
     {% for link in site.data.navbar %}
     <a href={{ link.url | fixnavlink }} class="hello__nav__item   {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title | tindex }}</a>
     {% endfor %}
+    <!-- Do budoucnosti to mby chce nejakej dropdown, ale zatim to asi staci -->
+    {% if site.active_lang == 'cs' %}
+    <a class="hello__nav__lang" {% static_href %}href="/en{{ page.url }}"{% endstatic_href %} data-polyglot="no-translate">
+      <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+      en
+    </a>
+    {% endif %}
+    {% if site.active_lang == 'en' %}
+    <a class="hello__nav__lang" {% static_href %}href="{{ page.url }}"{% endstatic_href %}>
+      <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+      cs
+    </a>
+    {% endif %}
 </nav>
