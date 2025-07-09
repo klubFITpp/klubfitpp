@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Antonín Kříž, https://www.antoninkriz.eu">
+  <meta name="twitter:site" content="@klubFITpp">
 
   <meta name="keywords" content="fitplusplus, fitpp, fit plus plus, fit cvut, fit, cvut, klub, studentsky klub, student, studenti, akce, hellofit, hello fit, ceske vysoke uceni technicke, su, studentska unie, studentska, unie, dod, den otevrenych dveri">
 
@@ -24,19 +25,25 @@
 
   <title>{{ page_title }}</title>
   <meta property="og:title" content="{{ page_title }}">
+  <meta property="twitter:title" content="{{ page_title }}">
 
   <meta property="description" content="{{ desc }}">
   <meta property="og:description" content="{{ desc }}">
+  <meta property="twitter:description" content="{{ desc }}">
 
   {% if page.img %}
     <meta property="og:image" content="{{ site.url }}/{{ page.img | relative_url | remove_first: '/' }}">
+    <meta name="twitter:image" content="{{ site.url }}/{{ page.img | relative_url | remove_first: '/' }}">
     <meta property="og:image:type" content="image/png">
+    <meta property="twitter:card" content="summary_large_image">
   {% else %}
     <meta property="og:image" content="{{ site.url }}/{{ '/assets/images/icon-255.png' | relative_url | remove_first: '/'}}">
+    <meta name="twitter:image" content="{{ site.url }}/{{ '/assets/images/icon-255.png' | relative_url | remove_first: '/' }}">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="255">
     <meta property="og:image:height" content="255">
     <meta property="og:image:alt" content="{{ 'nav.logo_alt' | t }}">
+    <meta property="twitter:card" content="summary">
   {% endif %}
   <meta name="theme-color" content="#0073bc" />
 
