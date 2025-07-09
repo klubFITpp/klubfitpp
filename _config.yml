@@ -4,7 +4,6 @@ title: "FIT++" # the name of your site, e.g. ACME Corp.
 layouts_dir: _layouts
 exclude:
   - paginate-v2
-  - jekyll-paginate-v2-3.0.0.gem
   - tailwind.config.js
   - README.md
   - package.json

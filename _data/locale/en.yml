@@ -7,7 +7,26 @@ foot:
 home:
   about:
     title: "What is FIT++?"
-    subtitle: "TODO"
+    subtitle: "We are FIT ČVUT students, who love their faculty and want to make it even better."
+    events:
+      title: "Event organisation"
+      description: "Would you like to host an event, but need help? Would you like to help with events like day of open doors or Noc vědců? Then FIT++ is your pal!"
+    community:
+      title: "Shared moments"
+      description: "Or you maybe want to take a break from programming and spend some quality time with other FIT students? There are many opportunities like that in FIT++!"
+    ideas:
+      title: "People with ideas"
+      description: "It's hard to find people with great ideas, so we decided it is a great idea to get people like that together."
+  events:
+    upcoming: "Upcoming events"
+    other: "More events"
+    more_info: "More"
+  articles:
+    title: "Articles"
+    other: "More articles"
+    more_info: "Read"
+  people: "Who is behind FIT++?"
+  refs: "More interesting groups"
 
 articles:
   read_more: "Read more"

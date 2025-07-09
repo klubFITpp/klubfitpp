@@ -17,7 +17,6 @@
   <meta property="og:image:width" content="255">
   <meta property="og:image:height" content="255">
   <meta property="og:image:alt" content="{{ 'nav.logo_alt' | t }}">
-  <link rel="canonical" href="https://www.klubfitpp.cz">
 
   <link rel="preconnect" href="https://fonts.bunny.net">
   <link href="https://fonts.bunny.net/css?family=montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,920,920i" rel="stylesheet" />
@@ -34,12 +33,10 @@
   <link rel="icon" type="image/png" href="{{ "/assets/images/icon-96.png" | relative_url }}" sizes="96x96">
   <link rel="icon" type="image/png" href="{{ "/assets/images/icon-255.png" | relative_url }}" sizes="255x255">
 
-  <meta http-equiv="Content-Language" content="{{site.active_lang}}">
-
   {% if page.lang == site.default_lang %}
   <link rel="canonical" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
   {% else %}
-  <link rel="canonical" {% static_href %}href="/{{page.lang}}{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+  <link rel="canonical" {% static_href %}href="/{{page.lang}}/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
   {% endif %}
   <link rel="alternate" hreflang="{{site.default_lang}}" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
   <link rel="alternate" hreflang="x-default" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
@@ -48,6 +45,6 @@
     {% if lang == site.default_lang %}
       {% continue %}
     {% endif %}
-    <link rel="alternate" hreflang="{{lang}}" {% static_href %}href="/{{lang}}{{page.url | remove_first: ''}}"{% endstatic_href %} />
+    <link rel="alternate" hreflang="{{lang}}" {% static_href %}href="/{{lang}}/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
   {% endfor %}
 </head>

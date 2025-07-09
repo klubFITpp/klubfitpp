@@ -41,13 +41,13 @@
     {% endfor %}
     <!-- Do budoucnosti to mby chce nejakej dropdown, ale zatim to asi staci -->
     {% if site.active_lang == 'cs' %}
-    <a class="hello__nav__lang" {% static_href %} href="/en{{ page.url }}" {% endstatic_href %}>
+    <a class="hello__nav__lang" {% static_href %}href="/en/{{ page.url | remove_first: '/' }}"{% endstatic_href %}>
       <iconify-icon noobserver icon="ion-earth"></iconify-icon>
       en
     </a>
     {% endif %}
     {% if site.active_lang == 'en' %}
-    <a class="hello__nav__lang" {% static_href %} href="{{ page.url }}" {% endstatic_href %}>
+    <a class="hello__nav__lang" {% static_href %}href="/{{ page.url | remove_first: '/' }}"{% endstatic_href %}>
       <iconify-icon noobserver icon="ion-earth"></iconify-icon>
       cs
     </a>
