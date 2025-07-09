@@ -212,19 +212,22 @@
   }
 
   .hello__nav__burger {
-      @apply lg:hidden self-center px-3 font-semibold text-2xl cursor-pointer;
+      @apply lg:hidden self-center mx-3 font-semibold text-2xl cursor-pointer w-[35px] flex flex-col justify-between relative;
+      /* 3 bars of 5px, 2 gaps of 6px */
+      --burger-height: calc(3 * 5px + 2 * 6px);
+      height: var(--burger-height);
   }
 
   .hello__nav__burger .bar1,
   .hello__nav__burger .bar2,
   .hello__nav__burger .bar3 {
-    width: 35px;
+    width: 100%;
     height: 5px;
-    margin: 6px 0;
     transition: 0.4s;
     --tw-bg-opacity: 1;
     @apply bg-primary-blue;
     transition: 0.4s;
+    transform-origin: right center;
   }
 
   .hello__nav__burger .bar3 {
@@ -241,15 +244,20 @@
   }
 
   .hello__nav__burger.change .bar1 {
-    transform: rotate(-45deg) translate(-9px, 6px);
+    rotate: -45deg;
+    width: calc(var(--burger-height) * 1.41421356);
+    translate: -25% calc(5px / -2);
   }
 
   .hello__nav__burger.change .bar2 {
     opacity: 0;
+    width: calc(var(--burger-height) * 1.41421356);
   }
 
   .hello__nav__burger.change .bar3 {
-    transform: rotate(45deg) translate(-8px, -8px);
+    rotate: 45deg;
+    width: calc(var(--burger-height) * 1.41421356);
+    translate: -25% calc(5px / 2);
   }
 
   .hello__logo {
