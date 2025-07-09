@@ -6,7 +6,7 @@ permalink: /pridejse
 
 # Přidej se k nám!
 
-Studuješ na Fakultě informačních technologií a chceš poznat aktivní FIŤáky nebo jenom najít odreagování od Progtestu? 
+Studuješ na Fakultě informačních technologií a chceš poznat aktivní FIŤáky nebo jenom najít odreagování od Progtestu?
 
 Tak jsi tady správně!
 
