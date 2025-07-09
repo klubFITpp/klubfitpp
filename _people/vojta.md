@@ -2,7 +2,9 @@
 name: "Vojta"
 surname: "Kopal"
 nick: ""
-role1: "Předseda"
+role1:
+  cs: "Předseda"
+  en: "President"
 role2: ""
 email: "predsedaFIT@su.cvut.cz"
 discord: ""

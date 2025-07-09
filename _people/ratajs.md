@@ -2,7 +2,9 @@
 name: "Šimon"
 surname: "Rataj"
 nick: "ratajs"
-role1: "Tajemník"
+role1:
+  cs: "Tajemník"
+  en: "Secretary"
 role2: ""
 email: ""
 discord: "ratajs"

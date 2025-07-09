@@ -8,31 +8,29 @@
 
   <meta property="og:url" content="https://www.klubfitpp.cz/">
   <meta property="og:type" content="website">
-  <meta http-equiv="Content-Language" content="{{site.active_lang}}">
-  <meta property="og:title" content="Klub FIT++">
+
+  {% if page.page_title %}
+    {% assign page_title = page.page_title | tindex }}
+  {% else %}
+    {% assign page_title = page.title | tindex %}
+  {% endif %}
+
   {% assign fallback_desc = 'home.about.subtitle' | t %}
-  <meta property="og:description" content="{{ page.description[site.active_lang] | default: page.description['cs'] | default: page.description | default: fallback_desc }}">
+  {% assign desc = page.description[site.active_lang] | default: page.description['cs'] | default: page.description | default: fallback_desc%}
+
+  <title>{{ page_title }} - {{ site.title }}</title>
+  <meta property="og:title" content="{{ page_title }} - {{ site.title }}">
+
+  <meta property="description" content="{{ desc }}">
+  <meta property="og:description" content="{{ desc }}">
+
   <meta property="og:image" content="{{ '/assets/images/icon-255.png' | relative_url }}">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="255">
   <meta property="og:image:height" content="255">
   <meta property="og:image:alt" content="{{ 'nav.logo_alt' | t }}">
 
-  <link rel="preconnect" href="https://fonts.bunny.net">
-  <link href="https://fonts.bunny.net/css?family=montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,920,920i" rel="stylesheet" />
-  {% if page.page_title %}
-    <title>{{ page.page_title[site.active_lang] | default: page.page_title['cs'] | default: page.page_title }} - {{ site.title }}</title>
-  {% else %}
-    <title>{{ page.title[site.active_lang] | default: page.title['cs'] | default: page.title }} - {{ site.title }}</title>
-  {% endif %}
-  <link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url }}?{{ site.time | date: '%s' }}">
-  <link rel="stylesheet" href="{{ "/assets/css/code.css" | relative_url }}">
-
-  <link rel="icon" type="image/png" href="{{ "/assets/images/icon-16.png" | relative_url }}" sizes="16x16">
-  <link rel="icon" type="image/png" href="{{ "/assets/images/icon-32.png" | relative_url }}" sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ "/assets/images/icon-96.png" | relative_url }}" sizes="96x96">
-  <link rel="icon" type="image/png" href="{{ "/assets/images/icon-255.png" | relative_url }}" sizes="255x255">
-
+  <meta http-equiv="Content-Language" content="{{site.active_lang}}">
   {% if page.lang == site.default_lang %}
   <link rel="canonical" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
   {% else %}
@@ -47,4 +45,14 @@
     {% endif %}
     <link rel="alternate" hreflang="{{lang}}" {% static_href %}href="/{{lang}}/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
   {% endfor %}
+
+  <link rel="preconnect" href="https://fonts.bunny.net">
+  <link href="https://fonts.bunny.net/css?family=montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,920,920i" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url }}?{{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="{{ "/assets/css/code.css" | relative_url }}">
+
+  <link rel="icon" type="image/png" href="{{ "/assets/images/icon-16.png" | relative_url }}" sizes="16x16">
+  <link rel="icon" type="image/png" href="{{ "/assets/images/icon-32.png" | relative_url }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ "/assets/images/icon-96.png" | relative_url }}" sizes="96x96">
+  <link rel="icon" type="image/png" href="{{ "/assets/images/icon-255.png" | relative_url }}" sizes="255x255">
 </head>

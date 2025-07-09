@@ -1,12 +1,18 @@
-- title: "Informace o klubu FIT++"
+- title:
+    cs: "Informace o klubu FIT++"
+    en: "FIT++ club info"
   links:
-    - name: "Stanovy"
+    - name:
+        cs: "Stanovy"
       url: "/documents/stanovy_2025.pdf"
-    - name: "Jednací řád"
+    - name:
+        cs: "Jednací řád"
       url: "/documents/jednaci_rad_2019.pdf"
-    - name: "Volební řád FIT++"
+    - name:
+        cs: "Volební řád FIT++"
       url: "/documents/volebni_rad_2023.pdf"
-- title: "Výroční zprávy"
+- title:
+    cs: "Výroční zprávy"
   links:
     - name: "Výroční zpráva za rok 2024"
       url: "/documents/vyrocniZpravy/2024.pdf"
@@ -26,9 +32,13 @@
       url: "/documents/vyrocniZpravy/2017.pdf"
     - name: "Výroční zpráva za rok 2016"
       url: "/documents/vyrocniZpravy/2016.pdf"
-- title: "Zápisy ze schůzí představenstva FIT++"
+- title:
+    cs: "Zápisy ze schůzí představenstva FIT++"
+    en: "FIT++ Board meeting records"
   links:
-    - name: "27. 5. 2025 - neschváleno"
+    - name:
+        cs: "27. 5. 2025 - neschváleno"
+        en: "27. 5. 2025 - not approved"
       url: https://docs.google.com/document/d/1TS1s6vg1qpOZKDfQ6xBFZtTS6ZwzUEezyl6SnE30m6g/edit
     - name: "27. 3. 2025"
       url: "/documents/zapis/250327.pdf"
@@ -136,7 +146,9 @@
       url: "/documents/zapis/170208.pdf"
     - name: "20. 12. 2016"
       url: "/documents/zapis/161220.pdf"
-- title: "Zrušené dokumenty"
+- title:
+    cs: "Zrušené dokumenty"
+    en: "Cancelled documents"
   links:
     - name: "Stanovy (zrušeny 6. 2. 2025)"
       url: "/documents/zrusene/stanovy_2019.pdf"

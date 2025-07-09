@@ -83,15 +83,14 @@ title:
 
 <section class="people">
   <h2 id="lide" class="section__title">{{ "home.people" | t }}</h2>
-  <!-- TODO: probs anglicky role? -->
   <div class="people__wrapper">
     {% assign people = site.people | sort: 'pos' %}
     {% for person in people %}
     <article class="people__article">
       <div class="people__article__img" style="background-image: url({{ person.img | relative_url }});"></div>
       <h3 class="people__article__name">{{person.name}} {{person.surname}}</h3>
-      <p class="people__article__role">{{person.role1}}</p>
-      <p class="people__article__role">{{person.role2}}</p>
+      <p class="people__article__role">{{person.role1 | tindex}}</p>
+      <p class="people__article__role">{{person.role2 | tindex}}</p>
       <a href="mailto:{{person.email}}" class="people__article__role">{{person.email}}</a>
     </article>
     {% endfor %}
