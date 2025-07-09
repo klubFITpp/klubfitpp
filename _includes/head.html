@@ -11,15 +11,19 @@
 
   {% if page.page_title %}
     {% assign page_title = page.page_title | tindex }}
-  {% else %}
+    {% assign page_title = page_title | append: ' - ' | append: site.title %}
+  {% elsif page.title %}
     {% assign page_title = page.title | tindex %}
+    {% assign page_title = page_title | append: ' - ' | append: site.title %}
+  {% else %}
+    {% assign page_title = site.title %}
   {% endif %}
 
   {% assign fallback_desc = 'home.about.subtitle' | t %}
   {% assign desc = page.description[site.active_lang] | default: page.description['cs'] | default: page.description | default: fallback_desc%}
 
-  <title>{{ page_title }} - {{ site.title }}</title>
-  <meta property="og:title" content="{{ page_title }} - {{ site.title }}">
+  <title>{{ page_title }}</title>
+  <meta property="og:title" content="{{ page_title }}">
 
   <meta property="description" content="{{ desc }}">
   <meta property="og:description" content="{{ desc }}">
