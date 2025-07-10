@@ -2,7 +2,9 @@
 name: "Kryštof"
 surname: "Machart"
 nick: ""
-role1: "Člen představenstva"
+role1:
+  cs: "Člen představenstva"
+  en: "Board member"
 role2: "PR"
 email: "pr.fitpp@su.cvut.cz"
 discord: ""

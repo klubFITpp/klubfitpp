@@ -1,27 +1,55 @@
-<div class="hello__nav__wrapper">     
-   <a href="/"> <img class="hello__nav__logo__phone" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo FIT++"/></a>
-    <nav class="hello__nav">
-        <a class="{% if page.title == "Hlavní stránka" %} hello__nav__item__selected {% endif %}" href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo FIT++"/></a>
+<div class="hello__nav__wrapper">
+  <a href="/">
+    <img class="hello__nav__logo__phone" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="{{ 'nav.logo_alt' | t }}"/>
+  </a>
+  <nav class="hello__nav">
+      <a class="{% if page.url == "/" %} hello__nav__item__selected {% endif %}" href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="{{ 'nav.logo_alt' | t }}"/></a>
+      <span class="hello__nav__logo__filler"></span>
+      {% for link in site.data.navbar %}
+        <a href={{ link.url | fixnavlink }} class="hello__nav__item {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title | tindex }}</a>
         <span class="hello__nav__logo__filler"></span>
-        {% for link in site.data.navbar %}
-        <a href={{link.url}} class="hello__nav__item {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title }}</a>
-        <span class="hello__nav__logo__filler"></span>
-        {% endfor %}
-    </nav>
-    <div class="hello__nav__burger hamburger" id="hamburger" onclick="toggleMenu()">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-    </div>
-    <script>
-      function toggleMenu() {
-          document.getElementById('hamburger').classList.toggle("change");
-          document.getElementById('nav_phone').classList.toggle('hidden');
-      }
-    </script>
+      {% endfor %}
+      <!-- Do budoucnosti to mby chce nejakej dropdown, ale zatim to asi staci -->
+      {% if site.active_lang == 'cs' %}
+      <a class="hello__nav__lang" {% static_href %}href="/en/{{ page.url | remove_first: '/' }}"{% endstatic_href %}>
+        <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+        en
+      </a>
+      {% endif %}
+      {% if site.active_lang == 'en' %}
+      <a class="hello__nav__lang" {% static_href %}href="/{{ page.url | remove_first: '/' }}"{% endstatic_href %}>
+        <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+        cs
+      </a>
+      {% endif %}
+  </nav>
+  <div class="hello__nav__burger hamburger" id="hamburger" onclick="toggleMenu()">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+  <script>
+    function toggleMenu() {
+        document.getElementById('hamburger').classList.toggle("change");
+        document.getElementById('nav_phone').classList.toggle('hidden');
+    }
+  </script>
 </div>
 <nav class="hello__nav__phone hidden" id="nav_phone">
     {% for link in site.data.navbar %}
-    <a href={{link.url}} class="hello__nav__item   {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title }}</a>
+    <a href={{ link.url | fixnavlink }} class="hello__nav__item   {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title | tindex }}</a>
     {% endfor %}
+    <!-- Do budoucnosti to mby chce nejakej dropdown, ale zatim to asi staci -->
+    {% if site.active_lang == 'cs' %}
+    <a class="hello__nav__lang" {% static_href %}href="/en/{{ page.url | remove_first: '/' }}"{% endstatic_href %}>
+      <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+      en
+    </a>
+    {% endif %}
+    {% if site.active_lang == 'en' %}
+    <a class="hello__nav__lang" {% static_href %}href="/{{ page.url | remove_first: '/' }}"{% endstatic_href %}>
+      <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+      cs
+    </a>
+    {% endif %}
 </nav>

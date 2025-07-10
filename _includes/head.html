@@ -3,25 +3,71 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta name="author" content="Antonín Kříž, https://www.antoninkriz.eu">
+  <meta name="twitter:site" content="@klubFITpp">
 
-  <meta name="description" content="Jsme studenti FITu ČVUT, co mají svoji fakultu rádi a chtějí ji udělat ještě lepší. Pořádáme akce pro studenty a sdružujeme dobré lidi s dobrými nápady.">
   <meta name="keywords" content="fitplusplus, fitpp, fit plus plus, fit cvut, fit, cvut, klub, studentsky klub, student, studenti, akce, hellofit, hello fit, ceske vysoke uceni technicke, su, studentska unie, studentska, unie, dod, den otevrenych dveri">
 
   <meta property="og:url" content="https://www.klubfitpp.cz/">
   <meta property="og:type" content="website">
-  <meta property="og:locale" content="cs_CZ">
-  <meta property="og:title" content="Klub FIT++">
-  <meta property="og:description" content="Jsme studenti FITu ČVUT, co mají svoji fakultu rádi a chtějí ji udělat ještě lepší. Pořádáme akce pro studenty a sdružujeme dobré lidi s dobrými nápady.">
-  <meta property="og:image" content=""{{ "/assets/images/icon-255.png" | relative_url }}"">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="255">
-  <meta property="og:image:height" content="255">
-  <meta property="og:image:alt" content="Logo FIT++">
-  <link rel="canonical" href="https://www.klubfitpp.cz">
+
+  {% if page.page_title %}
+    {% assign page_title = page.page_title | tindex }}
+    {% assign page_title = page_title | append: ' - ' | append: site.title %}
+  {% elsif page.title %}
+    {% assign page_title = page.title | tindex %}
+    {% assign page_title = page_title | append: ' - ' | append: site.title %}
+  {% else %}
+    {% assign page_title = site.title %}
+  {% endif %}
+
+  {% assign fallback_desc = 'home.about.subtitle' | t %}
+  {% assign desc = page.description[site.active_lang] | default: page.description['cs'] | default: page.description | default: fallback_desc%}
+
+  <title>{{ page_title }}</title>
+  <meta property="og:title" content="{{ page_title }}">
+  <meta name="twitter:title" content="{{ page_title }}">
+
+  <meta name="description" content="{{ desc }}">
+  <meta property="og:description" content="{{ desc }}">
+  <meta name="twitter:description" content="{{ desc }}">
+
+  {% if page.img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.img | relative_url | remove_first: '/' }}">
+    <meta name="twitter:image" content="{{ site.url }}/{{ page.img | relative_url | remove_first: '/' }}">
+    <meta property="og:image:type" content="image/png">
+    <meta name="twitter:card" content="summary_large_image">
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}/{{ '/assets/images/icon-255.png' | relative_url | remove_first: '/'}}">
+    <meta name="twitter:image" content="{{ site.url }}/{{ '/assets/images/icon-255.png' | relative_url | remove_first: '/' }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="255">
+    <meta property="og:image:height" content="255">
+    <meta property="og:image:alt" content="{{ 'nav.logo_alt' | t }}">
+    <meta name="twitter:card" content="summary">
+  {% endif %}
+  <meta name="theme-color" content="#0073bc" />
+
+  <meta http-equiv="Content-Language" content="{{site.active_lang}}">
+  <meta property="og:locale" content="{{site.active_lang}}" />
+  {% if page.lang == site.default_lang %}
+  <link rel="canonical" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+  {% else %}
+  <link rel="canonical" {% static_href %}href="/{{page.lang}}/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+  {% endif %}
+  <link rel="alternate" hreflang="{{site.default_lang}}" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+  <link rel="alternate" hreflang="x-default" {% static_href %}href="/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+
+  {% for lang in site.languages %}
+    {% if lang == site.default_lang %}
+      <meta property="og:locale:alternate" content="{{lang}}" />
+      {% continue %}
+    {% endif %}
+    <link rel="alternate" hreflang="{{lang}}" {% static_href %}href="/{{lang}}/{{page.url | remove_first: '/'}}"{% endstatic_href %} />
+    <meta property="og:locale:alternate" content="{{lang}}" />
+  {% endfor %}
 
   <link rel="preconnect" href="https://fonts.bunny.net">
   <link href="https://fonts.bunny.net/css?family=montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,920,920i" rel="stylesheet" />
-  <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/css/app.css" | relative_url }}?{{ site.time | date: '%s' }}">
   <link rel="stylesheet" href="{{ "/assets/css/code.css" | relative_url }}">
 

@@ -1,10 +1,20 @@
-- title: Aktuality
+- title:
+    cs: Aktuality
+    en: Articles
   url: /news
-- title: Akce
+- title:
+    cs: Akce
+    en: Events
   url: /events
-- title: Přidej se
+- title:
+    cs: Přidej se
+    en: Join us
   url: /pridejse
-- title: Dokumenty
+- title:
+    cs: Dokumenty
+    en: Documents
   url: /documents
-- title: Pro firmy
+- title:
+    cs: Pro firmy
+    en: For industry
   url: /pro_firmy

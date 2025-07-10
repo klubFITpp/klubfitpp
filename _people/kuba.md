@@ -2,7 +2,9 @@
 name: "Jakub"
 surname: "Rybář"
 nick: ""
-role1: "Fotograf"
+role1:
+  cs: "Fotograf"
+  en: "Photographer"
 role2: ""
 email: ""
 discord: ""

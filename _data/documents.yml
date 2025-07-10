@@ -1,279 +1,602 @@
-- title: "Informace o klubu FIT++"
+- title:
+    cs: "Informace o klubu FIT++"
+    en: "FIT++ club information"
   links:
-    - name: "Stanovy"
+    - name:
+        cs: "Stanovy"
+        en: "Statutes"
       url: "/documents/stanovy_2025.pdf"
-    - name: "Jednací řád"
+    - name:
+        cs: "Jednací řád"
+        en: "Procedure rules"
       url: "/documents/jednaci_rad_2019.pdf"
-    - name: "Volební řád FIT++"
+    - name:
+        cs: "Volební řád FIT++"
+        en: "Election rules"
       url: "/documents/volebni_rad_2023.pdf"
-- title: "Výroční zprávy"
+- title:
+    cs: "Výroční zprávy"
+    en: "Annual reports"
   links:
-    - name: "Výroční zpráva za rok 2024"
+    - name:
+        cs: "Výroční zpráva za rok 2024"
+        en: "Annual report for 2024"
       url: "/documents/vyrocniZpravy/2024.pdf"
-    - name: "Výroční zpráva za rok 2023"
+    - name:
+        cs: "Výroční zpráva za rok 2023"
+        en: "Annual report for 2023"
       url: "/documents/vyrocniZpravy/2023.pdf"
-    - name: "Výroční zpráva za rok 2022"
+    - name:
+        cs: "Výroční zpráva za rok 2022"
+        en: "Annual report for 2022"
       url: "/documents/vyrocniZpravy/2022.pdf"
-    - name: "Výroční zpráva za rok 2021"
+    - name:
+        cs: "Výroční zpráva za rok 2021"
+        en: "Annual report for 2021"
       url: "/documents/vyrocniZpravy/2021.pdf"
-    - name: "Výroční zpráva za rok 2020"
+    - name:
+        cs: "Výroční zpráva za rok 2020"
+        en: "Annual report for 2020"
       url: "/documents/vyrocniZpravy/2020.pdf"
-    - name: "Výroční zpráva za rok 2019"
+    - name:
+        cs: "Výroční zpráva za rok 2019"
+        en: "Annual report for 2019"
       url: "/documents/vyrocniZpravy/2019.pdf"
-    - name: "Výroční zpráva za rok 2018"
+    - name:
+        cs: "Výroční zpráva za rok 2018"
+        en: "Annual report for 2018"
       url: "/documents/vyrocniZpravy/2018.pdf"
-    - name: "Výroční zpráva za rok 2017"
+    - name:
+        cs: "Výroční zpráva za rok 2017"
+        en: "Annual report for 2017"
       url: "/documents/vyrocniZpravy/2017.pdf"
-    - name: "Výroční zpráva za rok 2016"
+    - name:
+        cs: "Výroční zpráva za rok 2016"
+        en: "Annual report for 2016"
       url: "/documents/vyrocniZpravy/2016.pdf"
-- title: "Zápisy ze schůzí představenstva FIT++"
+- title:
+    cs: "Zápisy ze schůzí představenstva FIT++"
+    en: "FIT++ Board meeting records"
   links:
-    - name: "27. 5. 2025 - neschváleno"
+    - name:
+        cs: "27. 5. 2025 - neschváleno"
+        en: "27 May 2025 - not approved"
       url: https://docs.google.com/document/d/1TS1s6vg1qpOZKDfQ6xBFZtTS6ZwzUEezyl6SnE30m6g/edit
-    - name: "27. 3. 2025"
+    - name:
+        cs: "27. 3. 2025"
+        en: "27 March 2025"
       url: "/documents/zapis/250327.pdf"
-    - name: "27. 2. 2025"
+    - name:
+        cs: "27. 2. 2025"
+        en: "27 February 2025"
       url: "/documents/zapis/250227.pdf"
-    - name: "18. 2. 2025"
+    - name:
+        cs: "18. 2. 2025"
+        en: "18 February 2025"
       url: "/documents/zapis/250218.pdf"
-    - name: "4. 2. 2025"
+    - name:
+        cs: "4. 2. 2025"
+        en: "4 February 2025"
       url: "/documents/zapis/250204.pdf"
-    - name: "17. 1. 2025"
+    - name:
+        cs: "17. 1. 2025"
+        en: "17 January 2025"
       url: "/documents/zapis/250117.pdf"
-    - name: "19. 12. 2024"
+    - name:
+        cs: "19. 12. 2024"
+        en: "19 December 2024"
       url: "/documents/zapis/241219.pdf"
-    - name: "3. 12. 2024"
+    - name:
+        cs: "3. 12. 2024"
+        en: "3 December 2024"
       url: "/documents/zapis/241203.pdf"
-    - name: "22. 10. 2024"
+    - name:
+        cs: "22. 10. 2024"
+        en: "22 October 2024"
       url: "/documents/zapis/241022.pdf"
-    - name: "24. 9. 2024"
+    - name:
+        cs: "24. 9. 2024"
+        en: "24 September 2024"
       url: "/documents/zapis/240924.pdf"
-    - name: "26. 6. 2024"
+    - name:
+        cs: "26. 6. 2024"
+        en: "26 June 2024"
       url: "/documents/zapis/240626.pdf"
-    - name: "9. 5. 2024"
+    - name:
+        cs: "9. 5. 2024"
+        en: "9 May 2024"
       url: "/documents/zapis/240509.pdf"
-    - name: "25. 4. 2024"
+    - name:
+        cs: "25. 4. 2024"
+        en: "25 April 2024"
       url: "/documents/zapis/240425.pdf"
-    - name: "10. 4. 2024"
+    - name:
+        cs: "10. 4. 2024"
+        en: "10 April 2024"
       url: "/documents/zapis/240410.pdf"
-    - name: "27. 3. 2024"
+    - name:
+        cs: "27. 3. 2024"
+        en: "27 March 2024"
       url: "/documents/zapis/240327.pdf"
-    - name: "13. 3. 2024"
+    - name:
+        cs: "13. 3. 2024"
+        en: "13 March 2024"
       url: "/documents/zapis/240313.pdf"
-    - name: "29. 2. 2024"
+    - name:
+        cs: "29. 2. 2024"
+        en: "29 February 2024"
       url: "/documents/zapis/240229.pdf"
-    - name: "5. 2. 2024"
+    - name:
+        cs: "5. 2. 2024"
+        en: "5 February 2024"
       url: "/documents/zapis/240205.pdf"
-    - name: "12. 12. 2023"
+    - name:
+        cs: "12. 12. 2023"
+        en: "12 December 2023"
       url: "/documents/zapis/231212.pdf"
-    - name: "7. 12. 2023"
+    - name:
+        cs: "7. 12. 2023"
+        en: "7 December 2023"
       url: "/documents/zapis/231207.pdf"
-    - name: "29. 10. 2023"
+    - name:
+        cs: "29. 10. 2023"
+        en: "29 October 2023"
       url: "/documents/zapis/231029.pdf"
-    - name: "15. 5. 2023"
+    - name:
+        cs: "15. 5. 2023"
+        en: "15 May 2023"
       url: "/documents/zapis/230515.pdf"
-    - name: "3. 4. 2023"
+    - name:
+        cs: "3. 4. 2023"
+        en: "3 April 2023"
       url: "/documents/zapis/230403.pdf"
-    - name: "15. 2. 2023"
+    - name:
+        cs: "15. 2. 2023"
+        en: "15 February 2023"
       url: "/documents/zapis/230215.pdf"
-    - name: "27. 12. 2022"
+    - name:
+        cs: "27. 12. 2022"
+        en: "27 December 2022"
       url: "/documents/zapis/221227.pdf"
-    - name: "5. 10. 2022"
+    - name:
+        cs: "5. 10. 2022"
+        en: "5 October 2022"
       url: "/documents/zapis/221005.pdf"
-    - name: "12. 4. 2022"
+    - name:
+        cs: "12. 4. 2022"
+        en: "12 April 2022"
       url: "/documents/zapis/220412.pdf"
-    - name: "9. 2. 2022"
+    - name:
+        cs: "9. 2. 2022"
+        en: "9 February 2022"
       url: "/documents/zapis/220209.pdf"
-    - name: "16. 12. 2021"
+    - name:
+        cs: "16. 12. 2021"
+        en: "16 December 2021"
       url: "/documents/zapis/211216.pdf"
-    - name: "28. 9. 2021"
+    - name:
+        cs: "28. 9. 2021"
+        en: "28 September 2021"
       url: "/documents/zapis/210928.pdf"
-    - name: "23. 6. 2021"
+    - name:
+        cs: "23. 6. 2021"
+        en: "23 June 2021"
       url: "/documents/zapis/210623.pdf"
-    - name: "25. 3. 2021"
+    - name:
+        cs: "25. 3. 2021"
+        en: "25 March 2021"
       url: "/documents/zapis/210325.pdf"
-    - name: "4. 2. 2021"
+    - name:
+        cs: "4. 2. 2021"
+        en: "4 February 2021"
       url: "/documents/zapis/210204.pdf"
-    - name: "10. 1. 2021"
+    - name:
+        cs: "10. 1. 2021"
+        en: "10 January 2021"
       url: "/documents/zapis/210110_.pdf"
-    - name: "29. 12. 2020"
+    - name:
+        cs: "29. 12. 2020"
+        en: "29 December 2020"
       url: "/documents/zapis/201229.pdf"
-    - name: "27. 8. 2020"
+    - name:
+        cs: "27. 8. 2020"
+        en: "27 August 2020"
       url: "/documents/zapis/200827.pdf"
-    - name: "6. 3. 2020"
+    - name:
+        cs: "6. 3. 2020"
+        en: "6 March 2020"
       url: "/documents/zapis/200306.pdf"
-    - name: "10. 2. 2020"
+    - name:
+        cs: "10. 2. 2020"
+        en: "10 February 2020"
       url: "/documents/zapis/200210.pdf"
-    - name: "19. 12. 2019"
+    - name:
+        cs: "19. 12. 2019"
+        en: "19 December 2019"
       url: "/documents/zapis/191219.pdf"
-    - name: "20. 11. 2019"
+    - name:
+        cs: "20. 11. 2019"
+        en: "20 November 2019"
       url: "/documents/zapis/191120.pdf"
-    - name: "2. 10. 2019"
+    - name:
+        cs: "2. 10. 2019"
+        en: "2 October 2019"
       url: "/documents/zapis/191002.pdf"
-    - name: "9. 7. 2019"
+    - name:
+        cs: "9. 7. 2019"
+        en: "9 July 2019"
       url: "/documents/zapis/190709.pdf"
-    - name: "27. 2. 2019"
+    - name:
+        cs: "27. 2. 2019"
+        en: "27 February 2019"
       url: "/documents/zapis/190227.pdf"
-    - name: "5. 2. 2019"
+    - name:
+        cs: "5. 2. 2019"
+        en: "5 February 2019"
       url: "/documents/zapis/190205.pdf"
-    - name: "19. 12. 2018"
+    - name:
+        cs: "19. 12. 2018"
+        en: "19 December 2018"
       url: "/documents/zapis/181219.pdf"
-    - name: "4. 10. 2018"
+    - name:
+        cs: "4. 10. 2018"
+        en: "4 October 2018"
       url: "/documents/zapis/181004.pdf"
-    - name: "9. 4. 2018"
+    - name:
+        cs: "9. 4. 2018"
+        en: "9 April 2018"
       url: "/documents/zapis/180409.pdf"
-    - name: "14. 2. 2018"
+    - name:
+        cs: "14. 2. 2018"
+        en: "14 February 2018"
       url: "/documents/zapis/180214.pdf"
-    - name: "5. 2. 2018"
+    - name:
+        cs: "5. 2. 2018"
+        en: "5 February 2018"
       url: "/documents/zapis/180205.pdf"
-    - name: "13. 12. 2017"
+    - name:
+        cs: "13. 12. 2017"
+        en: "13 December 2017"
       url: "/documents/zapis/171213.pdf"
-    - name: "12. 10. 2017"
+    - name:
+        cs: "12. 10. 2017"
+        en: "12 October 2017"
       url: "/documents/zapis/171012.pdf"
-    - name: "22. 3. 2017"
+    - name:
+        cs: "22. 3. 2017"
+        en: "22 March 2017"
       url: "/documents/zapis/170322.pdf"
-    - name: "8. 2. 2017"
+    - name:
+        cs: "8. 2. 2017"
+        en: "8 February 2017"
       url: "/documents/zapis/170208.pdf"
-    - name: "20. 12. 2016"
+    - name:
+        cs: "20. 12. 2016"
+        en: "20 December 2016"
       url: "/documents/zapis/161220.pdf"
-- title: "Zrušené dokumenty"
+- title:
+    cs: "Zrušené dokumenty"
+    en: "Cancelled documents"
   links:
-    - name: "Stanovy (zrušeny 6. 2. 2025)"
+    - name:
+        cs: "Stanovy (zrušeny 6. 2. 2025)"
+        en: "Statutes (cancelled 6 February 2025)"
       url: "/documents/zrusene/stanovy_2019.pdf"
-    - name: "Volební řád (zrušen 29. 12. 2020)"
-      url: "/documents/zrusene/volebni_rad_2018.pdf"
-    - name: "Volební řád (zrušen 12. 12. 2023)"
+    - name:
+        cs: "Volební řád (zrušen 12. 12. 2023)"
+        en: "Election rules (cancelled 12 December 2023)"
       url: "/documents/zrusene/volebni_rad_2020.pdf"
-    - name: "Jednací řád (zrušen 30. 9. 2019)"
-      url: "/documents/zrusene/jednaci_rad.pdf"
-    - name: "Stanovy (zrušeny 16. 10. 2019)"
+    - name:
+        cs: "Volební řád (zrušen 29. 12. 2020)"
+        en: "Election rules (cancelled 29 December 2020)"
+      url: "/documents/zrusene/volebni_rad_2018.pdf"
+    - name:
+        cs: "Stanovy (zrušeny 16. 10. 2019)"
+        en: "Statutes (cancelled 16 October 2019)"
       url: "/documents/zrusene/stanovy.pdf"
-- title: |+
-    Volby do Představenstva FIT++
-    <br>
-    na volební období únor 2025 až leden 2026
-  description: "FIT++ vyhlašuje volby do představenstva."
+    - name:
+        cs: "Jednací řád (zrušen 30. 9. 2019)"
+        en: "Procedure rules (cancelled 30 September 2019)"
+      url: "/documents/zrusene/jednaci_rad.pdf"
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
+      na volební období únor 2025 až leden 2026
+    en: |+
+      Elections to the FIT++ Board
+      <br>
+      for the term from February 2025 to January 2026
+  description:
+    cs: "FIT++ vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026.pdf"
-    - name: "Termíny voleb a volební místnosti"
+    - name:
+        cs: "Termíny voleb a volební místnosti"
+        en: "Election dates and polling stations"
       url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_terminy.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_vysledky.pdf"
-- title: |+
-    Volby do Představenstva FIT++
-    <br>
-    na volební období únor 2024 až leden 2025
-  description: "FIT++ vyhlašuje volby do představenstva."
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
+      na volební období únor 2024 až leden 2025
+    en: |+
+      Elections to the FIT++ Board
+      <br>
+      for the term from February 2024 to January 2025
+  description:
+    cs: "FIT++ vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025.pdf"
-    - name: "Termíny voleb a volební místnosti"
+    - name:
+        cs: "Termíny voleb a volební místnosti"
+        en: "Election dates and polling stations"
       url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_terminy.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_vysledky.pdf"
-- title: |
-    Doplňovací volby do Představenstva FIT++
-    <br>
-    na volební období únor 2023 až leden 2024
-  description: "FIT++ vyhlašuje doplňovací volby do představenstva."
+- title:
+    cs: |+
+      Doplňovací volby do Představenstva FIT++
+      <br>
+      na volební období únor 2023 až leden 2024
+    en: |+
+      By-elections to the FIT++ Board
+      <br>
+      for the term from February 2023 to January 2024
+  description:
+    cs: "FIT++ vyhlašuje doplňovací volby do Představenstva."
+    en: "FIT++ is announcing by-elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024.pdf"
-    - name: "Termíny voleb a volební místnosti"
+    - name:
+        cs: "Termíny voleb a volební místnosti"
+        en: "Election dates and polling stations"
       url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_terminy.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_vysledky.pdf"
-- title: "Volby do Představenstva FIT++<br>na volební období únor 2023 až leden 2024"
-  description: "FIT++ vyhlašuje volby do představenstva."
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
+      na volební období únor 2023 až leden 2024
+    en: |+
+      Elections to the FIT++ Board
+      <br>
+      for the term from February 2023 to January 2024
+  description:
+    cs: "FIT++ vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2023/volby-do-Predstavenstva-2023-2024.pdf"
-    - name: "Termíny voleb a volební místnosti"
+    - name:
+        cs: "Termíny voleb a volební místnosti"
+        en: "Election dates and polling stations"
       url: "/documents/volby2023/volby-do-Predstavenstva-2023-2024_terminy.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2023/volby-do-Predstavenstva-2023-2024_kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2023/volby-do-Predstavenstva-2023-2024_vysledky.pdf"
-- title: "Volby do Představenstva FIT++<br>na volební období únor 2022 až leden 2023"
-  description: "FIT++ vyhlašuje volby do představenstva."
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
+      na volební období únor 2022 až leden 2023
+    en: |+
+      Elections to the FIT++ Board
+      <br>
+      for the term from February 2022 to January 2023
+  description:
+    cs: "FIT++ vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2022/volby-do-Predstavenstva-2022-2023.pdf"
-    - name: "Termíny voleb a volební místnosti"
+    - name:
+        cs: "Termíny voleb a volební místnosti"
+        en: "Election dates and polling stations"
       url: "/documents/volby2022/volby-do-Predstavenstva-2022-2023_terminy.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2022/volby-do-Predstavenstva-2022-2023_kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2022/volby-do-Predstavenstva-2022-2023_vysledky.pdf"
-- title: "Volby do Představenstva FIT++<br>na volební období únor 2021 až leden 2022"
-  description: "FIT++ vyhlašuje volby do představenstva."
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
+      na volební období únor 2021 až leden 2022
+    en: |+
+      Elections to the FIT++ Board
+      <br>
+      for the term from February 2021 to January 2022
+  description:
+    cs: "FIT++ vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2021/volby-do-Predstavenstva-2021-2022.pdf"
-    - name: "Termíny voleb a volební místnosti"
+    - name:
+        cs: "Termíny voleb a volební místnosti"
+        en: "Election dates and polling stations"
       url: "/documents/volby2021/volby-do-Predstavenstva-2021-2022_terminy.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2021/volby-do-Predstavenstva-2021-2022_kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2021/volby-do-Predstavenstva-2021-2022_vysledky.pdf"
-- title: "Volby do Představenstva FIT++<br>na volební období únor 2020 až leden 2021"
-  description: "FIT++ vyhlašuje volby do představenstva."
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
+      na volební období únor 2020 až leden 2021
+    en: |+
+      Elections to the FIT++ Board
+      <br>
+      for the term from February 2020 to January 2021
+  description:
+    cs: "FIT++ vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2020/volby-do-Predstavenstva-2020-2021.pdf"
-    - name: "Termíny voleb a volební místnosti"
+    - name:
+        cs: "Termíny voleb a volební místnosti"
+        en: "Election dates and polling stations"
       url: "/documents/volby2020/volby-do-Predstavenstva-2020-2021_terminy.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2020/volby-do-Predstavenstva-2020-2021_kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2020/volby-do-Predstavenstva-2020-2021_vysledky.pdf"
-- title: "Volby do Představenstva FIT++<br>na volební období únor 2019 až leden 2020"
-  description: "FIT++ vyhlašuje volby do představenstva."
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
+      na volební období únor 2019 až leden 2020
+    en: |+
+      Elections to the FIT++ Board
+      <br>
+      for the term from February 2019 to January 2020
+  description:
+    cs: "FIT++ vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2019/volby-do-Predstavenstva-2019-2020.pdf"
-    - name: "Termíny voleb a volební místnosti"
+    - name:
+        cs: "Termíny voleb a volební místnosti"
+        en: "Election dates and polling stations"
       url: "/documents/volby2019/volby-do-Predstavenstva-2019-2020_terminy.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2019/volby-do-Predstavenstva-2019-2020_kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2019/volby-do-Predstavenstva-2019-2020_vysledky.pdf"
-- title: "Volby do Představenstva FIT++<br>na volební období únor 2018 až leden 2019"
-  description: "FIT++ vyhlašuje volby do představenstva."
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
+      na volební období únor 2018 až leden 2019
+    en: |+
+      Elections to the FIT++ Board
+      <br>
+      for the term from February 2018 to January 2019
+  description:
+    cs: "FIT++ vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2018/volby.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2018/kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2018/vysledky.pdf"
-- title: "Volby do Představenstva FIT++<br>na volební období únor 2017 až leden 2018"
-  description: "FIT++ vyhlašuje volby do představenstva."
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
+      na volební období únor 2017 až leden 2018
+    en: |+
+      Elections to the FIT++ Board
+      <br>
+      for the term from February 2017 to January 2018
+  description:
+    cs: "FIT++ vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
   links:
-    - name: "Informace k volbám"
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
       url: "/documents/volby2017/volby.pdf"
-    - name: "Kandidátky"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
       url: "/documents/volby2017/kandidatky.pdf"
-    - name: "Výsledky voleb"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
       url: "/documents/volby2017/vysledky.pdf"
 
-- title: Hlasování Per Rollam ohledně výroční zprávy za rok 2021
-  description: Představenstvo FIT++ schvaluje výroční zprávu FIT++ za rok 2021.
+- title:
+    cs: "Hlasování Per Rollam ohledně výroční zprávy za rok 2021"
+    en: "Per Rollam vote on the Annual report for 2021"
+  description:
+    cs: "Představenstvo FIT++ schvaluje výroční zprávu FIT++ za rok 2021."
+    en: "The FIT++ Board approves the FIT++ Annual report for 2021."
   links:
-    - name: Výroční zpráva
+    - name:
+        cs: "Výroční zpráva"
+        en: "Annual report"
       url: /documents/vyrocniZpravy/vz_fitpp_2021_navrh1.pdf
   other: |
     <details class="refs__links__text">
-        <summary>Hashe md5 pro hlasování představenstva</summary>
+        <summary>MD5 Hashes</summary>
         <br />
-        <p class="refs__links__text">Byl použit program md5sum (GNU coreutils) 9.0</p>
+        <p class="refs__links__text">By md5sum (GNU coreutils) 9.0</p>
         <p class="refs__links__text"><strong>Petr Šťastný:</strong> 2b8e560ec3ebf70fcd986c74a54f2aa8</p>
         <p class="refs__links__text"><strong>Jakub Horák:</strong> ae47bb3d47a0a31f17d9fe23a28cd489</p>
         <p class="refs__links__text"><strong>Damián Baraník:</strong> 03889d86abb80fc9db8917f2d1a3e068</p>
