@@ -4,7 +4,7 @@ surname: "Rak"
 nick: "rakmaty"
 role1:
   cs: "Místopředseda"
-  en: "Vice president"
+  en: "Vice chair of the Board"
 role2:
   cs: "Pokladník"
   en: "Treasurer"
