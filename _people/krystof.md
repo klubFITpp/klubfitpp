@@ -4,7 +4,7 @@ surname: "Machart"
 nick: ""
 role1:
   cs: "Člen představenstva"
-  en: "Board member"
+  en: "Member of the Board"
 role2: "PR"
 email: "pr.fitpp@su.cvut.cz"
 discord: ""

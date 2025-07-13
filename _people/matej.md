@@ -4,7 +4,7 @@ surname: "Široký"
 nick: ""
 role1:
   cs: "Člen představenstva"
-  en: "Board member"
+  en: "Member of the Board"
 role2:
   cs: "Projekťák"
   en: "Project manager"
