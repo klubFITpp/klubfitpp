@@ -189,6 +189,10 @@
     @apply text-primary-blue hover:text-primary-blue-hover transition h-full p-2;
   }
 
+  .hello__nav__lang {
+    @apply flex flex-row items-center gap-2 p-2 h-full uppercase;
+  }
+
   .hello__nav__item__selected {
     @apply relative text-primary-yellow hover:text-primary-yellow cursor-default;
   }
@@ -876,7 +880,7 @@ footer .refs__links__link__logo {
 .foot__button {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-items: center;
   width: 100%;
   margin: 0.5em 0;
   background-color: var(--yellow);
@@ -885,4 +889,8 @@ footer .refs__links__link__logo {
   padding: 0.5em;
   text-decoration: none;
   transition: background-color 300ms;
+}
+
+.foot__button p {
+  @apply w-full text-center;
 }

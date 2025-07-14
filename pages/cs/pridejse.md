@@ -6,7 +6,7 @@ permalink: /pridejse
 
 # Přidej se k nám!
 
-Studuješ na Fakultě informačních technologií a chceš poznat aktivní FIŤáky nebo jenom najít odreagování od Progtestu? 
+Studuješ na Fakultě informačních technologií a chceš poznat aktivní FIŤáky nebo jenom najít odreagování od Progtestu?
 
 Tak jsi tady správně!
 
@@ -42,9 +42,9 @@ Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. 
 ### Jak se můžu oficiálně stát členem/členkou?
 
 - Připoj se na FIT++ Discord a nastav si jako přezdívku na serveru svoje jméno
-- Podepiš přihlášku do klubu - přijď na akci FIT++ a tam někoho oslov, nebo napiš někomu z Představenstva, ideálně [HR](/#lide), a domluv se na podepsání smlouvy.
+- Podepiš přihlášku do klubu - přijď na akci FIT++ a tam někoho oslov, nebo napiš někomu z Představenstva, ideálně [HR](/#lide), a domluv se na podepsání smlouvy
 
 
-  <article class="refs__links">
-      <a class="refs__button" style="text-decoration: none; color: var(--black)" href="https://discord.gg/2Bh93cXGJ3" target="_blank" rel="noopener noreferrer">Připoj se na FIT++ Discord</a>
-  </article>
+<article class="refs__links">
+	<a class="refs__button" style="text-decoration: none; color: var(--black)" href="https://discord.gg/2Bh93cXGJ3" target="_blank" rel="noopener noreferrer">Připoj se na FIT++ Discord</a>
+</article>

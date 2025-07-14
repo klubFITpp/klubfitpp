@@ -1,0 +1,35 @@
+nav:
+  logo_alt: "FIT++ logo"
+
+foot:
+  join: "Join us!"
+
+home:
+  about:
+    title: "What is FIT++?"
+    subtitle: "We are students of FIT CTU who care about our faculty and are working on making it an even better place."
+    events:
+      title: "Event organisation"
+      description: "Would you like to organise an event, but don't want to do it alone? Would you like to contribute to events like HelloFIT! or the Open House? Then FIT++ is here for you!"
+    community:
+      title: "Shared moments"
+      description: "Or maybe you want to take a break from programming and spend some quality time with other FIT students? There are many opportunities like that at FIT++!"
+    ideas:
+      title: "People with ideas"
+      description: "There are never enough people with good ideas, so we decided it would be great to bring you all together."
+  events:
+    upcoming: "Upcoming events"
+    other: "More events"
+    more_info: "More"
+  articles:
+    title: "Articles"
+    other: "More articles"
+    more_info: "Read"
+  people: "Who is behind FIT++?"
+  refs: "Other interesting groups"
+
+articles:
+  read_more: "Read more"
+
+events:
+  read_more: "More"

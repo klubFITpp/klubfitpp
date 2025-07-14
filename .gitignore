@@ -10,3 +10,4 @@ node_modules
 vendor
 .DS_store
 assets/css/app.css
+Gemfile.lock
