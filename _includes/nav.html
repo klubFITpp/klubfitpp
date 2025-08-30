@@ -1,3 +1,5 @@
+
+{% assign page_url = page.url | replace: '/index.html', '' %}
 <nav>
   <div class="hello__nav__wrapper container">
     <a class="{% if page.url == "/" %} hello__nav__item__selected {% endif %}" href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="{{ 'nav.logo_alt' | t }}"/></a>
@@ -5,7 +7,7 @@
     <div class="hello__nav">
       {% for link in site.data.navbar %}
         {% if link.burger != true %}
-          <a href={{ link.url | fixnavlink }} class="hello__nav__item__desktop hello__nav__item {% if page.title == link.title %} hello__nav__item__selected {% endif %} ">{{ link.title | tindex }}</a>
+          <a href={{ link.url | fixnavlink }} class="hello__nav__item__desktop hello__nav__item {% if page_url == link.url %} hello__nav__item__selected {% endif %} ">{{ link.title | tindex }}</a>
           <span class="hello__nav__logo__filler"></span>
         {% endif %}
       {% endfor %}

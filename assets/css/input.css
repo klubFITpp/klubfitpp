@@ -130,7 +130,7 @@
   }
 
   .hello__nav__wrapper {
-    @apply h-14 flex justify-between mx-auto lg:relative;
+    @apply h-14 flex justify-between lg:relative;
   }
 
   .hello__nav {
