@@ -141,11 +141,13 @@
     @apply absolute top-full right-0 z-30 m-auto bg-slate-50 w-screen min-w-64 flex flex-col text-2xl font-bold lg:w-max;
   }
 
-  .hello__nav__item__desktop {
-    @apply hidden lg:block;
+  .hello__nav__item__desktop,
+  .hello__nav__lang {
+    @apply hidden lg:flex;
   }
 
-  .hello__nav__dropdown .hello__nav__item__desktop {
+  .hello__nav__dropdown .hello__nav__item__desktop,
+  .hello__nav__dropdown .hello__nav__lang {
     @apply block lg:hidden;
   }
 
@@ -206,7 +208,8 @@
   }
 
   .hello__nav__lang {
-    @apply flex flex-row items-center gap-2 p-2 h-full uppercase;
+    /* flex from burger items display */
+    @apply flex-row items-center gap-2 p-2 h-full uppercase;
   }
 
   .hello__nav__item__selected {

@@ -10,6 +10,19 @@
         {% endif %}
       {% endfor %}
 
+      {% if site.active_lang == 'cs' %}
+      <a class="hello__nav__lang" {% static_href %}href="/en/{{ page.url | remove_first: '/' }}"{% endstatic_href %}>
+        <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+        en
+      </a>
+      {% endif %}
+      {% if site.active_lang == 'en' %}
+      <a class="hello__nav__lang" {% static_href %}href="/{{ page.url | remove_first: '/' }}"{% endstatic_href %}>
+        <iconify-icon noobserver icon="ion-earth"></iconify-icon>
+        cs
+      </a>
+      {% endif %}
+
       <div class="hello__nav__burger hamburger" id="hamburger" onclick="toggleMenu()">
         <div class="bar1"></div>
         <div class="bar2"></div>
