@@ -10,6 +10,9 @@ module.exports = {
     './*/*.html',
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
         'primary-blue': '#0073bc',
