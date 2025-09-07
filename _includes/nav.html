@@ -2,7 +2,7 @@
 {% assign page_url = page.url | replace: '/index.html', '' %}
 <nav>
   <div class="hello__nav__wrapper container">
-    <a class="{% if page.url == "/" %} hello__nav__item__selected {% endif %}" href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="{{ 'nav.logo_alt' | t }}"/></a>
+    <a class="{% if page_url == "/" %} hello__nav__item__selected {% endif %}" href="/"> <img class="hello__nav__logo" src="{{ "/assets/images/logo.svg" | relative_url }}" alt="{{ 'nav.logo_alt' | t }}"/></a>
 
     <div class="hello__nav">
       {% for link in site.data.navbar %}
