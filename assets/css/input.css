@@ -124,17 +124,31 @@
     @apply mt-0;
   }
 
-  .hello__nav__wrapper {
+  nav {
+    @apply absolute z-20 top-0 left-0 right-0 lg:block;
+    @apply shadow-lg border-primary-blue bg-slate-50 lg:border-b-4;
+  }
 
-      @apply absolute z-20 top-0 left-0 bg-slate-50 w-screen h-14 shadow-lg flex justify-between lg:block lg:border-b-4 border-primary-blue w-full;
+  .hello__nav__wrapper {
+    @apply h-14 flex justify-between lg:relative;
   }
 
   .hello__nav {
-      @apply hidden m-auto lg:flex justify-evenly align-top h-full text-2xl font-bold max-w-[72rem];
+    @apply flex gap-4 h-full text-2xl font-bold max-w-[72rem];
   }
 
-  .hello__nav__phone {
-    @apply absolute top-14 left-0 z-30 m-auto bg-slate-50 w-screen flex flex-col lg:hidden max-w-6xl text-2xl font-bold;
+  .hello__nav__dropdown {
+    @apply absolute top-full right-0 z-30 m-auto bg-slate-50 w-screen min-w-64 flex flex-col text-2xl font-bold lg:w-max;
+  }
+
+  .hello__nav__item__desktop,
+  .hello__nav__lang {
+    @apply hidden lg:flex;
+  }
+
+  .hello__nav__dropdown .hello__nav__item__desktop,
+  .hello__nav__dropdown .hello__nav__lang {
+    @apply block lg:hidden;
   }
 
   @media screen and (min-width: 1024px) {
@@ -147,6 +161,10 @@
       left: -8px;
       z-index: 40;
       top: calc(100%);
+    }
+
+    .hello__nav__dropdown .hello__nav__item__selected:after {
+      content: none;
     }
   }
 
@@ -169,7 +187,7 @@
     }
   }
 
-  .hello__nav__phone:after {
+  .hello__nav__dropdown:after {
     background: linear-gradient(
       to right,
       #0073bc 0%,
@@ -190,33 +208,25 @@
   }
 
   .hello__nav__lang {
-    @apply flex flex-row items-center gap-2 p-2 h-full uppercase;
+    /* flex from burger items display */
+    @apply flex-row items-center gap-2 p-2 h-full uppercase;
   }
 
   .hello__nav__item__selected {
     @apply relative text-primary-yellow hover:text-primary-yellow cursor-default;
   }
 
-  .hello__nav__phone .hello__nav__item,
-  .hello__nav__phone .hello__nav__item__yellow {
+  .hello__nav__dropdown .hello__nav__item,
+  .hello__nav__dropdown .hello__nav__item__yellow {
     @apply px-3 py-4;
   }
 
   .hello__nav__logo {
-    @apply hidden md:flex h-10 m-2;
-  }
-
-  .hello__nav__logo__filler {
-    @apply grow;
-    max-width: 40vw;
-  }
-
-  .hello__nav__logo__phone {
-      @apply lg:hidden h-10 m-2;
+    @apply flex h-10 m-2;
   }
 
   .hello__nav__burger {
-      @apply lg:hidden self-center mx-3 font-semibold text-2xl cursor-pointer w-[35px] flex flex-col justify-between relative;
+      @apply self-center mx-3 font-semibold text-2xl cursor-pointer w-[35px] flex flex-col justify-between relative;
       /* 3 bars of 5px, 2 gaps of 6px */
       --burger-height: calc(3 * 5px + 2 * 6px);
       height: var(--burger-height);
