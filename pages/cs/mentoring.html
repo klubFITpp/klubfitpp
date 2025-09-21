@@ -1,0 +1,149 @@
+---
+layout: page
+title: MEntoring
+permalink: /mentoring
+---
+
+<head>
+    <title>MENTORING – Klub FIT++</title>
+    <style>
+        body {
+            background: repeating-linear-gradient(45deg, #ff00ff, #ff00ff 10px, #00ffff 10px, #00ffff 20px);
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            text-align: center;
+            color: lime;
+        }
+        h1 {
+            font-size: 60px;
+            color: yellow;
+            text-shadow: 5px 5px red;
+            transform: rotate(-2deg);
+        }
+        .mentor-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px;
+            transform: skewX(5deg);
+        }
+        .mentor {
+            width: 180px;
+            padding: 10px;
+            background: rgba(255,255,255,0.3);
+            border: 5px dotted black;
+            transform: rotate(calc(-10deg + (random() * 20deg)));
+            /* Random rotation with CSS trick below */
+            animation: spin 4s infinite alternate;
+            position: relative;
+        }
+        @keyframes spin {
+            from {transform: rotate(-10deg) translateX(0px);}
+            to {transform: rotate(10deg) translateX(20px);}
+        }
+        .mentor img {
+            width: 120px;
+            height: 120px;
+            border-radius: 40%;
+            background: pink;
+            transform: rotate(-10deg);
+        }
+        .mentor h3 {
+            margin: 5px;
+            font-size: 22px;
+            color: #00ff00;
+        }
+        .mentor p {
+            margin: 5px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+        .skills span {
+            background: yellow;
+            color: black;
+            display: inline-block;
+            margin: 2px;
+            padding: 2px 4px;
+            font-size: 12px;
+            transform: rotate(calc(-15deg + (random() * 30deg)));
+        }
+        .bad-button {
+            background: red;
+            color: white;
+            padding: 5px;
+            display: inline-block;
+            border: 5px ridge lime;
+            margin-top: 5px;
+            font-size: 18px;
+            transform: skewX(10deg);
+        }
+        /* Make some mentors randomly offset to break alignment */
+        .mentor:nth-child(odd) {
+            margin-top: 40px;
+        }
+        .mentor:nth-child(3n) {
+            margin-left: -30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>MENTORING</h1>
+    <p>Need help? Meet our mentors!</p>
+
+    <div class="mentor-container">
+        <div class="mentor">
+            <img src="https://via.placeholder.com/120">
+            <h3>Jan Novak</h3>
+            <p>Teoretická informatika</p>
+            <div class="skills">
+                <span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span>
+            </div>
+            <div class="bad-button">Detail</div>
+        </div>
+        <div class="mentor">
+            <img src="https://via.placeholder.com/120">
+            <h3>Petra Svobodová</h3>
+            <p>Softwarové inženýrství</p>
+            <div class="skills">
+                <span>OOP</span><span>DBS</span><span>Koleje</span>
+            </div>
+            <div class="bad-button">Detail</div>
+        </div>
+        <div class="mentor">
+            <img src="https://via.placeholder.com/120">
+            <h3>Karel Dvořák</h3>
+            <p>Kybernetika</p>
+            <div class="skills">
+                <span>PA2</span><span>ALG</span><span>MAT</span>
+            </div>
+            <div class="bad-button">Detail</div>
+        </div>
+        <div class="mentor">
+            <img src="https://via.placeholder.com/120">
+            <h3>Lucie Horáková</h3>
+            <p>Datové vědy</p>
+            <div class="skills">
+                <span>DBS</span><span>ML</span><span>STATS</span>
+            </div>
+            <div class="bad-button">Detail</div>
+        </div>
+
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Michal Černý</h3><p>Teoretická informatika</p><div class="skills"><span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Eva Kovářová</h3><p>Softwarové inženýrství</p><div class="skills"><span>OOP</span><span>DBS</span><span>Koleje</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Filip Marek</h3><p>Kybernetika</p><div class="skills"><span>PA2</span><span>ALG</span><span>MAT</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Barbora Malá</h3><p>Datové vědy</p><div class="skills"><span>DBS</span><span>ML</span><span>STATS</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Michal Černý</h3><p>Teoretická informatika</p><div class="skills"><span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Eva Kovářová</h3><p>Softwarové inženýrství</p><div class="skills"><span>OOP</span><span>DBS</span><span>Koleje</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Filip Marek</h3><p>Kybernetika</p><div class="skills"><span>PA2</span><span>ALG</span><span>MAT</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Barbora Malá</h3><p>Datové vědy</p><div class="skills"><span>DBS</span><span>ML</span><span>STATS</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Michal Černý</h3><p>Teoretická informatika</p><div class="skills"><span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Eva Kovářová</h3><p>Softwarové inženýrství</p><div class="skills"><span>OOP</span><span>DBS</span><span>Koleje</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Filip Marek</h3><p>Kybernetika</p><div class="skills"><span>PA2</span><span>ALG</span><span>MAT</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Barbora Malá</h3><p>Datové vědy</p><div class="skills"><span>DBS</span><span>ML</span><span>STATS</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Michal Černý</h3><p>Teoretická informatika</p><div class="skills"><span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Eva Kovářová</h3><p>Softwarové inženýrství</p><div class="skills"><span>OOP</span><span>DBS</span><span>Koleje</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Filip Marek</h3><p>Kybernetika</p><div class="skills"><span>PA2</span><span>ALG</span><span>MAT</span></div><div class="bad-button">Detail</div></div>
+        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Barbora Malá</h3><p>Datové vědy</p><div class="skills"><span>DBS</span><span>ML</span><span>STATS</span></div><div class="bad-button">Detail</div></div>
+
+    </div>
+</body>
