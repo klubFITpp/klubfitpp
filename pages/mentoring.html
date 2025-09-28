@@ -51,5 +51,28 @@ title: FIT Mentoring
     </div>
   </div>
 
+  <div class="mentoring__filter">
+
+  </div>
+
+  <div class="mentoring__persons">
+    {% for i in (1..5) %}
+      <button type="button" class="mentoring__persons__card">
+        <img class="mentoring__persons__card__image" src="https://placehold.co/400">
+        <div class="mentoring__persons__card__titles">
+          <p class="mentoring__persons__card__title">John Doe</p>
+          <p class="mentoring__persons__card__programme">Teoretická informatika</p>
+        </div>
+
+        <div class="mentoring__persons__tags">
+          {% for i in (1..7) %}
+            <div class="mentoring__persons__tag">
+              DML
+            </div>
+          {% endfor %}
+        </div>
+      </button>
+    {% endfor %}
+  </div>
 </section>
 

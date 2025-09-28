@@ -901,6 +901,10 @@ section.post {
   @apply list-decimal text-left;
 }
 
+.mentoring {
+  @apply flex flex-col gap-16;
+}
+
 .mentoring__hero__wrapper {
   @apply grid md:grid-cols-3 justify-center gap-4 md:justify-between;
 }
@@ -915,6 +919,42 @@ section.post {
 
 .mentoring__hero__icon {
   @apply text-4xl m-2;
+}
+
+.mentoring__persons {
+  @apply grid justify-center items-center lg:grid-cols-3 gap-16;
+}
+
+.mentoring__persons__card {
+  @apply flex flex-col gap-4 w-full items-center px-8 pt-8 pb-16;
+  @apply bg-slate-50 drop-shadow-xl border-b-primary-yellow border-b-4;
+  @apply transition-all duration-300;
+
+  @apply hover:-translate-y-4 hover:border-b-primary-yellow-hover;
+}
+
+.mentoring__persons__card__image {
+  @apply aspect-square;
+  max-height: 350px;
+  max-width: 350px;
+}
+
+.mentoring__persons__card__titles {
+  @apply w-full flex flex-col items-center mb-4;
+}
+
+.mentoring__persons__card__title {
+  @apply text-2xl font-semibold;
+}
+
+.mentoring__persons__tags {
+  @apply flex flex-wrap gap-2;
+}
+
+.mentoring__persons__tag {
+  @apply px-1 bg-red-400;
+  padding-top: 0.0605rem;
+  padding-bottom: 0.0605rem;
 }
 
 .footer_flex {
