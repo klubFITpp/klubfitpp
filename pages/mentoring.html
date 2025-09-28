@@ -57,7 +57,7 @@ title: FIT Mentoring
 
   <div class="mentoring__persons">
     {% for i in (1..5) %}
-      <button type="button" class="mentoring__persons__card">
+      <a href="?mentor={{i}}" onclick="openMentoringPopup(event, {{i}})" class="mentoring__persons__card">
         <img class="mentoring__persons__card__image" src="https://placehold.co/400">
         <div class="mentoring__persons__card__titles">
           <p class="mentoring__persons__card__title">John Doe</p>
@@ -71,8 +71,64 @@ title: FIT Mentoring
             </div>
           {% endfor %}
         </div>
-      </button>
+      </a>
     {% endfor %}
   </div>
+
+  <div class="mentoring__popup" aria-hidden id="mentoringPopup">
+    <div class="mentoring__popup__backdrop" onclick="closeMentoringPopup()"></div>
+    <div class="mentoring__popup__content">
+
+      <div class="mentoring__popup__info">
+        <h2>John doe</h2>
+        <p>Teoretická informatika</p>
+      </div>
+
+      <div class="mentoring__popup__image">
+        <img src="https://placehold.co/400">
+      </div>
+
+    </div>
+  </div>
+
+  <script defer>
+    'use strict';
+    const mentoringPopupElement = document.getElementById('mentoringPopup')
+
+    function openMentoringPopup(event, mentorId) {
+      mentoringPopupElement.classList.add('open')
+      mentoringPopupElement.setAttribute('aria-hidden', false)
+
+      // TODO: add query param if event exists
+      if (event)
+        event.preventDefault()
+    }
+
+    function closeMentoringPopup() {
+      mentoringPopupElement.classList.remove('open')
+      mentoringPopupElement.setAttribute('aria-hidden', true)
+
+      // TODO: remove query param
+    }
+
+    window.addEventListener('keyup', (event) => {
+      if (event.key === 'Escape')
+        closeMentoringPopup()
+    })
+
+    /* try to get selected mentor from url */
+    const initMentoringSelectedMentor = (() => {
+      try {
+        const params = new URLSearchParams(window.location.search)
+
+        return parseInt(params.get('mentor'))
+      } catch {
+        return undefined
+      }
+    })()
+
+    if (initMentoringSelectedMentor !== undefined && !isNaN(initMentoringSelectedMentor))
+      openMentoringPopup(null, initMentoringSelectedMentor)
+  </script>
 </section>
 
