@@ -957,6 +957,44 @@ section.post {
   padding-bottom: 0.0605rem;
 }
 
+.mentoring__popup {
+  @apply fixed inset-0;
+}
+
+.mentoring__popup__backdrop {
+  @apply backdrop-blur-sm bg-gray-700/10 absolute inset-0 z-0;
+}
+
+.mentoring__popup {
+  @apply hidden;
+}
+
+.mentoring__popup.open {
+  @apply block;
+}
+
+.mentoring__popup__content {
+  @apply absolute z-20 mx-auto grid md:grid-cols-2 gap-4 md:min-w-64 bg-slate-50 px-8 py-4;
+  max-width: 64rem;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.mentoring__popup__info * {
+  @apply text-left w-full;
+}
+
+.mentoring__popup__image {
+  @apply flex w-full justify-end;
+}
+
+.mentoring__popup__image img {
+  @apply aspect-square;
+  max-width: 300px;
+}
+
 .footer_flex {
   flex: 1;
 }
