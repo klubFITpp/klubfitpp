@@ -11,7 +11,7 @@ img: "/assets/images/event/sifrovacka.webp"
 ## Výsledky
 
 |Pořadí|Název týmu|Počet členů|Počet bodů|Příchod do cíle|
-|:---|:---|:---|:---|:---|
+|---:|:---|---:|---:|---:|
 |1     |14. patro|3|106|18:58:00|
 |2     |Bambulus|2|106|17:58:00|
 |3     |ŠiRust|4|102|16:55:00|
