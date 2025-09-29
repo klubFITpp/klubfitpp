@@ -59,9 +59,13 @@
     en: "FIT++ Board meeting records"
   links:
     - name:
-        cs: "27. 5. 2025 - neschváleno"
-        en: "27 May 2025 - not approved"
-      url: https://docs.google.com/document/d/1TS1s6vg1qpOZKDfQ6xBFZtTS6ZwzUEezyl6SnE30m6g/edit
+        cs: "24. 9. 2025 - neschváleno"
+        en: "24 September 2025 - not approved"
+      url: https://docs.google.com/document/d/1eDV3lTMXU09feP3k48pgQZBIXxf4MnYZWGvrahdYPYM/edit
+    - name:
+        cs: "27. 5. 2025"
+        en: "27 May 2025"
+      url: "/documents/zapis/250527.pdf"
     - name:
         cs: "27. 3. 2025"
         en: "27 March 2025"
