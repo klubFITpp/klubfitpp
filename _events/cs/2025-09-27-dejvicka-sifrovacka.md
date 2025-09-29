@@ -58,6 +58,8 @@ img: "/assets/images/event/sifrovacka.webp"
 [9. Pinocchio](/documents/projekty/sifrovacka2025/9_Pinocchio.pdf)  
 [10. Bez E](/documents/projekty/sifrovacka2025/10_Bez-E.pdf)  
 [11. Starý MacDonald had a farmu](/documents/projekty/sifrovacka2025/11_Stary-MacDonald-had-a-farmu.pdf)  
+  
+[NÁPOVĚDY + ŘEŠENÍ](/documents/projekty/sifrovacka2025/Reseni.pdf)
 
 # Informace
 
