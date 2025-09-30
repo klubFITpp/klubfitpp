@@ -12,8 +12,8 @@ img: "/assets/images/event/sifrovacka.webp"
 
 |Pořadí|Název týmu|Počet členů|Počet bodů|Příchod do cíle|
 |---:|:---|---:|---:|---:|
-|1     |14. patro|3|106|18:58:00|
-|2     |Bambulus|2|106|17:58:00|
+|1     |Bambulus|2|106|17:58:00|
+|2     |14. patro|3|106|18:58:00|
 |3     |ŠiRust|4|102|16:55:00|
 |4     |Fríčka|4|98|17:04:00|
 |5     |Slevy jako krysa|5|98|18:41:00|
