@@ -141,7 +141,7 @@
   }
 
   /* Fuck this is not the best practice but whatever */
-  @media screen and (min-width: 630px) {
+  @media screen and (min-width: 600px) {
     .hello {
 
       min-height: 100vh;
