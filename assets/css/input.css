@@ -122,13 +122,6 @@
     width: 100%;
     overflow: hidden;
     @apply mt-0;
-  }
-
-  .hello::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: -1;
 
     background: var(--white);
     background: url("/assets/images/background.webp") no-repeat center center;
@@ -141,10 +134,14 @@
     inset: 0;
     z-index: -1;
 
-    background: var(--black);
+    background-color: var(--black);
     background: url("/assets/images/background.webp") no-repeat center center;
     background-size: cover;
     @apply blur scale-125;
+  }
+
+  .hello__logo, .hello__arrow {
+    display: none;
   }
 
   nav {
