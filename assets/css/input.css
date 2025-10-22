@@ -118,18 +118,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 50vh;
     width: 100%;
     overflow: hidden;
-    @apply mt-0;
-
-    background: var(--white);
-    background: url("/assets/images/background.webp") no-repeat center center;
-    background-size: 100% auto;
+    @apply m-0 p-0 pt-14;
   }
 
   .hello::before {
-    content: '';
     position: absolute;
     inset: 0;
     z-index: -1;
@@ -140,12 +134,29 @@
     @apply blur scale-125;
   }
 
+  .hello__mobile__background {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
   /* Fuck this is not the best practice but whatever */
   @media screen and (min-width: 600px) {
     .hello {
-
       min-height: 100vh;
       background-size: auto 100%;
+
+      background: var(--white);
+      background: url("/assets/images/background.webp") no-repeat center center;
+      background-size: auto 100%;
+    }
+
+    .hello__mobile__background {
+      display: none;
+    }
+
+    .hello::before {
+      content: '';
     }
   }
 
