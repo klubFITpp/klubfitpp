@@ -10,7 +10,7 @@ Are you studying at the Faculty of Information Technology and want to meet activ
 
 Then you've come to the right place!
 
-We are FIT++, a students club which operates at the Faculty of Information Technology at CTU. We organize events such as [Hello FIT](/hellofit), FIT Party, board games at the faculty, FITrips, LAN parties, and many other educational and fun events, where you can not only gain knowledge beyond the scope of your school subjects, but also meet many active people from the faculty.
+We are FIT++, a students club which operates at the Faculty of Information Technology at CTU. We organize events such as [HelloFIT!](/hellofit), FIT Párty, FIT Board games, FITrips, FIT LAN Party, and many other educational and fun events, where you can not only gain knowledge beyond the scope of your school subjects, but also meet many active people from the faculty.
 
 ### Why should I join?
 
@@ -25,7 +25,7 @@ We are FIT++, a students club which operates at the Faculty of Information Techn
 ### How can I get involved?
 
 - Come to any event you find [here in the calendar](/events)
-- Follow the [help-needed](https://discord.com/channels/808276641603649607/1288795322524635176){:target="_blank" rel="noopener noreferrer"} channel on our Discord and get involved in a project that is looking for volunteers or workers
+- Follow the [#help-needed](https://discord.com/channels/808276641603649607/1288795322524635176){:target="_blank" rel="noopener noreferrer"} channel on our Discord and get involved in a project that is looking for volunteers or workers
 - Write on our Discord that you have an idea, and we will help you make it reality
 - Come to a Board meeting and we will come up with something together
 - Run for the Board and become the driving force behind the idea
