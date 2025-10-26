@@ -4,7 +4,7 @@ permalink: /pro_firmy
 title: Pro firmy
 ---
 
-# Spolupráce s klubem FIT++ na Fakultě informačních technologií
+# Spolupráce s klubem FIT++ na Fakultě informačních technologií ČVUT
 
 Studentský klub FIT++ je aktivní komunitou studentů Fakulty informačních technologií. Naším hlavním cílem je nabídnout studentům pestré a přínosné aktivity nad rámec studia, které zpříjemňují studentský život na fakultě. Organizujeme volnočasové akce, sportovní aktivity nebo herní večery. Každoročně se na těchto aktivitách podílí několik desítek dobrovolníků, kteří zajišťují, že všechny akce probíhají hladce a jsou pro studenty co nejpřínosnější.
 
@@ -22,7 +22,4 @@ Jsme otevřeni také spolupráci na společných PR produktech. Po vzoru jiných
 #### Podpora našich akcí
 Jsme nezisková organizace fungující jen za podpory dobrovolníků a díky i drobné podpoře máme možnost rapidně zvýšit kvalitu a atraktivnost našich akcí pro naše studenty. Během roku pořádáme několik menších akcí pro desítky studentů, jednou do roka organizujeme akci pro 300 nově nastupujících studentů a párty se studentskými kapelami pro cca 150 lidí. Nabízíme firmám možnost propagace skrze tyto akce. 
 
-
-
 Pokud máte zájem o spolupráci nebo chcete vědět více, neváhejte nás kontaktovat na emailové adrese [fitpp@su.cvut.cz](mailto:fitpp@su.cvut.cz). Těšíme se na spolupráci a společné projekty, které přinesou prospěch jak studentům, tak Vaší firmě.
-

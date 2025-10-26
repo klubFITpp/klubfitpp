@@ -10,7 +10,7 @@ Studuješ na Fakultě informačních technologií a chceš poznat aktivní FIŤ�
 
 Tak jsi tady správně!
 
-Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. Pořádáme akce jako [Hello FIT](/hellofit), FIT párty, deskovky na fakultě, FITripy, LAN párty a spoustu další edukačních nebo zábavných eventů, na kterých se můžeš nejenom dozvědět knowledge nad rámec předmětů ve škole, ale hlavně poznat spoustu aktivních lidí z fakulty.
+Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. Pořádáme akce jako [HelloFIT!](/hellofit), FIT Párty, FIT Deskovky, FITripy, FIT LAN Party a spoustu dalších edukačních nebo zábavných eventů, na kterých se můžeš nejenom dozvědět knowledge nad rámec předmětů ve škole, ale hlavně poznat spoustu aktivních lidí z fakulty.
 
 ### Proč bych se měl/a přidat?
 
@@ -25,7 +25,7 @@ Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. 
 ### Jak se můžu zapojit?
 
 - Přijď na jakoukoliv akci, kterou najdeš [tady v kalendáři](/events)
-- Sleduj channel [help-needed](https://discord.com/channels/808276641603649607/1288795322524635176){:target="_blank" rel="noopener noreferrer"} na Discordu a zapoj se do projektu, který hledá dobrovolníky nebo pracovníky
+- Sleduj channel [#help-needed](https://discord.com/channels/808276641603649607/1288795322524635176){:target="_blank" rel="noopener noreferrer"} na Discordu a zapoj se do projektu, který hledá dobrovolníky nebo pracovníky
 - Napiš na Discord, že máš nápad, a my ti ho pomůžeme zrealizovat
 - Přijď na zasedání Představenstva a společně něco vymyslíme
 - Kandiduj do Představenstva a buď nositelem myšlenky
@@ -43,7 +43,6 @@ Jsme klub FIT++, který působí na Fakultě informačních technologií ČVUT. 
 
 - Připoj se na FIT++ Discord a nastav si jako přezdívku na serveru svoje jméno
 - Podepiš přihlášku do klubu - přijď na akci FIT++ a tam někoho oslov, nebo napiš někomu z Představenstva, ideálně [HR](/#lide), a domluv se na podepsání smlouvy
-
 
 <article class="refs__links">
 	<a class="refs__button" style="text-decoration: none; color: var(--black)" href="https://discord.gg/2Bh93cXGJ3" target="_blank" rel="noopener noreferrer">Připoj se na FIT++ Discord</a>

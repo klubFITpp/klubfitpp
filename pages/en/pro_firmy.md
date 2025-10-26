@@ -4,7 +4,7 @@ permalink: /pro_firmy
 title: Pro firmy
 ---
 
-# Collaboration with the FIT++ club at the Faculty of Information Technology
+# Collaboration with the FIT++ club at the Faculty of Information Technology, CTU in Prague
 
 The FIT++ student club is an active community of students at the Faculty of Information Technology. Our main goal is to offer students a variety of beneficial activities beyond their studies that make student life at the faculty more enjoyable. We organize leisure events, sports activities, and game nights. Every year, dozens of volunteers participate in these activities, ensuring that all events run smoothly and are as beneficial as possible for students.
 
