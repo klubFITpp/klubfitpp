@@ -7,12 +7,12 @@
         en: "Statutes"
       url: "/documents/stanovy_2025.pdf"
     - name:
-        cs: "Jednací řád"
-        en: "Procedure rules"
-      url: "/documents/jednaci_rad_2019.pdf"
+        cs: "Jednací řád FIT++"
+        en: "FIT++ Procedure rules"
+      url: "/documents/jednaci_rad_2025.pdf"
     - name:
         cs: "Volební řád FIT++"
-        en: "Election rules"
+        en: "FIT++ Election rules"
       url: "/documents/volebni_rad_2023.pdf"
 - title:
     cs: "Výroční zprávy"
@@ -294,6 +294,10 @@
     cs: "Zrušené dokumenty"
     en: "Cancelled documents"
   links:
+    - name:
+        cs: "Jednací řád (zrušen 9. 12. 2025)"
+        en: "Procedure rules (cancelled 9 December 2019)"
+      url: "/documents/zrusene/jednaci_rad_2019.pdf"
     - name:
         cs: "Stanovy (zrušeny 6. 2. 2025)"
         en: "Statutes (cancelled 6 February 2025)"
