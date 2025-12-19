@@ -322,6 +322,23 @@
     cs: |+
       Volby do Představenstva FIT++
       <br>
+      na volební období únor 2026 až leden 2027
+    en: |+
+      Election to the FIT++ Board
+      <br>
+      for the term of February 2026 to January 2027
+  description:
+    cs: "FIT++ Vyhlašuje volby do Představenstva."
+    en: "FIT++ is announcing elections to the Board."
+  links:
+    - name:
+        cs: "Informace k volbám"
+        en: "Election information"
+      url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027.pdf"
+- title:
+    cs: |+
+      Volby do Představenstva FIT++
+      <br>
       na volební období únor 2025 až leden 2026
     en: |+
       Elections to the FIT++ Board
