@@ -5,7 +5,7 @@
     - name:
         cs: "Stanovy"
         en: "Statutes"
-      url: "/documents/stanovy_2025.pdf"
+      url: "/documents/stanovy_2025_2.pdf"
     - name:
         cs: "Jednací řád FIT++"
         en: "FIT++ Procedure rules"
@@ -298,6 +298,10 @@
     cs: "Zrušené dokumenty"
     en: "Cancelled documents"
   links:
+    - name:
+        cs: "Stanovy (zrušeny 1. 1. 2026)"
+        en: "Statutes (cancelled 1 January 2026)"
+      url: "/documents/zrusene/stanovy_2025.pdf"
     - name:
         cs: "Jednací řád (zrušen 9. 12. 2025)"
         en: "Procedure rules (cancelled 9 December 2025)"
