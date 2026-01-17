@@ -343,6 +343,14 @@
         cs: "Informace k volbám"
         en: "Election information"
       url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027.pdf"
+    - name:
+        cs: "Termíny voleb a volební místnosti"
+        en: "Election dates and polling stations"
+      url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027_terminy.pdf"
+    - name:
+        cs: "Kandidátky"
+        en: "Candidates"
+      url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027_kandidatky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
