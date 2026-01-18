@@ -7,3 +7,5 @@ group :jekyll_plugins do
     gem 'jekyll-redirect-from', '~> 0.16'
     gem "jekyll-polyglot", '~> 1.10'
 end
+
+gem 'logger'
