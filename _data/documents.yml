@@ -355,6 +355,10 @@
         cs: "Kandidátky"
         en: "Candidates"
       url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027_kandidatky.pdf"
+    - name:
+        cs: "Výsledky voleb"
+        en: "Election results"
+      url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027_vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
