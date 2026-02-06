@@ -52,83 +52,27 @@ title: FIT Mentoring
   </div>
 
   <div class="mentoring__filter">
-
+    <!-- TODO -->
   </div>
 
   <div class="mentoring__persons">
-    {% for i in (1..5) %}
-      <a href="?mentor={{i}}" onclick="openMentoringPopup(event, {{i}})" class="mentoring__persons__card">
-        <img class="mentoring__persons__card__image" src="https://placehold.co/400">
+    {% for person in site.mentoring %}
+      <a href="{{ person.url }}" class="mentoring__persons__card">
+        <img class="mentoring__persons__card__image" src="{{ person.img | relative_url }}">
         <div class="mentoring__persons__card__titles">
-          <p class="mentoring__persons__card__title">John Doe</p>
-          <p class="mentoring__persons__card__programme">Teoretická informatika</p>
+          <p class="mentoring__persons__card__title">{{ person.name }}</p>
+          <p class="mentoring__persons__card__programme">{{ person.specialization }}</p>
         </div>
 
         <div class="mentoring__persons__tags">
-          {% for i in (1..7) %}
-            <div class="mentoring__persons__tag">
-              DML
+          {% for tag in person.tags %}
+            <div class="mentoring__persons__tag" data-tag="{{tag}}">
+              {{ tag }}
             </div>
           {% endfor %}
         </div>
       </a>
     {% endfor %}
   </div>
-
-  <div class="mentoring__popup" aria-hidden id="mentoringPopup">
-    <div class="mentoring__popup__backdrop" onclick="closeMentoringPopup()"></div>
-    <div class="mentoring__popup__content">
-
-      <div class="mentoring__popup__info">
-        <h2>John doe</h2>
-        <p>Teoretická informatika</p>
-      </div>
-
-      <div class="mentoring__popup__image">
-        <img src="https://placehold.co/400">
-      </div>
-
-    </div>
-  </div>
-
-  <script defer>
-    'use strict';
-    const mentoringPopupElement = document.getElementById('mentoringPopup')
-
-    function openMentoringPopup(event, mentorId) {
-      mentoringPopupElement.classList.add('open')
-      mentoringPopupElement.setAttribute('aria-hidden', false)
-
-      // TODO: add query param if event exists
-      if (event)
-        event.preventDefault()
-    }
-
-    function closeMentoringPopup() {
-      mentoringPopupElement.classList.remove('open')
-      mentoringPopupElement.setAttribute('aria-hidden', true)
-
-      // TODO: remove query param
-    }
-
-    window.addEventListener('keyup', (event) => {
-      if (event.key === 'Escape')
-        closeMentoringPopup()
-    })
-
-    /* try to get selected mentor from url */
-    const initMentoringSelectedMentor = (() => {
-      try {
-        const params = new URLSearchParams(window.location.search)
-
-        return parseInt(params.get('mentor'))
-      } catch {
-        return undefined
-      }
-    })()
-
-    if (initMentoringSelectedMentor !== undefined && !isNaN(initMentoringSelectedMentor))
-      openMentoringPopup(null, initMentoringSelectedMentor)
-  </script>
 </section>
 

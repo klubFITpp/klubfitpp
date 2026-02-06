@@ -926,7 +926,7 @@ section.post {
 }
 
 .mentoring__persons__card {
-  @apply flex flex-col gap-4 w-full items-center px-8 pt-8 pb-16;
+  @apply flex flex-col gap-4 w-full h-full items-center px-8 pt-8 pb-16 grow;
   @apply bg-slate-50 drop-shadow-xl border-b-primary-yellow border-b-4;
   @apply transition-all duration-300;
 
@@ -934,9 +934,7 @@ section.post {
 }
 
 .mentoring__persons__card__image {
-  @apply aspect-square;
-  max-height: 350px;
-  max-width: 350px;
+  @apply aspect-square max-w-full max-h-[200px];
 }
 
 .mentoring__persons__card__titles {
@@ -952,47 +950,48 @@ section.post {
 }
 
 .mentoring__persons__tag {
-  @apply px-1 bg-red-400;
+  @apply px-1 bg-green-400;
   padding-top: 0.0605rem;
   padding-bottom: 0.0605rem;
 }
 
-.mentoring__popup {
-  @apply fixed inset-0;
+.mentoring__persons__tag[data-tag*="DML"],
+.mentoring__persons__tag[data-tag*="MA1"],
+.mentoring__persons__tag[data-tag*="MA2"],
+.mentoring__persons__tag[data-tag*="LA1"],
+.mentoring__persons__tag[data-tag*="LA2"] {
+  @apply bg-red-400;
 }
 
-.mentoring__popup__backdrop {
-  @apply backdrop-blur-sm bg-gray-700/10 absolute inset-0 z-0;
+.mentoring__persons__tag[data-tag*="SAP"],
+.mentoring__persons__tag[data-tag*="TZP"] {
+  @apply bg-blue-400;
 }
 
-.mentoring__popup {
-  @apply hidden;
+.post__mentoring__hero__wrapper {
+  @apply pb-0 pt-16;
+}
+.post__mentoring__hero {
+  @apply flex justify-center gap-16 lg:gap-[32rem] lg:max-w-[70%];
 }
 
-.mentoring__popup.open {
-  @apply block;
+.post__mentoring__info {
+  @apply flex flex-col justify-center h-full;
+  flex: 2;
 }
 
-.mentoring__popup__content {
-  @apply absolute z-20 mx-auto grid md:grid-cols-2 gap-4 md:min-w-64 bg-slate-50 px-8 py-4;
-  max-width: 64rem;
-  width: 80%;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%)
+.post__mentoring__info h2 {
+  @apply inline mb-2 text-left;
 }
 
-.mentoring__popup__info * {
-  @apply text-left w-full;
+.post__mentoring__img {
+  @apply aspect-square max-h-[300px] h-full;
+  flex: 1 0 1;
 }
 
-.mentoring__popup__image {
-  @apply flex w-full justify-end;
-}
-
-.mentoring__popup__image img {
-  @apply aspect-square;
-  max-width: 300px;
+.post__mentoring__socials__icon {
+  @apply mr-4;
+  font-size: 2em;
 }
 
 .footer_flex {
