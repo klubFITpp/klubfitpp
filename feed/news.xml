@@ -1,0 +1,35 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ page.url | absolute_url }}</id>
+  <title type="html">{{ site.title }} | News</title>
+  <author>
+    <name>{{ site.title }}</name>
+  </author>
+  {% assign all_articles = site.news | sort: "date" | reverse %}
+  {% assign articles = all_articles | slice: 0, site.feed.limit %}
+  {% for article in articles %}
+  <entry>
+    <title type="html">{{ article.title | xml_escape }}</title>
+    <link href="{{ article.url | absolute_url }}" rel="alternate" type="text/html" title="{{ article.title | xml_escape }}"/>
+    <published>{{ article.date | date_to_xmlschema }}</published>
+    <updated>{{ article.date | date_to_xmlschema }}</updated>
+    <id>{{ article.url | absolute_url }}</id>
+    <content type="html" xml:base="{{ article.url | absolute_url }}"><![CDATA[{{ article.content }}]]></content>
+    <summary type="html"><![CDATA[{{ article.short | default: article.content | strip_html | normalize_whitespace | truncatewords: 50 }}]]></summary>
+    {% if article.img %}
+    <media:content url="{{ article.img | absolute_url }}" medium="image"/>
+    {% endif %}
+    {% assign categories = article.categories | uniq %}
+    {% for category in categories %}
+    <category term="{{ category | xml_escape }}"/>
+    {% endfor %}
+  </entry>
+  {% endfor %}
+</feed>
