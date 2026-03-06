@@ -57,3 +57,5 @@ default_lang: "cs"
 exclude_from_localization: ["javascript", "images", "css", "public", "sitemap"]
 parallel_localization: true
 lang_from_path: true
+feed:
+  limit: 20
