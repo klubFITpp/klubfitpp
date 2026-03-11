@@ -19,6 +19,10 @@
     en: "Annual reports"
   links:
     - name:
+        cs: "Výroční zpráva za rok 2025"
+        en: "Annual report for 2025"
+      url: "/documents/vyrocniZpravy/2025.pdf"
+    - name:
         cs: "Výroční zpráva za rok 2024"
         en: "Annual report for 2024"
       url: "/documents/vyrocniZpravy/2024.pdf"
@@ -59,9 +63,13 @@
     en: "FIT++ Board meeting records"
   links:
     - name:
-        cs: "21. 2. 2026 - neschváleno"
-        en: "21 February 2026 - not approved"
-      url: "https://docs.google.com/document/d/1LMAQopnMN3JYkGW6P00WY-i4Hzta2AJoxILK0-t16Eo/edit?usp=sharing"
+        cs: "11. 3. 2026 - neschváleno"
+        en: "3 March 2026 - not approved"
+      url: "https://docs.google.com/document/d/1VBGS133nl8_EhHe23qMHBECFuIiTyFv-jKaQnzjBVwI/edit?usp=sharing"
+    - name:
+        cs: "21. 2. 2026"
+        en: "21 February 2026"
+      url: "/documents/zapis/260221.pdf"
     - name:
         cs: "10. 2. 2026"
         en: "10 February 2026"
