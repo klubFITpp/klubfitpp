@@ -14,4 +14,4 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 
 #### Links
 [Přihlašovací formulář](https://forms.gle/2ct7CpwDgTeDvXQU8)  
-[Propozice](/documents/events/orientak-v-kampusu-2026-propozice.pdf)  
+[Propozice](/documents/events/orientak-v-kampusu-2026-propozice_cz.pdf)  

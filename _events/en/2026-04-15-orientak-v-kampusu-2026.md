@@ -14,4 +14,4 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 #### Links
 [Signup form](https://forms.gle/2ct7CpwDgTeDvXQU8)  
-[Outlines](/documents/events/orientak-v-kampusu-2026-propozice.pdf)  
+[Outlines](/documents/events/orientak-v-kampusu-2026-propozice_en.pdf)  
