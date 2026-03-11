@@ -10,7 +10,7 @@ tags:
 img: "/assets/images/event/orientak-v-kampusu-2026.png"
 ---
 
-We would like to invite you to the fourth year of annual Campus Orienteering organized by the student club FIT++. It doesn't matter if you've never seen an orienteering map before, come alone or grab a partner and go for a run around the campus. We have extended the mapped area, so you will get to see new places!
+For all athletically inclined students and employees in the vicinity of Dejvice Campus, the FIT++ student club is organizing an orienteering race, for the fourth year in a row. Take a partner or come alone and test your fitness and sense of orientation on one of the routes. The event is open even to complete beginners, just register at the link below.
 
 #### Links
 [Signup form](https://forms.gle/2ct7CpwDgTeDvXQU8)  
