@@ -3,11 +3,11 @@ name: "Kryštof"
 surname: "Machart"
 nick: ""
 role1:
-  cs: "Člen představenstva"
-  en: "Member of the Board"
-role2: "PR"
-email: "pr.fitpp@su.cvut.cz"
+  cs: "Předseda"
+  en: "Chair of the Board"
+role2: ""
+email: "predsedaFIT@su.cvut.cz"
 discord: ""
 img: "/assets/images/people/krystof.webp"
-pos: 5
+pos: 1
 ---
