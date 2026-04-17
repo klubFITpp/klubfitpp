@@ -21,6 +21,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 #### Elita A Muži
 
 <div style="overflow-x:auto;" markdown="1">
+
 |<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Čas</span>|<span style="white-space:nowrap;">Běžec 1</span>|<span style="white-space:nowrap;">Běžec 2</span>|<span style="white-space:nowrap;">Instituce</span>|
 |-------|-------|----------------|--------|---------|
 |<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">0:16:30</span>|<span style="white-space:nowrap;">Martin</span> <span style="white-space:nowrap;">Roudný</span>||<span style="white-space:nowrap;">VŠCHT</span>|
@@ -45,6 +46,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 |<span style="white-space:nowrap;">20</span>|<span style="white-space:nowrap;">0:54:32</span>|<span style="white-space:nowrap;">Pavlína</span> <span style="white-space:nowrap;">Paulová</span>|<span style="white-space:nowrap;">Lipatov</span>|<span style="white-space:nowrap;">ČVUT</span>|
 ||<span style="white-space:nowrap;">DSQ</span>|<span style="white-space:nowrap;">Vojtěch</span> <span style="white-space:nowrap;">Kopal</span>||<span style="white-space:nowrap;">ČVUT</span>|
 ||<span style="white-space:nowrap;">DNS</span>|<span style="white-space:nowrap;">Ondřej</span> <span style="white-space:nowrap;">Suchý</span>||<span style="white-space:nowrap;">ČVUT</span>|
+
 </div>
 
 <br>
@@ -52,6 +54,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 #### Elita A Ženy
 
 <div style="overflow-x:auto;" markdown="1">
+
 |<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Čas</span>|<span style="white-space:nowrap;">Běžec</span>|<span style="white-space:nowrap;">Instituce</span>|
 |-------|-------|-----------------|---------|
 |<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">0:23:45</span>|<span style="white-space:nowrap;">Kamila</span> <span style="white-space:nowrap;">Horčičková</span>|<span style="white-space:nowrap;">UK</span>|
@@ -63,6 +66,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 |<span style="white-space:nowrap;">7</span>|<span style="white-space:nowrap;">0:28:04</span>|<span style="white-space:nowrap;">Svatava</span> <span style="white-space:nowrap;">Voltrová</span>|<span style="white-space:nowrap;">ÚOCHB</span>|
 |<span style="white-space:nowrap;">8</span>|<span style="white-space:nowrap;">0:43:53</span>|<span style="white-space:nowrap;">Eva</span> <span style="white-space:nowrap;">Tloušťová</span>|<span style="white-space:nowrap;">ÚOCHB</span>|
 ||<span style="white-space:nowrap;">DSQ</span>|<span style="white-space:nowrap;">Ema</span> <span style="white-space:nowrap;">Bulířová</span>|<span style="white-space:nowrap;">UK</span>|
+
 </div>
 
 <br>
@@ -70,6 +74,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 #### A Muži
 
 <div style="overflow-x:auto;" markdown="1">
+
 |<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Čas</span>|<span style="white-space:nowrap;">Běžec 1</span>|<span style="white-space:nowrap;">Běžec 2</span>|<span style="white-space:nowrap;">Instituce</span>|
 |-------|-------|-----------------|------------------|----------|
 |<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">0:20:30</span>|<span style="white-space:nowrap;">Jirka</span> <span style="white-space:nowrap;">Friš</span>||<span style="white-space:nowrap;">ČVUT</span>|
@@ -97,6 +102,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 ||<span style="white-space:nowrap;">DSQ</span>|<span style="white-space:nowrap;">Matyáš</span> <span style="white-space:nowrap;">Hronek</span>|<span style="white-space:nowrap;">Lída</span> <span style="white-space:nowrap;">Pavelková</span>|<span style="white-space:nowrap;">ČVUT</span>|
 ||<span style="white-space:nowrap;">DSQ</span>|<span style="white-space:nowrap;">Petr</span> <span style="white-space:nowrap;">Vondráček</span>|<span style="white-space:nowrap;">Adam</span> <span style="white-space:nowrap;">Jedlička</span>|<span style="white-space:nowrap;">ČVUT+ZČU</span>|
 ||<span style="white-space:nowrap;">DSQ</span>|<span style="white-space:nowrap;">Marek</span> <span style="white-space:nowrap;">Vospěl</span>||<span style="white-space:nowrap;">ČVUT</span>|
+
 </div>
 
 <br>
@@ -104,12 +110,14 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 #### A Ženy
 
 <div style="overflow-x:auto;" markdown="1">
+
 |<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Čas</span>|<span style="white-space:nowrap;">Běžec 1</span>|<span style="white-space:nowrap;">Běžec 2</span>|<span style="white-space:nowrap;">Instituce</span>|
 |-------|-------|-----------------|----------------|---------|
 |<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">0:27:57</span>|<span style="white-space:nowrap;">Eliška</span> <span style="white-space:nowrap;">Štveráková</span>||<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">0:30:24</span>|<span style="white-space:nowrap;">Magda</span> <span style="white-space:nowrap;">Houžvičková</span>|<span style="white-space:nowrap;">Eliška</span> <span style="white-space:nowrap;">Mullerová</span>|<span style="white-space:nowrap;">UK</span>|
 |<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">0:32:23</span>|<span style="white-space:nowrap;">Ivana</span> <span style="white-space:nowrap;">Dvořáková</span>||<span style="white-space:nowrap;">ÚOCHB</span>|
 |<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">0:32:45</span>|<span style="white-space:nowrap;">Marie</span> <span style="white-space:nowrap;">Haluzová</span>|||
+
 </div>
 
 <br>
@@ -117,6 +125,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 #### B
 
 <div style="overflow-x:auto;" markdown="1">
+
 |<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Čas</span>|<span style="white-space:nowrap;">Běžec 1</span>|<span style="white-space:nowrap;">Běžec 2</span>|<span style="white-space:nowrap;">Instituce</span>|
 |-------|-------|-------------------|---------------|---------|
 |<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">0:17:45</span>|<span style="white-space:nowrap;">Maroš</span> <span style="white-space:nowrap;">Letaši</span>||<span style="white-space:nowrap;">ČVUT</span>|
@@ -129,4 +138,5 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 |<span style="white-space:nowrap;">8</span>|<span style="white-space:nowrap;">0:39:07</span>|<span style="white-space:nowrap;">Sára</span> <span style="white-space:nowrap;">Kandlerová</span>|<span style="white-space:nowrap;">Albert</span> <span style="white-space:nowrap;">Havliček</span>|<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">9</span>|<span style="white-space:nowrap;">0:49:00</span>|<span style="white-space:nowrap;">Ilgar</span> <span style="white-space:nowrap;">Shikhverdiyev</span>||<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">10</span>|<span style="white-space:nowrap;">1:01:30</span>|<span style="white-space:nowrap;">Daniela</span> <span style="white-space:nowrap;">Illnerová</span>||<span style="white-space:nowrap;">ČVUT</span>|
+
 </div>
