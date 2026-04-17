@@ -49,17 +49,17 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 
 #### Elita A Ženy
 
-|Pořadí |Čas    |Běžec 1          |Běžec 2 |Instituce|
-|-------|-------|-----------------|--------|---------|
-|1      |0:23:45|Kamila Horčičková|        |UK       |
-|2      |0:24:03|Kateřina Krásná  |        |ČVUT     |
-|3      |0:24:36|Blanka Collis    |        |ÚOCHB    |
-|4      |0:25:18|Hanka Řada       |        |ČVUT     |
-|5      |0:25:41|Vendula Růžičková|        |ČVUT     |
-|6      |0:27:36|Hana Moudrá      |        |ČVUT     |
-|7      |0:28:04|Svatava Voltrová |        |ÚOCHB    |
-|8      |0:43:53|Eva Tloušťová    |        |ÚOCHB    |
-|       |DSQ    |Ema Bulířová     |        |UK       |
+|Pořadí |Čas    |Běžec            |Instituce|
+|-------|-------|-----------------|---------|
+|1      |0:23:45|Kamila Horčičková|UK       |
+|2      |0:24:03|Kateřina Krásná  |ČVUT     |
+|3      |0:24:36|Blanka Collis    |ÚOCHB    |
+|4      |0:25:18|Hanka Řada       |ČVUT     |
+|5      |0:25:41|Vendula Růžičková|ČVUT     |
+|6      |0:27:36|Hana Moudrá      |ČVUT     |
+|7      |0:28:04|Svatava Voltrová |ÚOCHB    |
+|8      |0:43:53|Eva Tloušťová    |ÚOCHB    |
+|       |DSQ    |Ema Bulířová     |UK       |
 
 <br>
 
