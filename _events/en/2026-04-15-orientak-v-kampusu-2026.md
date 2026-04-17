@@ -17,11 +17,10 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 [Outlines](/documents/events/orientak-v-kampusu-2026-propozice_en.pdf)  
 
 ### Results
-<br>
 
 #### Elite A Men
 
-|Place: |Time:  |Runner 1:       |Runner 2:|Institution|
+|Place  |Time   |Runner 1        |Runner 2 |Institution|
 |-------|-------|----------------|---------|-----------|
 |1      |0:16:30|Martin Roudný   |         |VŠCHT      |
 |2      |0:17:04|Tomáš Dohnálek  |         |VŠCHT      |
@@ -50,23 +49,23 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 #### Elite A Women
 
-|Place: |Time:  |Runner 1:        |Runner 2: |Institution|
-|-------|-------|-----------------|----------|-----------|
-|1      |0:23:45|Kamila Horčičková|          |UK         |
-|2      |0:24:03|Kateřina Krásná  |          |ČVUT       |
-|3      |0:24:36|Blanka Collis    |          |ÚOCHB      |
-|4      |0:25:18|Hanka Řada       |          |ČVUT       |
-|5      |0:25:41|Vendula Růžičková|          |ČVUT       |
-|6      |0:27:36|Hana Moudrá      |          |ČVUT       |
-|7      |0:28:04|Svatava Voltrová |          |ÚOCHB      |
-|8      |0:43:53|Eva Tloušťová    |          |ÚOCHB      |
-|       |DSQ    |Ema Bulířová     |          |UK         |
+|Place  |Time   |Runner           |Institution|
+|-------|-------|-----------------|-----------|
+|1      |0:23:45|Kamila Horčičková|UK         |
+|2      |0:24:03|Kateřina Krásná  |ČVUT       |
+|3      |0:24:36|Blanka Collis    |ÚOCHB      |
+|4      |0:25:18|Hanka Řada       |ČVUT       |
+|5      |0:25:41|Vendula Růžičková|ČVUT       |
+|6      |0:27:36|Hana Moudrá      |ČVUT       |
+|7      |0:28:04|Svatava Voltrová |ÚOCHB      |
+|8      |0:43:53|Eva Tloušťová    |ÚOCHB      |
+|       |DSQ    |Ema Bulířová     |UK         |
 
 <br>
 
 #### A Men
 
-|Place: |Time:  |Runner 1:        |Runner 2:         |Institution|
+|Place  |Time   |Runner 1         |Runner 2          |Institution|
 |-------|-------|-----------------|------------------|-----------|
 |1      |0:20:30|Jirka Friš       |                  |ČVUT       |
 |2      |0:21:11|Aleš Palkovič    |                  |VŠCHT      |
@@ -98,7 +97,7 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 #### A Women
 
-|Place: |Time:  |Runner 1:        |Runner 2:       |Institution|
+|Place  |Time   |Runner 1         |Runner 2        |Institution|
 |-------|-------|-----------------|----------------|-----------|
 |1      |0:27:57|Eliška Štveráková|                |ČVUT       |
 |2      |0:30:24|Magda Houžvičková|Eliška Mullerová|UK         |
@@ -107,7 +106,7 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 #### B
 
-|Place: |Time:  |Runner 1:          |Runner 2:      |Institution|
+|Place  |Time   |Runner 1           |Runner 2       |Institution|
 |-------|-------|-------------------|---------------|-----------|
 |1      |0:17:45|Maroš Letaši       |               |ČVUT       |
 |2      |0:22:02|Anna Kopecká       |               |ČVUT       |
