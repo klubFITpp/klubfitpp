@@ -20,7 +20,7 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 #### Elite A Men
 
-|<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Time</span>|<span style="white-space:nowrap;">Runner</span> <span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">Runner</span> <span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">Institution</span>|
+|<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Time</span>|<span style="white-space:nowrap;">Runner 1</span>|<span style="white-space:nowrap;">Runner 2</span>|<span style="white-space:nowrap;">Institution</span>|
 |-------|-------|----------------|---------|-----------|
 |<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">0:16:30</span>|<span style="white-space:nowrap;">Martin</span> <span style="white-space:nowrap;">Roudný</span>||<span style="white-space:nowrap;">VŠCHT</span>|
 |<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">0:17:04</span>|<span style="white-space:nowrap;">Tomáš</span> <span style="white-space:nowrap;">Dohnálek</span>||<span style="white-space:nowrap;">VŠCHT</span>|
@@ -65,7 +65,7 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 #### A Men
 
-|<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Time</span>|<span style="white-space:nowrap;">Runner</span> <span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">Runner</span> <span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">Institution</span>|
+|<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Time</span>|<span style="white-space:nowrap;">Runner 1</span>|<span style="white-space:nowrap;">Runner 2</span>|<span style="white-space:nowrap;">Institution</span>|
 |-------|-------|-----------------|------------------|-----------|
 |<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">0:20:30</span>|<span style="white-space:nowrap;">Jirka</span> <span style="white-space:nowrap;">Friš</span>||<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">0:21:11</span>|<span style="white-space:nowrap;">Aleš</span> <span style="white-space:nowrap;">Palkovič</span>||<span style="white-space:nowrap;">VŠCHT</span>|
@@ -97,7 +97,7 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 #### A Women
 
-|<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Time</span>|<span style="white-space:nowrap;">Runner</span> <span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">Runner</span> <span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">Institution</span>|
+|<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Time</span>|<span style="white-space:nowrap;">Runner 1</span>|<span style="white-space:nowrap;">Runner 2</span>|<span style="white-space:nowrap;">Institution</span>|
 |-------|-------|-----------------|----------------|-----------|
 |<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">0:27:57</span>|<span style="white-space:nowrap;">Eliška</span> <span style="white-space:nowrap;">Štveráková</span>||<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">0:30:24</span>|<span style="white-space:nowrap;">Magda</span> <span style="white-space:nowrap;">Houžvičková</span>|<span style="white-space:nowrap;">Eliška</span> <span style="white-space:nowrap;">Mullerová</span>|<span style="white-space:nowrap;">UK</span>|
@@ -106,7 +106,7 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 #### B
 
-|<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Time</span>|<span style="white-space:nowrap;">Runner</span> <span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">Runner</span> <span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">Institution</span>|
+|<span style="white-space:nowrap;">&#35;</span>|<span style="white-space:nowrap;">Time</span>|<span style="white-space:nowrap;">Runner 1</span>|<span style="white-space:nowrap;">Runner 2</span>|<span style="white-space:nowrap;">Institution</span>|
 |-------|-------|-------------------|---------------|-----------|
 |<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">0:17:45</span>|<span style="white-space:nowrap;">Maroš</span> <span style="white-space:nowrap;">Letaši</span>||<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">0:22:02</span>|<span style="white-space:nowrap;">Anna</span> <span style="white-space:nowrap;">Kopecká</span>||<span style="white-space:nowrap;">ČVUT</span>|
