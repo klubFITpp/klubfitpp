@@ -20,7 +20,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 <br>
 
 #### Elita A Muži
-|Pořadí:|Čas:   |Tým:            |<!-- -->|<!-- -->|
+|Pořadí:|Čas:   |Tým:            |&nbsp; |&nbsp;|
 |-------|-------|----------------|-------|------|
 |1      |0:16:30|Martin Roudný   |       |VŠCHT |
 |2      |0:17:04|Tomáš Dohnálek  |       |VŠCHT |
@@ -46,7 +46,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 |       |DNS    |Ondřej Suchý    |       |ČVUT  |
 
 #### Elita A Ženy
-|Pořadí:|Čas:   |Tým:             |<!-- -->|<!-- -->|
+|Pořadí:|Čas:   |Tým:             |&nbsp; |&nbsp;|
 |-------|-------|-----------------|-------|------|
 |1      |0:23:45|Kamila Horčičková|       |UK    |
 |2      |0:24:03|Kateřina Krásná  |       |ČVUT  |
@@ -59,7 +59,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 |       |DISK   |Ema Bulířová     |       |UK    |
 
 #### A Muži
-|Pořadí:|Čas:   |Tým:             |<!-- -->|<!-- -->|
+|Pořadí:|Čas:   |Tým:             |&nbsp;            |&nbsp;    |
 |-------|-------|-----------------|------------------|----------|
 |1      |0:20:30|Jirka Friš       |                  |ČVUT      |
 |2      |0:21:11|Aleš Palkovič    |                  |VŠCHT     |
@@ -88,7 +88,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 |       |DISK   |Marek Vospěl     |                  |ČVUT      |
 
 #### A Ženy
-|Pořadí:|Čas:   |Tým:             |<!-- -->|<!-- -->|
+|Pořadí:|Čas:   |Tým:             |&nbsp;          |&nbsp;|
 |-------|-------|-----------------|----------------|------|
 |1      |0:27:57|Eliška Štveráková|                |ČVUT  |
 |2      |0:30:24|Magda Houžvičková|Eliška Mullerová|UK    |
@@ -96,7 +96,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 |4      |0:32:45|Marie Haluzová   |                |      |
 
 #### B
-|Pořadí:|Čas:   |Tým:               |<!-- -->|<!-- -->|
+|Pořadí:|Čas:   |Tým:               |&nbsp;         |&nbsp;|
 |-------|-------|-------------------|---------------|------|
 |1      |0:17:45|Maroš Letaši       |               |ČVUT  |
 |2      |0:22:02|Anna Kopecká       |               |ČVUT  |
