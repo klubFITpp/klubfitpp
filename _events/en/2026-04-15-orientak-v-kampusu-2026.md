@@ -17,9 +17,10 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 [Outlines](/documents/events/orientak-v-kampusu-2026-propozice_en.pdf)  
 
 ### Results
-&nbsp;
+<br>
 
 #### Elite A Men
+
 |Place: |Time:  |Runner 1:       |Runner 2:|Institution|
 |-------|-------|----------------|---------|-----------|
 |1      |0:16:30|Martin Roudný   |         |VŠCHT      |
@@ -45,7 +46,10 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 |       |DSQ    |Vojtěch Kopal   |         |ČVUT       |
 |       |DNS    |Ondřej Suchý    |         |ČVUT       |
 
+<br>
+
 #### Elite A Women
+
 |Place: |Time:  |Runner 1:        |Runner 2: |Institution|
 |-------|-------|-----------------|----------|-----------|
 |1      |0:23:45|Kamila Horčičková|          |UK         |
@@ -58,7 +62,10 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 |8      |0:43:53|Eva Tloušťová    |          |ÚOCHB      |
 |       |DSQ    |Ema Bulířová     |          |UK         |
 
+<br>
+
 #### A Men
+
 |Place: |Time:  |Runner 1:        |Runner 2:         |Institution|
 |-------|-------|-----------------|------------------|-----------|
 |1      |0:20:30|Jirka Friš       |                  |ČVUT       |
@@ -87,7 +94,10 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 |       |DSQ    |Petr Vondráček   |Adam Jedlička     |ČVUT+ZČU   |
 |       |DSQ    |Marek Vospěl     |                  |ČVUT       |
 
+<br>
+
 #### A Women
+
 |Place: |Time:  |Runner 1:        |Runner 2:       |Institution|
 |-------|-------|-----------------|----------------|-----------|
 |1      |0:27:57|Eliška Štveráková|                |ČVUT       |
@@ -96,6 +106,7 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 |4      |0:32:45|Marie Haluzová   |                |           |
 
 #### B
+
 |Place: |Time:  |Runner 1:          |Runner 2:      |Institution|
 |-------|-------|-------------------|---------------|-----------|
 |1      |0:17:45|Maroš Letaši       |               |ČVUT       |
