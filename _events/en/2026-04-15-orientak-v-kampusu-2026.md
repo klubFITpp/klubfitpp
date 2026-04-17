@@ -17,7 +17,7 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 [Outlines](/documents/events/orientak-v-kampusu-2026-propozice_en.pdf)  
 
 ### Results
-<br>
+&nbsp;
 
 #### Elite A Men
 |Place: |Time:  |Runner 1:       |Runner 2:|Institution|
