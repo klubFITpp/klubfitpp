@@ -1,5 +1,5 @@
 ---
-title: "Workshop EY - Data management"
+title: "EY Workshop - Data management"
 layout: event
 categories:
   - Workshop
