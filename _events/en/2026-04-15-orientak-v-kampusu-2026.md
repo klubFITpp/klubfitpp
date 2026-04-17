@@ -22,28 +22,28 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 |Place  |Time   |Runner 1        |Runner 2 |Institution|
 |-------|-------|----------------|---------|-----------|
-|1      |0:16:30|Martin Roudný   |         |VŠCHT      |
-|2      |0:17:04|Tomáš Dohnálek  |         |VŠCHT      |
-|3      |0:17:58|Milan Malačka   |         |ČVUT       |
-|4      |0:18:36|Vojtěch Kohoutek|         |UK         |
-|5      |0:19:24|Adam Vaněk      |         |ČVUT       |
-|6      |0:19:49|Albert Havliček |         |ČVUT       |
-|7      |0:20:30|Michal Kopča    |         |ČVUT       |
-|8      |0:21:01|Josef Sabol     |         |ČVUT       |
-|9      |0:21:45|Petr Sokol      |         |ČVUT       |
-|10     |0:21:49|Jakub Řada      |         |ČVUT       |
-|11     |0:21:50|Kryštof Jirásek |         |ČVUT       |
-|12     |0:21:56|Libor Vágner    |         |ČVUT       |
-|13     |0:22:25|Marek Maškarinec|         |ČVUT       |
-|14     |0:24:01|Jakub Kořánek   |         |ČVUT       |
-|15     |0:24:35|Vojtěch Větvička|         |ČVUT       |
-|16     |0:25:07|Šlapák Martin   |         |ČVUT       |
-|17     |0:25:18|Jakub Kraus     |         |ČVUT       |
-|18     |0:25:23|Tobiáš Václavek |         |ČVUT       |
-|19     |0:33:11|Jan Starý       |         |ČVUT       |
-|20     |0:54:32|Pavlína Paulová |Lipatov  |ČVUT       |
-|       |DSQ    |Vojtěch Kopal   |         |ČVUT       |
-|       |DNS    |Ondřej Suchý    |         |ČVUT       |
+|<span style="white-space:nowrap;">1</span>      |<span style="white-space:nowrap;">0:16:30</span>|<span style="white-space:nowrap;">Martin Roudný</span>   |         |<span style="white-space:nowrap;">VŠCHT</span>      |
+|<span style="white-space:nowrap;">2</span>      |<span style="white-space:nowrap;">0:17:04</span>|<span style="white-space:nowrap;">Tomáš Dohnálek</span>  |         |<span style="white-space:nowrap;">VŠCHT</span>      |
+|<span style="white-space:nowrap;">3</span>      |<span style="white-space:nowrap;">0:17:58</span>|<span style="white-space:nowrap;">Milan Malačka</span>   |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">4</span>      |<span style="white-space:nowrap;">0:18:36</span>|<span style="white-space:nowrap;">Vojtěch Kohoutek</span>|         |<span style="white-space:nowrap;">UK</span>         |
+|<span style="white-space:nowrap;">5</span>      |<span style="white-space:nowrap;">0:19:24</span>|<span style="white-space:nowrap;">Adam Vaněk</span>      |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">6</span>      |<span style="white-space:nowrap;">0:19:49</span>|<span style="white-space:nowrap;">Albert Havliček</span> |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">7</span>      |<span style="white-space:nowrap;">0:20:30</span>|<span style="white-space:nowrap;">Michal Kopča</span>    |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">8</span>      |<span style="white-space:nowrap;">0:21:01</span>|<span style="white-space:nowrap;">Josef Sabol</span>     |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">9</span>      |<span style="white-space:nowrap;">0:21:45</span>|<span style="white-space:nowrap;">Petr Sokol</span>      |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">10</span>     |<span style="white-space:nowrap;">0:21:49</span>|<span style="white-space:nowrap;">Jakub Řada</span>      |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">11</span>     |<span style="white-space:nowrap;">0:21:50</span>|<span style="white-space:nowrap;">Kryštof Jirásek</span> |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">12</span>     |<span style="white-space:nowrap;">0:21:56</span>|<span style="white-space:nowrap;">Libor Vágner</span>    |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">13</span>     |<span style="white-space:nowrap;">0:22:25</span>|<span style="white-space:nowrap;">Marek Maškarinec</span>|         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">14</span>     |<span style="white-space:nowrap;">0:24:01</span>|<span style="white-space:nowrap;">Jakub Kořánek</span>   |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">15</span>     |<span style="white-space:nowrap;">0:24:35</span>|<span style="white-space:nowrap;">Vojtěch Větvička</span>|         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">16</span>     |<span style="white-space:nowrap;">0:25:07</span>|<span style="white-space:nowrap;">Šlapák Martin</span>   |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">17</span>     |<span style="white-space:nowrap;">0:25:18</span>|<span style="white-space:nowrap;">Jakub Kraus</span>     |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">18</span>     |<span style="white-space:nowrap;">0:25:23</span>|<span style="white-space:nowrap;">Tobiáš Václavek</span> |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">19</span>     |<span style="white-space:nowrap;">0:33:11</span>|<span style="white-space:nowrap;">Jan Starý</span>       |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">20</span>     |<span style="white-space:nowrap;">0:54:32</span>|<span style="white-space:nowrap;">Pavlína Paulová</span> |<span style="white-space:nowrap;">Lipatov</span>  |<span style="white-space:nowrap;">ČVUT</span>       |
+|       |<span style="white-space:nowrap;">DSQ</span>    |<span style="white-space:nowrap;">Vojtěch Kopal</span>   |         |<span style="white-space:nowrap;">ČVUT</span>       |
+|       |<span style="white-space:nowrap;">DNS</span>    |<span style="white-space:nowrap;">Ondřej Suchý</span>    |         |<span style="white-space:nowrap;">ČVUT</span>       |
 
 <br>
 
@@ -51,15 +51,15 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 |Place  |Time   |Runner           |Institution|
 |-------|-------|-----------------|-----------|
-|1      |0:23:45|Kamila Horčičková|UK         |
-|2      |0:24:03|Kateřina Krásná  |ČVUT       |
-|3      |0:24:36|Blanka Collis    |ÚOCHB      |
-|4      |0:25:18|Hanka Řada       |ČVUT       |
-|5      |0:25:41|Vendula Růžičková|ČVUT       |
-|6      |0:27:36|Hana Moudrá      |ČVUT       |
-|7      |0:28:04|Svatava Voltrová |ÚOCHB      |
-|8      |0:43:53|Eva Tloušťová    |ÚOCHB      |
-|       |DSQ    |Ema Bulířová     |UK         |
+|<span style="white-space:nowrap;">1</span>      |<span style="white-space:nowrap;">0:23:45</span>|<span style="white-space:nowrap;">Kamila Horčičková</span>|<span style="white-space:nowrap;">UK</span>         |
+|<span style="white-space:nowrap;">2</span>      |<span style="white-space:nowrap;">0:24:03</span>|<span style="white-space:nowrap;">Kateřina Krásná</span>  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">3</span>      |<span style="white-space:nowrap;">0:24:36</span>|<span style="white-space:nowrap;">Blanka Collis</span>    |<span style="white-space:nowrap;">ÚOCHB</span>      |
+|<span style="white-space:nowrap;">4</span>      |<span style="white-space:nowrap;">0:25:18</span>|<span style="white-space:nowrap;">Hanka Řada</span>       |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">5</span>      |<span style="white-space:nowrap;">0:25:41</span>|<span style="white-space:nowrap;">Vendula Růžičková</span>|<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">6</span>      |<span style="white-space:nowrap;">0:27:36</span>|<span style="white-space:nowrap;">Hana Moudrá</span>      |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">7</span>      |<span style="white-space:nowrap;">0:28:04</span>|<span style="white-space:nowrap;">Svatava Voltrová</span> |<span style="white-space:nowrap;">ÚOCHB</span>      |
+|<span style="white-space:nowrap;">8</span>      |<span style="white-space:nowrap;">0:43:53</span>|<span style="white-space:nowrap;">Eva Tloušťová</span>    |<span style="white-space:nowrap;">ÚOCHB</span>      |
+|       |<span style="white-space:nowrap;">DSQ</span>    |<span style="white-space:nowrap;">Ema Bulířová</span>     |<span style="white-space:nowrap;">UK</span>         |
 
 <br>
 
@@ -67,31 +67,31 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 |Place  |Time   |Runner 1         |Runner 2          |Institution|
 |-------|-------|-----------------|------------------|-----------|
-|1      |0:20:30|Jirka Friš       |                  |ČVUT       |
-|2      |0:21:11|Aleš Palkovič    |                  |VŠCHT      |
-|3      |0:24:05|Lukáš Bartoš     |                  |VŠCHT      |
-|4      |0:25:23|Terezie Kladivová|Antonín Fabel     |ČVUT       |
-|5      |0:26:28|Matyáš Rak       |                  |ČVUT       |
-|6      |0:27:19|Matěj Ptáček     |Bára Chvátalová   |ČVUT+VŠCHT |
-|7      |0:28:55|Tomáš Motus      |                  |ČVUT       |
-|8      |0:29:08|Kryštof Vitvar   |                  |ČVUT       |
-|9      |0:29:39|Otto André Sršeň |Jiří Štros        |ČVUT       |
-|10     |0:30:42|Tomáš Alexa      |Oldřich Kohoutek  |ČVUT       |
-|11     |0:31:08|Petr Kratochvíl  |Kristina Oftnerová|VŠCHT      |
-|12     |0:31:54|František Tichý  |                  |ČVUT       |
-|13     |0:32:52|Jan Kadlec       |                  |ČVUT       |
-|14     |0:32:57|Matyáš Novotný   |                  |VŠCHT      |
-|15     |0:33:53|Lukáš Vesecký    |Oliver Hruban     |ČVUT       |
-|16     |0:35:00|Viktor Budík     |Marek Starka      |ČVUT       |
-|17     |0:36:30|Andrej Ohrablo   |                  |ČVUT       |
-|18     |0:38:08|Slávek Nikiforov |                  |ČVUT       |
-|19     |0:46:25|Vít Petrák       |Michaela Dubská   |ČVUT       |
-|20     |0:52:09|Adéla Svítková   |Jan Matoušek      |ČVUT       |
-|21     |0:57:13|Andrii Kurochka  |Ivan Arzhanov     |ÚOCHB      |
-|       |DSQ    |Kája Štaflová    |Michal Doležal    |ÚOCHB      |
-|       |DSQ    |Matyáš Hronek    |Lída Pavelková    |ČVUT       |
-|       |DSQ    |Petr Vondráček   |Adam Jedlička     |ČVUT+ZČU   |
-|       |DSQ    |Marek Vospěl     |                  |ČVUT       |
+|<span style="white-space:nowrap;">1</span>      |<span style="white-space:nowrap;">0:20:30</span>|<span style="white-space:nowrap;">Jirka Friš</span>       |                  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">2</span>      |<span style="white-space:nowrap;">0:21:11</span>|<span style="white-space:nowrap;">Aleš Palkovič</span>    |                  |<span style="white-space:nowrap;">VŠCHT</span>      |
+|<span style="white-space:nowrap;">3</span>      |<span style="white-space:nowrap;">0:24:05</span>|<span style="white-space:nowrap;">Lukáš Bartoš</span>     |                  |<span style="white-space:nowrap;">VŠCHT</span>      |
+|<span style="white-space:nowrap;">4</span>      |<span style="white-space:nowrap;">0:25:23</span>|<span style="white-space:nowrap;">Terezie Kladivová</span>|<span style="white-space:nowrap;">Antonín Fabel</span>     |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">5</span>      |<span style="white-space:nowrap;">0:26:28</span>|<span style="white-space:nowrap;">Matyáš Rak</span>       |                  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">6</span>      |<span style="white-space:nowrap;">0:27:19</span>|<span style="white-space:nowrap;">Matěj Ptáček</span>     |<span style="white-space:nowrap;">Bára Chvátalová</span>   |<span style="white-space:nowrap;">ČVUT+VŠCHT</span> |
+|<span style="white-space:nowrap;">7</span>      |<span style="white-space:nowrap;">0:28:55</span>|<span style="white-space:nowrap;">Tomáš Motus</span>      |                  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">8</span>      |<span style="white-space:nowrap;">0:29:08</span>|<span style="white-space:nowrap;">Kryštof Vitvar</span>   |                  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">9</span>      |<span style="white-space:nowrap;">0:29:39</span>|<span style="white-space:nowrap;">Otto André Sršeň</span> |<span style="white-space:nowrap;">Jiří Štros</span>        |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">10</span>     |<span style="white-space:nowrap;">0:30:42</span>|<span style="white-space:nowrap;">Tomáš Alexa</span>      |<span style="white-space:nowrap;">Oldřich Kohoutek</span>  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">11</span>     |<span style="white-space:nowrap;">0:31:08</span>|<span style="white-space:nowrap;">Petr Kratochvíl</span>  |<span style="white-space:nowrap;">Kristina Oftnerová</span>|<span style="white-space:nowrap;">VŠCHT</span>      |
+|<span style="white-space:nowrap;">12</span>     |<span style="white-space:nowrap;">0:31:54</span>|<span style="white-space:nowrap;">František Tichý</span>  |                  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">13</span>     |<span style="white-space:nowrap;">0:32:52</span>|<span style="white-space:nowrap;">Jan Kadlec</span>       |                  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">14</span>     |<span style="white-space:nowrap;">0:32:57</span>|<span style="white-space:nowrap;">Matyáš Novotný</span>   |                  |<span style="white-space:nowrap;">VŠCHT</span>      |
+|<span style="white-space:nowrap;">15</span>     |<span style="white-space:nowrap;">0:33:53</span>|<span style="white-space:nowrap;">Lukáš Vesecký</span>    |<span style="white-space:nowrap;">Oliver Hruban</span>     |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">16</span>     |<span style="white-space:nowrap;">0:35:00</span>|<span style="white-space:nowrap;">Viktor Budík</span>     |<span style="white-space:nowrap;">Marek Starka</span>      |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">17</span>     |<span style="white-space:nowrap;">0:36:30</span>|<span style="white-space:nowrap;">Andrej Ohrablo</span>   |                  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">18</span>     |<span style="white-space:nowrap;">0:38:08</span>|<span style="white-space:nowrap;">Slávek Nikiforov</span> |                  |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">19</span>     |<span style="white-space:nowrap;">0:46:25</span>|<span style="white-space:nowrap;">Vít Petrák</span>       |<span style="white-space:nowrap;">Michaela Dubská</span>   |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">20</span>     |<span style="white-space:nowrap;">0:52:09</span>|<span style="white-space:nowrap;">Adéla Svítková</span>   |<span style="white-space:nowrap;">Jan Matoušek</span>      |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">21</span>     |<span style="white-space:nowrap;">0:57:13</span>|<span style="white-space:nowrap;">Andrii Kurochka</span>  |<span style="white-space:nowrap;">Ivan Arzhanov</span>     |<span style="white-space:nowrap;">ÚOCHB</span>      |
+|       |<span style="white-space:nowrap;">DSQ</span>    |<span style="white-space:nowrap;">Kája Štaflová</span>    |<span style="white-space:nowrap;">Michal Doležal</span>    |<span style="white-space:nowrap;">ÚOCHB</span>      |
+|       |<span style="white-space:nowrap;">DSQ</span>    |<span style="white-space:nowrap;">Matyáš Hronek</span>    |<span style="white-space:nowrap;">Lída Pavelková</span>    |<span style="white-space:nowrap;">ČVUT</span>       |
+|       |<span style="white-space:nowrap;">DSQ</span>    |<span style="white-space:nowrap;">Petr Vondráček</span>   |<span style="white-space:nowrap;">Adam Jedlička</span>     |<span style="white-space:nowrap;">ČVUT+ZČU</span>   |
+|       |<span style="white-space:nowrap;">DSQ</span>    |<span style="white-space:nowrap;">Marek Vospěl</span>     |                  |<span style="white-space:nowrap;">ČVUT</span>       |
 
 <br>
 
@@ -99,22 +99,22 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 
 |Place  |Time   |Runner 1         |Runner 2        |Institution|
 |-------|-------|-----------------|----------------|-----------|
-|1      |0:27:57|Eliška Štveráková|                |ČVUT       |
-|2      |0:30:24|Magda Houžvičková|Eliška Mullerová|UK         |
-|3      |0:32:23|Ivana Dvořáková  |                |ÚOCHB      |
-|4      |0:32:45|Marie Haluzová   |                |           |
+|<span style="white-space:nowrap;">1</span>      |<span style="white-space:nowrap;">0:27:57</span>|<span style="white-space:nowrap;">Eliška Štveráková</span>|                |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">2</span>      |<span style="white-space:nowrap;">0:30:24</span>|<span style="white-space:nowrap;">Magda Houžvičková</span>|<span style="white-space:nowrap;">Eliška Mullerová</span>|<span style="white-space:nowrap;">UK</span>         |
+|<span style="white-space:nowrap;">3</span>      |<span style="white-space:nowrap;">0:32:23</span>|<span style="white-space:nowrap;">Ivana Dvořáková</span>  |                |<span style="white-space:nowrap;">ÚOCHB</span>      |
+|<span style="white-space:nowrap;">4</span>      |<span style="white-space:nowrap;">0:32:45</span>|<span style="white-space:nowrap;">Marie Haluzová</span>   |                |           |
 
 #### B
 
 |Place  |Time   |Runner 1           |Runner 2       |Institution|
 |-------|-------|-------------------|---------------|-----------|
-|1      |0:17:45|Maroš Letaši       |               |ČVUT       |
-|2      |0:22:02|Anna Kopecká       |               |ČVUT       |
-|3      |0:23:09|Lucie Mottlová     |Tomáš Názler   |ČVUT       |
-|4      |0:24:03|Erik Sadvár        |Šimon Husár    |ČVUT       |
-|5      |0:24:18|Michaela Ceé       |Adéla Syrová   |VŠCHT      |
-|6      |0:34:48|Lenka Borovičková  |               |ÚOCHB      |
-|7      |0:37:18|Kristýna Škorpíková|Aneta Němcová  |VŠCHT      |
-|8      |0:39:07|Sára Kandlerová    |Albert Havliček|ČVUT       |
-|9      |0:49:00|Ilgar Shikhverdiyev|               |ČVUT       |
-|10     |1:01:30|Daniela Illnerová  |               |ČVUT       |
+|<span style="white-space:nowrap;">1</span>      |<span style="white-space:nowrap;">0:17:45</span>|<span style="white-space:nowrap;">Maroš Letaši</span>       |               |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">2</span>      |<span style="white-space:nowrap;">0:22:02</span>|<span style="white-space:nowrap;">Anna Kopecká</span>       |               |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">3</span>      |<span style="white-space:nowrap;">0:23:09</span>|<span style="white-space:nowrap;">Lucie Mottlová</span>     |<span style="white-space:nowrap;">Tomáš Názler</span>   |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">4</span>      |<span style="white-space:nowrap;">0:24:03</span>|<span style="white-space:nowrap;">Erik Sadvár</span>        |<span style="white-space:nowrap;">Šimon Husár</span>    |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">5</span>      |<span style="white-space:nowrap;">0:24:18</span>|<span style="white-space:nowrap;">Michaela Ceé</span>       |<span style="white-space:nowrap;">Adéla Syrová</span>   |<span style="white-space:nowrap;">VŠCHT</span>      |
+|<span style="white-space:nowrap;">6</span>      |<span style="white-space:nowrap;">0:34:48</span>|<span style="white-space:nowrap;">Lenka Borovičková</span>  |               |<span style="white-space:nowrap;">ÚOCHB</span>      |
+|<span style="white-space:nowrap;">7</span>      |<span style="white-space:nowrap;">0:37:18</span>|<span style="white-space:nowrap;">Kristýna Škorpíková</span>|<span style="white-space:nowrap;">Aneta Němcová</span>  |<span style="white-space:nowrap;">VŠCHT</span>      |
+|<span style="white-space:nowrap;">8</span>      |<span style="white-space:nowrap;">0:39:07</span>|<span style="white-space:nowrap;">Sára Kandlerová</span>    |<span style="white-space:nowrap;">Albert Havliček</span>|<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">9</span>      |<span style="white-space:nowrap;">0:49:00</span>|<span style="white-space:nowrap;">Ilgar Shikhverdiyev</span>|               |<span style="white-space:nowrap;">ČVUT</span>       |
+|<span style="white-space:nowrap;">10</span>     |<span style="white-space:nowrap;">1:01:30</span>|<span style="white-space:nowrap;">Daniela Illnerová</span>  |               |<span style="white-space:nowrap;">ČVUT</span>       |
