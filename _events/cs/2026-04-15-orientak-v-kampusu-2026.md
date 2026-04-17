@@ -17,7 +17,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 [Propozice](/documents/events/orientak-v-kampusu-2026-propozice_cz.pdf)  
 
 ### Výsledky
-<br>
+&nbsp;
 
 #### Elita A Muži
 |Pořadí:|Čas:   |Běžec 1         |Běžec 2:|Instituce|
