@@ -13,8 +13,8 @@ img: "/assets/images/event/orientak-v-kampusu-2026.png"
 For all athletically inclined students and employees in the vicinity of Dejvice Campus, the FIT++ student club is organizing an orienteering race, for the fourth year in a row. Take a partner or come alone and test your fitness and sense of orientation on one of the routes. The event is open even to complete beginners, just register at the link below.
 
 #### Links
-[Signup form](https://forms.gle/2ct7CpwDgTeDvXQU8)  
-[Outlines](/documents/events/orientak-v-kampusu-2026-propozice_en.pdf)  
+[Signup form](https://forms.gle/2ct7CpwDgTeDvXQU8)
+[Outlines](/documents/events/orientak-v-kampusu-2026-propozice_en.pdf)
 
 ### Results
 
@@ -131,7 +131,7 @@ For all athletically inclined students and employees in the vicinity of Dejvice 
 |<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">0:23:09</span>|<span style="white-space:nowrap;">Lucie Mottlová</span>|<span style="white-space:nowrap;">Tomáš Názler</span>|<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">0:24:03</span>|<span style="white-space:nowrap;">Erik Sadvár</span>|<span style="white-space:nowrap;">Šimon Husár</span>|<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">0:24:18</span>|<span style="white-space:nowrap;">Michaela Ceé</span>|<span style="white-space:nowrap;">Adéla Syrová</span>|<span style="white-space:nowrap;">VŠCHT</span>|
-|<span style="white-space:nowrap;">6</span>|<span style="white-space:nowrap;">0:34:48</span>|<span style="white-space:nowrap;">Lenka Borovičková</span>||<span style="white-space:nowrap;">ÚOCHB</span>|
+|<span style="white-space:nowrap;">6</span>|<span style="white-space:nowrap;">0:26:48</span>|<span style="white-space:nowrap;">Lenka Borovičková</span>||<span style="white-space:nowrap;">ÚOCHB</span>|
 |<span style="white-space:nowrap;">7</span>|<span style="white-space:nowrap;">0:37:18</span>|<span style="white-space:nowrap;">Kristýna Škorpíková</span>|<span style="white-space:nowrap;">Aneta Němcová</span>|<span style="white-space:nowrap;">VŠCHT</span>|
 |<span style="white-space:nowrap;">8</span>|<span style="white-space:nowrap;">0:39:07</span>|<span style="white-space:nowrap;">Sára Kandlerová</span>|<span style="white-space:nowrap;">Albert Havliček</span>|<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">9</span>|<span style="white-space:nowrap;">0:49:00</span>|<span style="white-space:nowrap;">Ilgar Shikhverdiyev</span>||<span style="white-space:nowrap;">ČVUT</span>|
