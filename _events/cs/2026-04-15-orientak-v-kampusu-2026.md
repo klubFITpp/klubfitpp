@@ -10,11 +10,11 @@ tags:
 img: "/assets/images/event/orientak-v-kampusu-2026.png"
 ---
 
-Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvice pořádá studentský klub FIT++ již počtvrté orientační běh. Vezměte parťáka nebo doražte sami a vyzkoušejte na jedné z tratí svou fyzičku i smysl pro orientaci. Akce je otevřena i úplným začátečníkům, stačí se registrovat níže. 
+Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvice pořádá studentský klub FIT++ již počtvrté orientační běh. Vezměte parťáka nebo doražte sami a vyzkoušejte na jedné z tratí svou fyzičku i smysl pro orientaci. Akce je otevřena i úplným začátečníkům, stačí se registrovat níže.
 
 #### Links
-[Přihlašovací formulář](https://forms.gle/2ct7CpwDgTeDvXQU8)  
-[Propozice](/documents/events/orientak-v-kampusu-2026-propozice_cz.pdf)  
+[Přihlašovací formulář](https://forms.gle/2ct7CpwDgTeDvXQU8)
+[Propozice](/documents/events/orientak-v-kampusu-2026-propozice_cz.pdf)
 
 ### Výsledky
 
@@ -133,7 +133,7 @@ Pro všechny sportovně naladěné studenty a zaměstnance okolí Kampusu Dejvic
 |<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">0:23:09</span>|<span style="white-space:nowrap;">Lucie Mottlová</span>|<span style="white-space:nowrap;">Tomáš Názler</span>|<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">0:24:03</span>|<span style="white-space:nowrap;">Erik Sadvár</span>|<span style="white-space:nowrap;">Šimon Husár</span>|<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">0:24:18</span>|<span style="white-space:nowrap;">Michaela Ceé</span>|<span style="white-space:nowrap;">Adéla Syrová</span>|<span style="white-space:nowrap;">VŠCHT</span>|
-|<span style="white-space:nowrap;">6</span>|<span style="white-space:nowrap;">0:34:48</span>|<span style="white-space:nowrap;">Lenka Borovičková</span>||<span style="white-space:nowrap;">ÚOCHB</span>|
+|<span style="white-space:nowrap;">6</span>|<span style="white-space:nowrap;">0:26:48</span>|<span style="white-space:nowrap;">Lenka Borovičková</span>||<span style="white-space:nowrap;">ÚOCHB</span>|
 |<span style="white-space:nowrap;">7</span>|<span style="white-space:nowrap;">0:37:18</span>|<span style="white-space:nowrap;">Kristýna Škorpíková</span>|<span style="white-space:nowrap;">Aneta Němcová</span>|<span style="white-space:nowrap;">VŠCHT</span>|
 |<span style="white-space:nowrap;">8</span>|<span style="white-space:nowrap;">0:39:07</span>|<span style="white-space:nowrap;">Sára Kandlerová</span>|<span style="white-space:nowrap;">Albert Havliček</span>|<span style="white-space:nowrap;">ČVUT</span>|
 |<span style="white-space:nowrap;">9</span>|<span style="white-space:nowrap;">0:49:00</span>|<span style="white-space:nowrap;">Ilgar Shikhverdiyev</span>||<span style="white-space:nowrap;">ČVUT</span>|
