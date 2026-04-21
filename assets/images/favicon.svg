@@ -1,17 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -30 81 81">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -29 101 101">
   <style>
     .b { fill: #0073BC; }
     .y { fill: #F9B000; }
   </style>
 
+  <!-- okraj -->
+  <path class="b" d="M0 0 H53 V4 H4 V38 H53 V42 H0 V0 Z"/>
+  <path class="y" d="M53 0 H101 V42 H53 V38 H97 V4 H53 V0 Z"/>
+
   <!-- FIT -->
-  <path class="b" d="M0 0 H13 V4 H4 V8 H12 V12 H4 V22 H0 V0 Z"/>
-  <path class="b" d="M17 0 H21 V22 H17 V0 Z"/>
-  <path class="b" d="M25 0 H41 V4 H35 V22 H31 V4 H25 V0 Z"/>
+  <path class="b" d="M10 10 H23 V14 H14 V18 H22 V22 H14 V32 H10 V10 Z"/>
+  <path class="b" d="M27 10 H31 V32 H27 V10 Z"/>
+  <path class="b" d="M35 10 H51 V14 H45 V32 H41 V14 H35 V10 Z"/>
 
   <!-- ++ -->
-  <path class="y" d="M51 3 H55 V9 H61 V13 H55 V19 H51 V13 H45 V9 H51 V3 Z"/>
-  <path class="y" d="M71 3 H75 V9 H81 V13 H75 V19 H71 V13 H65 V9 H71 V3 Z"/>
+  <path class="y" d="M61 13 H65 V19 H71 V23 H65 V29 H61 V23 H55 V19 H61 V13 Z"/>
+  <path class="y" d="M81 13 H85 V19 H91 V23 H85 V29 H81 V23 H75 V19 H81 V13 Z"/>
   
   <!--Autor SVG: Adam Andrej Barnáš-->
 </svg>
