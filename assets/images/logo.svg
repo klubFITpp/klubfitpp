@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 211 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><rect id="Colour" x="-12.5" y="-12.5" width="235.417" height="112.5" style="fill:none;"/><rect x="31.25" y="-0" width="179.167" height="8.333" style="fill:#f9b000;"/><rect x="33.383" y="79.167" width="177.034" height="8.333" style="fill:#f9b000;"/><rect x="-0" y="-0" width="110.417" height="8.333" style="fill:#0073bc;"/><rect x="-0" y="79.167" width="110.417" height="8.333" style="fill:#0073bc;"/><rect x="-0" y="-0" width="8.333" height="87.5" style="fill:#0073bc;"/><rect x="20.833" y="20.833" width="27.083" height="8.333" style="fill:#0073bc;"/><rect x="72.917" y="20.833" width="33.333" height="8.333" style="fill:#0073bc;"/><rect x="114.583" y="39.583" width="33.333" height="8.333" style="fill:#f9b000;"/><rect x="156.25" y="39.583" width="33.333" height="8.333" style="fill:#f9b000;"/><rect x="127.083" y="27.083" width="8.333" height="33.333" style="fill:#f9b000;"/><rect x="168.75" y="27.083" width="8.333" height="33.333" style="fill:#f9b000;"/><rect x="202.083" y="0" width="8.333" height="87.5" style="fill:#f9b000;"/><rect x="20.833" y="37.5" width="25" height="8.333" style="fill:#0073bc;"/><rect x="20.833" y="20.833" width="8.333" height="45.833" style="fill:#0073bc;"/><rect x="56.25" y="20.833" width="8.333" height="45.833" style="fill:#0073bc;"/><rect x="85.417" y="20.833" width="8.333" height="45.833" style="fill:#0073bc;"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101 42">
+  <style>
+    .b { fill: #0073BC; }
+    .y { fill: #F9B000; }
+  </style>
+
+  <!-- okraj -->
+  <path class="b" d="M0 0 H53 V4 H4 V38 H53 V42 H0 V0 Z"/>
+  <path class="y" d="M53 0 H101 V42 H53 V38 H97 V4 H53 V0 Z"/>
+
+  <!-- FIT -->
+  <path class="b" d="M10 10 H23 V14 H14 V18 H22 V22 H14 V32 H10 V10 Z"/>
+  <path class="b" d="M27 10 H31 V32 H27 V10 Z"/>
+  <path class="b" d="M35 10 H51 V14 H45 V32 H41 V14 H35 V10 Z"/>
+
+  <!-- ++ -->
+  <path class="y" d="M61 13 H65 V19 H71 V23 H65 V29 H61 V23 H55 V19 H61 V13 Z"/>
+  <path class="y" d="M81 13 H85 V19 H91 V23 H85 V29 H81 V23 H75 V19 H81 V13 Z"/>
+  
+  <!--Autor SVG: Adam Andrej Barnáš-->
+</svg>

@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 254 254" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><rect x="0" y="92.188" width="40.625" height="12.5" style="fill:#0073bc;"/><rect x="78.125" y="92.188" width="50" height="12.5" style="fill:#0073bc;"/><rect x="140.625" y="120.313" width="50" height="12.5" style="fill:#f9b000;"/><rect x="203.125" y="120.313" width="50" height="12.5" style="fill:#f9b000;"/><rect x="159.375" y="101.563" width="12.5" height="50" style="fill:#f9b000;"/><rect x="221.875" y="101.563" width="12.5" height="50" style="fill:#f9b000;"/><rect x="0" y="117.188" width="37.5" height="12.5" style="fill:#0073bc;"/><rect x="0" y="92.188" width="12.5" height="68.75" style="fill:#0073bc;"/><rect x="53.125" y="92.188" width="12.5" height="68.75" style="fill:#0073bc;"/><rect x="96.875" y="92.188" width="12.5" height="68.75" style="fill:#0073bc;"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -30 81 81">
+  <style>
+    .b { fill: #0073BC; }
+    .y { fill: #F9B000; }
+  </style>
+
+  <!-- okraj 
+  <path class="b" d="M0 0 H53 V4 H4 V38 H53 V42 H0 V0 Z"/>
+  <path class="y" d="M53 0 H101 V42 H53 V38 H97 V4 H53 V0 Z"/>
+  -->
+
+  <!-- FIT -->
+  <path class="b" d="M0 0 H13 V4 H4 V8 H12 V12 H4 V22 H0 V0 Z"/>
+  <path class="b" d="M17 0 H21 V22 H17 V0 Z"/>
+  <path class="b" d="M25 0 H41 V4 H35 V22 H31 V4 H25 V0 Z"/>
+
+  <!-- ++ -->
+  <path class="y" d="M51 3 H55 V9 H61 V13 H55 V19 H51 V13 H45 V9 H51 V3 Z"/>
+  <path class="y" d="M71 3 H75 V9 H81 V13 H75 V19 H71 V13 H65 V9 H71 V3 Z"/>
+  
+  <!--Autor SVG: Adam Andrej Barnáš-->
+</svg>
