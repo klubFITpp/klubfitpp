@@ -4,11 +4,6 @@
     .y { fill: #F9B000; }
   </style>
 
-  <!-- okraj 
-  <path class="b" d="M0 0 H53 V4 H4 V38 H53 V42 H0 V0 Z"/>
-  <path class="y" d="M53 0 H101 V42 H53 V38 H97 V4 H53 V0 Z"/>
-  -->
-
   <!-- FIT -->
   <path class="b" d="M0 0 H13 V4 H4 V8 H12 V12 H4 V22 H0 V0 Z"/>
   <path class="b" d="M17 0 H21 V22 H17 V0 Z"/>
