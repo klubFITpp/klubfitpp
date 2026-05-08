@@ -366,19 +366,19 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027.pdf"
+      url: "/documents/volby/2026/volby-do-Predstavenstva-2026-2027.pdf"
     - name:
         cs: "Termíny voleb a volební místnosti"
         en: "Election dates and polling stations"
-      url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027_terminy.pdf"
+      url: "/documents/volby/2026/volby-do-Predstavenstva-2026-2027_terminy.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027_kandidatky.pdf"
+      url: "/documents/volby/2026/volby-do-Predstavenstva-2026-2027_kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2026/volby-do-Predstavenstva-2026-2027_vysledky.pdf"
+      url: "/documents/volby/2026/volby-do-Predstavenstva-2026-2027_vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
@@ -395,19 +395,19 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026.pdf"
+      url: "/documents/volby/2025/volby-do-Predstavenstva-2025-2026.pdf"
     - name:
         cs: "Termíny voleb a volební místnosti"
         en: "Election dates and polling stations"
-      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_terminy.pdf"
+      url: "/documents/volby/2025/volby-do-Predstavenstva-2025-2026_terminy.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_kandidatky.pdf"
+      url: "/documents/volby/2025/volby-do-Predstavenstva-2025-2026_kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2025/volby-do-Predstavenstva-2025-2026_vysledky.pdf"
+      url: "/documents/volby/2025/volby-do-Predstavenstva-2025-2026_vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
@@ -424,19 +424,19 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025.pdf"
+      url: "/documents/volby/2024/volby-do-Predstavenstva-2024-2025.pdf"
     - name:
         cs: "Termíny voleb a volební místnosti"
         en: "Election dates and polling stations"
-      url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_terminy.pdf"
+      url: "/documents/volby/2024/volby-do-Predstavenstva-2024-2025_terminy.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_kandidatky.pdf"
+      url: "/documents/volby/2024/volby-do-Predstavenstva-2024-2025_kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2024/volby-do-Predstavenstva-2024-2025_vysledky.pdf"
+      url: "/documents/volby/2024/volby-do-Predstavenstva-2024-2025_vysledky.pdf"
 - title:
     cs: |+
       Doplňovací volby do Představenstva FIT++
@@ -453,19 +453,19 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024.pdf"
+      url: "/documents/volby/2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024.pdf"
     - name:
         cs: "Termíny voleb a volební místnosti"
         en: "Election dates and polling stations"
-      url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_terminy.pdf"
+      url: "/documents/volby/2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_terminy.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_kandidatky.pdf"
+      url: "/documents/volby/2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_vysledky.pdf"
+      url: "/documents/volby/2023-1/doplnovaci-volby-do-Predstavenstva-2023-2024_vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
@@ -482,19 +482,19 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2023/volby-do-Predstavenstva-2023-2024.pdf"
+      url: "/documents/volby/2023/volby-do-Predstavenstva-2023-2024.pdf"
     - name:
         cs: "Termíny voleb a volební místnosti"
         en: "Election dates and polling stations"
-      url: "/documents/volby2023/volby-do-Predstavenstva-2023-2024_terminy.pdf"
+      url: "/documents/volby/2023/volby-do-Predstavenstva-2023-2024_terminy.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2023/volby-do-Predstavenstva-2023-2024_kandidatky.pdf"
+      url: "/documents/volby/2023/volby-do-Predstavenstva-2023-2024_kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2023/volby-do-Predstavenstva-2023-2024_vysledky.pdf"
+      url: "/documents/volby/2023/volby-do-Predstavenstva-2023-2024_vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
@@ -511,19 +511,19 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2022/volby-do-Predstavenstva-2022-2023.pdf"
+      url: "/documents/volby/2022/volby-do-Predstavenstva-2022-2023.pdf"
     - name:
         cs: "Termíny voleb a volební místnosti"
         en: "Election dates and polling stations"
-      url: "/documents/volby2022/volby-do-Predstavenstva-2022-2023_terminy.pdf"
+      url: "/documents/volby/2022/volby-do-Predstavenstva-2022-2023_terminy.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2022/volby-do-Predstavenstva-2022-2023_kandidatky.pdf"
+      url: "/documents/volby/2022/volby-do-Predstavenstva-2022-2023_kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2022/volby-do-Predstavenstva-2022-2023_vysledky.pdf"
+      url: "/documents/volby/2022/volby-do-Predstavenstva-2022-2023_vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
@@ -540,19 +540,19 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2021/volby-do-Predstavenstva-2021-2022.pdf"
+      url: "/documents/volby/2021/volby-do-Predstavenstva-2021-2022.pdf"
     - name:
         cs: "Termíny voleb a volební místnosti"
         en: "Election dates and polling stations"
-      url: "/documents/volby2021/volby-do-Predstavenstva-2021-2022_terminy.pdf"
+      url: "/documents/volby/2021/volby-do-Predstavenstva-2021-2022_terminy.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2021/volby-do-Predstavenstva-2021-2022_kandidatky.pdf"
+      url: "/documents/volby/2021/volby-do-Predstavenstva-2021-2022_kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2021/volby-do-Predstavenstva-2021-2022_vysledky.pdf"
+      url: "/documents/volby/2021/volby-do-Predstavenstva-2021-2022_vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
@@ -569,19 +569,19 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2020/volby-do-Predstavenstva-2020-2021.pdf"
+      url: "/documents/volby/2020/volby-do-Predstavenstva-2020-2021.pdf"
     - name:
         cs: "Termíny voleb a volební místnosti"
         en: "Election dates and polling stations"
-      url: "/documents/volby2020/volby-do-Predstavenstva-2020-2021_terminy.pdf"
+      url: "/documents/volby/2020/volby-do-Predstavenstva-2020-2021_terminy.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2020/volby-do-Predstavenstva-2020-2021_kandidatky.pdf"
+      url: "/documents/volby/2020/volby-do-Predstavenstva-2020-2021_kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2020/volby-do-Predstavenstva-2020-2021_vysledky.pdf"
+      url: "/documents/volby/2020/volby-do-Predstavenstva-2020-2021_vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
@@ -598,19 +598,19 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2019/volby-do-Predstavenstva-2019-2020.pdf"
+      url: "/documents/volby/2019/volby-do-Predstavenstva-2019-2020.pdf"
     - name:
         cs: "Termíny voleb a volební místnosti"
         en: "Election dates and polling stations"
-      url: "/documents/volby2019/volby-do-Predstavenstva-2019-2020_terminy.pdf"
+      url: "/documents/volby/2019/volby-do-Predstavenstva-2019-2020_terminy.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2019/volby-do-Predstavenstva-2019-2020_kandidatky.pdf"
+      url: "/documents/volby/2019/volby-do-Predstavenstva-2019-2020_kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2019/volby-do-Predstavenstva-2019-2020_vysledky.pdf"
+      url: "/documents/volby/2019/volby-do-Predstavenstva-2019-2020_vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
@@ -627,15 +627,15 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2018/volby.pdf"
+      url: "/documents/volby/2018/volby.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2018/kandidatky.pdf"
+      url: "/documents/volby/2018/kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2018/vysledky.pdf"
+      url: "/documents/volby/2018/vysledky.pdf"
 - title:
     cs: |+
       Volby do Představenstva FIT++
@@ -652,15 +652,15 @@
     - name:
         cs: "Informace k volbám"
         en: "Election information"
-      url: "/documents/volby2017/volby.pdf"
+      url: "/documents/volby/2017/volby.pdf"
     - name:
         cs: "Kandidátky"
         en: "Candidates"
-      url: "/documents/volby2017/kandidatky.pdf"
+      url: "/documents/volby/2017/kandidatky.pdf"
     - name:
         cs: "Výsledky voleb"
         en: "Election results"
-      url: "/documents/volby2017/vysledky.pdf"
+      url: "/documents/volby/2017/vysledky.pdf"
 
 - title:
     cs: "Hlasování Per Rollam ohledně výroční zprávy za rok 2021"
