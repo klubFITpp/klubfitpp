@@ -1,0 +1,109 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+<section class="post">
+  <div class="post__title__wrapper">
+    <div class="post__title__background">
+      <h2 class="post__title">{{ page.name }}</h2>
+    </div>
+  </div>
+
+  <main class="post__main">
+    <div class="mentor__detail__wrapper">
+      <a href="{{ '/mentoring' | fixnavlink }}" class="mentor__back__link">
+        <iconify-icon noobserver icon="ion:arrow-back"></iconify-icon>
+        {{ 'mentoring.back' | t }}
+      </a>
+
+      <div class="mentor__detail__header">
+        {% if page.img %}
+        <div class="mentor__detail__img" style="background-image: url({{ page.img | relative_url }});"></div>
+        {% else %}
+        <div class="mentor__detail__img">
+          {{ page.name | slice: 0, 1 }}
+        </div>
+        {% endif %}
+
+        <div class="mentor__detail__info">
+          {% if page.short-description or page.short_description %}
+          <p class="mentor__detail__desc">{{ page.short-description | default: page.short_description }}</p>
+          {% endif %}
+
+          {% if page.fields and page.fields.size > 0 %}
+          <div class="mentor__detail__section">
+            <span class="mentor__detail__label">{{ 'mentoring.fields' | t }}:</span>
+            <div class="mentor__card__fields">
+              {% for field in page.fields %}
+              <span class="mentor__field__tag">{{ field }}</span>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+
+          {% if page.languages and page.languages.size > 0 %}
+          <div class="mentor__detail__section">
+            <span class="mentor__detail__label">{{ 'mentoring.languages' | t }}:</span>
+            <div class="mentor__card__languages">
+              {% for lang in page.languages %}
+              <span class="mentor__lang__tag">{{ lang }}</span>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+
+          {% if page.contacts %}
+          <div class="mentor__detail__section">
+            <span class="mentor__detail__label">{{ 'mentoring.contacts' | t }}:</span>
+            <div class="mentor__contacts__list">
+              {% for contact in page.contacts %}
+                {% assign c_key = contact[0] | downcase %}
+                {% assign c_val = contact[1] %}
+
+                {% if c_key == 'email' %}
+                <a href="mailto:{{ c_val }}" class="mentor__contact__item">
+                  <iconify-icon noobserver icon="ion:mail"></iconify-icon>
+                  <span>{{ c_val }}</span>
+                </a>
+                {% elsif c_key == 'phone' %}
+                <a href="tel:{{ c_val | remove: ' ' }}" class="mentor__contact__item">
+                  <iconify-icon noobserver icon="ion:call"></iconify-icon>
+                  <span>{{ c_val }}</span>
+                </a>
+                {% elsif c_key == 'discord' %}
+                <div class="mentor__contact__item">
+                  <iconify-icon noobserver icon="ion:logo-discord"></iconify-icon>
+                  <span>{{ c_val }}</span>
+                </div>
+                {% elsif c_key == 'signal' %}
+                <div class="mentor__contact__item">
+                  <iconify-icon noobserver icon="ion:chatbubble-ellipses"></iconify-icon>
+                  <span>Signal: {{ c_val }}</span>
+                </div>
+                {% elsif c_key == 'github' %}
+                <a href="https://github.com/{{ c_val }}" target="_blank" rel="noopener noreferrer" class="mentor__contact__item">
+                  <iconify-icon noobserver icon="ion:logo-github"></iconify-icon>
+                  <span>{{ c_val }}</span>
+                </a>
+                {% else %}
+                <div class="mentor__contact__item">
+                  <iconify-icon noobserver icon="ion:information-circle"></iconify-icon>
+                  <span>{{ c_key | capitalize }}: {{ c_val }}</span>
+                </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+
+      {% if content and content != "" %}
+      <article class="post__article">
+        {{ content }}
+      </article>
+      {% endif %}
+    </div>
+  </main>
+</section>

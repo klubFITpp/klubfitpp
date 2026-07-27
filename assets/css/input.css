@@ -944,3 +944,132 @@ footer .refs__links__link__logo {
 .foot__button p {
   @apply w-full text-center;
 }
+
+/* MENTORING */
+
+.mentoring__subtitle {
+  @apply text-center text-xl text-gray-700 max-w-2xl mx-auto -mt-4 mb-6;
+}
+
+.mentoring__filters__wrapper {
+  @apply flex flex-col items-center justify-center my-6 px-4;
+}
+
+.mentoring__filters__label {
+  @apply text-base font-semibold text-gray-700 mb-2 uppercase tracking-wide;
+}
+
+.mentoring__filters {
+  @apply flex flex-wrap justify-center gap-2 max-w-4xl mx-auto;
+}
+
+.mentoring__filter__btn {
+  @apply px-4 py-2 text-lg font-semibold bg-gray-200 text-gray-800 hover:bg-primary-yellow hover:text-black transition cursor-pointer border-0;
+}
+
+.mentoring__filter__btn.active {
+  @apply bg-primary-blue text-white hover:bg-primary-blue-hover;
+}
+
+.mentors__wrapper {
+  @apply w-full max-w-7xl mx-auto px-4 sm:px-8 my-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3;
+}
+
+.mentor__card__link {
+  @apply block w-full text-black no-underline transition transform hover:-translate-y-1;
+}
+
+.mentor__card {
+  @apply flex flex-col h-full bg-white shadow-md border-t-4 border-primary-blue hover:border-primary-yellow transition;
+}
+
+.mentor__card__header {
+  @apply p-6 bg-slate-100 flex justify-center items-center border-b border-gray-200;
+}
+
+.mentor__card__img {
+  @apply rounded-full bg-cover bg-center w-36 h-36 aspect-square border-4 border-white shadow-md flex justify-center items-center text-4xl font-bold text-gray-400 bg-slate-200;
+}
+
+.mentor__card__body {
+  @apply p-6 flex flex-col grow;
+}
+
+.mentor__card__name {
+  @apply text-2xl font-bold text-center text-primary-blue mb-2 justify-center;
+}
+
+.mentor__card__languages {
+  @apply flex flex-wrap justify-center gap-1.5 mb-3;
+}
+
+.mentor__lang__tag {
+  @apply px-2 py-0.5 bg-primary-yellow text-xs font-bold text-black uppercase;
+}
+
+.mentor__card__desc {
+  @apply text-base text-gray-700 text-center mb-4 grow;
+}
+
+.mentor__card__fields {
+  @apply flex flex-wrap justify-center gap-1.5 mt-auto pt-3 border-t border-gray-100;
+}
+
+.mentor__field__tag {
+  @apply px-2.5 py-1 bg-slate-100 text-primary-blue font-semibold text-sm border border-slate-200;
+}
+
+.mentor__card__footer {
+  @apply mt-auto;
+}
+
+.mentor__card__btn {
+  @apply block py-3 px-4 bg-primary-blue text-lg text-white font-semibold text-center hover:bg-primary-blue-hover transition;
+}
+
+.no-mentors-msg {
+  @apply text-center text-xl text-gray-500 py-12;
+}
+
+/* MENTOR DETAIL PAGE */
+
+.mentor__detail__wrapper {
+  @apply w-full max-w-4xl mx-auto;
+}
+
+.mentor__back__link {
+  @apply inline-flex items-center gap-2 text-xl font-semibold text-primary-blue hover:text-primary-blue-hover mb-6 transition no-underline;
+}
+
+.mentor__detail__header {
+  @apply flex flex-col md:flex-row gap-8 items-center md:items-start bg-white p-6 sm:p-8 shadow-md border-t-4 border-primary-yellow mb-8;
+}
+
+.mentor__detail__img {
+  @apply rounded-full bg-cover bg-center w-44 h-44 aspect-square flex-shrink-0 border-4 border-slate-100 shadow-md flex items-center justify-center text-5xl font-bold text-gray-400 bg-slate-200;
+}
+
+.mentor__detail__info {
+  @apply flex flex-col w-full;
+}
+
+.mentor__detail__desc {
+  @apply text-xl text-gray-800 mb-4 font-medium;
+}
+
+.mentor__detail__section {
+  @apply flex flex-col sm:flex-row sm:items-center gap-2 my-2;
+}
+
+.mentor__detail__label {
+  @apply text-base font-bold text-gray-600 uppercase tracking-wide min-w-24;
+}
+
+.mentor__contacts__list {
+  @apply flex flex-wrap gap-3 mt-1;
+}
+
+.mentor__contact__item {
+  @apply inline-flex items-center gap-2 px-3 py-1.5 bg-slate-100 text-gray-800 font-semibold text-base no-underline hover:bg-primary-blue hover:text-white transition;
+}
+

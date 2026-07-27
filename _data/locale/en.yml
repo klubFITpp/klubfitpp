@@ -33,3 +33,16 @@ articles:
 
 events:
   read_more: "More"
+
+mentoring:
+  title: "Mentoring"
+  subtitle: "Need help with a course, project, or life at FIT? Our mentors are here for you!"
+  filter_all: "All fields"
+  filter_by_field: "Filter by field:"
+  fields: "Fields"
+  languages: "Languages"
+  contacts: "Contacts"
+  detail: "Mentor profile"
+  no_mentors: "No mentors match the selected filter."
+  back: "Back to mentoring"
+

@@ -33,3 +33,16 @@ articles:
 
 events:
   read_more: "Více"
+
+mentoring:
+  title: "Mentoring"
+  subtitle: "Potřebuješ poradit s předmětem, projektem nebo životem na FITu? Naši mentoři jsou tu pro tebe!"
+  filter_all: "Všechny obory"
+  filter_by_field: "Filtrovat podle oboru:"
+  fields: "Obory"
+  languages: "Jazyky"
+  contacts: "Kontakty"
+  detail: "Profil mentora"
+  no_mentors: "Žádní mentoři neodpovídají vybranému filtru."
+  back: "Zpět na mentoring"
+
