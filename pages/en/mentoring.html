@@ -11,37 +11,70 @@ permalink: /mentoring
 </section>
 
 {% assign all_fields = "" | split: "|||" %}
+{% assign all_languages = "" | split: "|||" %}
 {% for mentor in site.mentors %}
   {% for field in mentor.fields %}
     {% assign all_fields = all_fields | push: field %}
   {% endfor %}
+  {% for lang in mentor.languages %}
+    {% assign all_languages = all_languages | push: lang %}
+  {% endfor %}
 {% endfor %}
 {% assign all_fields = all_fields | uniq | sort %}
+{% assign all_languages = all_languages | uniq | sort %}
 
-{% if all_fields.size > 0 %}
-<div class="mentoring__filters__wrapper">
-  <span class="mentoring__filters__label">{{ 'mentoring.filter_by_field' | t }}</span>
-  <div class="mentoring__filters" id="mentor-field-filters">
-    <button 
-      type="button" 
-      data-filter="all" 
-      class="mentoring__filter__btn active"
-    >
-      {{ 'mentoring.filter_all' | t }}
-    </button>
+<div class="mentoring__filters__container">
+  {% if all_fields.size > 0 %}
+  <div class="mentoring__filters__wrapper">
+    <span class="mentoring__filters__label">{{ 'mentoring.filter_by_field' | t }}</span>
+    <div class="mentoring__filters" id="mentor-field-filters">
+      <button 
+        type="button" 
+        data-filter="all" 
+        class="mentoring__filter__btn active"
+      >
+        {{ 'mentoring.filter_all' | t }}
+      </button>
 
-    {% for field in all_fields %}
-    <button 
-      type="button" 
-      data-filter="{{ field | downcase | escape }}" 
-      class="mentoring__filter__btn"
-    >
-      {{ field }}
-    </button>
-    {% endfor %}
+      {% for field in all_fields %}
+      <button 
+        type="button" 
+        data-filter="{{ field | downcase | escape }}" 
+        class="mentoring__filter__btn"
+      >
+        {{ field }}
+      </button>
+      {% endfor %}
+    </div>
   </div>
+  {% endif %}
+
+  {% if all_languages.size > 0 %}
+  <div class="mentoring__filters__wrapper">
+    <span class="mentoring__filters__label">{{ 'mentoring.filter_by_language' | t }}</span>
+    <div class="mentoring__filters" id="mentor-lang-filters">
+      <button 
+        type="button" 
+        data-filter-lang="all" 
+        class="mentoring__filter__btn active"
+      >
+        {{ 'mentoring.filter_all_languages' | t }}
+      </button>
+
+      {% for lang in all_languages %}
+      <button 
+        type="button" 
+        data-filter-lang="{{ lang | downcase | escape }}" 
+        class="mentoring__filter__btn"
+      >
+        {% include language_flag.html lang=lang %}
+        <span>{{ lang }}</span>
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
 </div>
-{% endif %}
 
 {% assign shuffled_mentors = site.mentors | sample: site.mentors.size %}
 
@@ -53,7 +86,18 @@ permalink: /mentoring
       {% assign m_fields_str = m_fields_str | append: " " | append: f_down %}
     {% endfor %}
 
-    <a href="{{ mentor.url }}" class="mentor__card__link" data-fields="{{ m_fields_str | strip }}">
+    {% assign m_langs_str = "" %}
+    {% for l in mentor.languages %}
+      {% assign l_down = l | downcase %}
+      {% assign m_langs_str = m_langs_str | append: " " | append: l_down %}
+    {% endfor %}
+
+    <a 
+      href="{{ mentor.url }}" 
+      class="mentor__card__link" 
+      data-fields="{{ m_fields_str | strip }}"
+      data-languages="{{ m_langs_str | strip }}"
+    >
       <article class="mentor__card">
         <div class="mentor__card__header">
           {% if mentor.img %}
@@ -71,7 +115,7 @@ permalink: /mentoring
           {% if mentor.languages and mentor.languages.size > 0 %}
           <div class="mentor__card__languages">
             {% for lang in mentor.languages %}
-            <span class="mentor__lang__tag">{{ lang }}</span>
+              {% include language_flag.html lang=lang %}
             {% endfor %}
           </div>
           {% endif %}
@@ -107,37 +151,57 @@ permalink: /mentoring
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const filterButtons = document.querySelectorAll('#mentor-field-filters .mentoring__filter__btn');
+    const fieldButtons = document.querySelectorAll('#mentor-field-filters .mentoring__filter__btn');
+    const langButtons = document.querySelectorAll('#mentor-lang-filters .mentoring__filter__btn');
     const mentorCardLinks = document.querySelectorAll('#mentors-grid .mentor__card__link');
     const noMentorsMessage = document.getElementById('no-mentors-message');
 
-    filterButtons.forEach(btn => {
-      btn.addEventListener('click', function() {
-        const filter = this.getAttribute('data-filter');
+    let currentFieldFilter = 'all';
+    let currentLangFilter = 'all';
 
-        // Update active button state
-        filterButtons.forEach(b => b.classList.remove('active'));
-        this.classList.add('active');
+    function applyFilters() {
+      let visibleCount = 0;
 
-        let visibleCount = 0;
+      mentorCardLinks.forEach(link => {
+        const fieldsStr = link.getAttribute('data-fields') || '';
+        const cardFields = fieldsStr.split(' ').map(f => f.trim()).filter(Boolean);
 
-        mentorCardLinks.forEach(link => {
-          const fieldsStr = link.getAttribute('data-fields') || '';
-          const cardFields = fieldsStr.split(' ').map(f => f.trim()).filter(Boolean);
+        const langsStr = link.getAttribute('data-languages') || '';
+        const cardLangs = langsStr.split(' ').map(l => l.trim()).filter(Boolean);
 
-          if (filter === 'all' || cardFields.includes(filter)) {
-            link.style.display = 'block';
-            visibleCount++;
-          } else {
-            link.style.display = 'none';
-          }
-        });
+        const fieldMatches = currentFieldFilter === 'all' || cardFields.includes(currentFieldFilter);
+        const langMatches = currentLangFilter === 'all' || cardLangs.includes(currentLangFilter);
 
-        if (visibleCount === 0) {
-          noMentorsMessage.classList.remove('hidden');
+        if (fieldMatches && langMatches) {
+          link.style.display = 'block';
+          visibleCount++;
         } else {
-          noMentorsMessage.classList.add('hidden');
+          link.style.display = 'none';
         }
+      });
+
+      if (visibleCount === 0) {
+        noMentorsMessage.classList.remove('hidden');
+      } else {
+        noMentorsMessage.classList.add('hidden');
+      }
+    }
+
+    fieldButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        fieldButtons.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentFieldFilter = this.getAttribute('data-filter');
+        applyFilters();
+      });
+    });
+
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        langButtons.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentLangFilter = this.getAttribute('data-filter-lang');
+        applyFilters();
       });
     });
   });

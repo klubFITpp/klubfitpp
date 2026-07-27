@@ -39,7 +39,10 @@ mentoring:
   subtitle: "Potřebuješ poradit s předmětem, projektem nebo životem na FITu? Naši mentoři jsou tu pro tebe!"
   filter_all: "Všechny obory"
   filter_by_field: "Filtrovat podle oboru:"
+  filter_all_languages: "Všechny jazyky"
+  filter_by_language: "Filtrovat podle jazyka:"
   fields: "Obory"
+
   languages: "Jazyky"
   contacts: "Kontakty"
   detail: "Profil mentora"

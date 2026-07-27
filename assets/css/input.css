@@ -1000,12 +1000,24 @@ footer .refs__links__link__logo {
 }
 
 .mentor__card__languages {
-  @apply flex flex-wrap justify-center gap-1.5 mb-3;
+  @apply flex flex-wrap justify-center gap-2 mb-3;
 }
 
 .mentor__lang__tag {
   @apply px-2 py-0.5 bg-primary-yellow text-xs font-bold text-black uppercase;
 }
+
+.mentor__lang__flag {
+  @apply inline-flex items-center justify-center text-2xl transition hover:scale-110;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.mentor__lang__flag iconify-icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
 
 .mentor__card__desc {
   @apply text-base text-gray-700 text-center mb-4 grow;

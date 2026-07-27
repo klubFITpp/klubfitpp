@@ -47,7 +47,7 @@ layout: default
             <span class="mentor__detail__label">{{ 'mentoring.languages' | t }}:</span>
             <div class="mentor__card__languages">
               {% for lang in page.languages %}
-              <span class="mentor__lang__tag">{{ lang }}</span>
+              {% include language_flag.html lang=lang %}
               {% endfor %}
             </div>
           </div>

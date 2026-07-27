@@ -39,7 +39,10 @@ mentoring:
   subtitle: "Need help with a course, project, or life at FIT? Our mentors are here for you!"
   filter_all: "All fields"
   filter_by_field: "Filter by field:"
+  filter_all_languages: "All languages"
+  filter_by_language: "Filter by language:"
   fields: "Fields"
+
   languages: "Languages"
   contacts: "Contacts"
   detail: "Mentor profile"
