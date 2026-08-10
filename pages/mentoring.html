@@ -1,0 +1,78 @@
+---
+permalink: /mentoring
+layout: default
+title: FIT Mentoring
+---
+{% include nav.html %}
+
+<section class="container mentoring">
+
+  <h1 class="section__title">FIT Mentoring</h1>
+
+  <div class="mentoring__hero__wrapper">
+
+    <div class="mentoring__hero__card">
+      <iconify-icon
+        noobserver
+        class="mentoring__hero__icon"
+        icon="ion:load-a"
+      ></iconify-icon>
+
+      <h3>Začínáš na FITu?</h3>
+
+      <p>Byli jsme taky prváci a rádi ti poradíme co nesmíš podcenit.</p>
+
+    </div>
+
+    <div class="mentoring__hero__card">
+      <iconify-icon
+        noobserver
+        class="mentoring__hero__icon"
+        icon="ion:arrow-graph-down-right"
+      ></iconify-icon>
+
+      <h3>Čeká tě těžký předmět?</h3>
+
+      <p>Pomůžeme ti najít materiály na přípravu nebo poradíme co se naučit a co ne.</p>
+
+    </div>
+
+    <div class="mentoring__hero__card">
+      <iconify-icon
+        noobserver
+        class="mentoring__hero__icon"
+        icon="ion:thumbsup"
+      ></iconify-icon>
+
+      <h3>Neboj se zeptat!</h3>
+
+      <p>Každému se někdy hodí pomocná ruka. Nikdo si z tebe nebude dělat srandu!</p>
+
+    </div>
+  </div>
+
+  <div class="mentoring__filter">
+    <!-- TODO -->
+  </div>
+
+  <div class="mentoring__persons">
+    {% for person in site.mentoring %}
+      <a href="{{ person.url }}" class="mentoring__persons__card">
+        <img class="mentoring__persons__card__image" src="{{ person.img | relative_url }}">
+        <div class="mentoring__persons__card__titles">
+          <p class="mentoring__persons__card__title">{{ person.name }}</p>
+          <p class="mentoring__persons__card__programme">{{ person.specialization }}</p>
+        </div>
+
+        <div class="mentoring__persons__tags">
+          {% for tag in person.tags %}
+            <div class="mentoring__persons__tag" data-tag="{{tag}}">
+              {{ tag }}
+            </div>
+          {% endfor %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
