@@ -1,0 +1,34 @@
+---
+layout: default
+---
+{% include nav.html %}
+<section class="post">
+<div class="post__title__wrapper">
+
+  <div class="post__title__background post__mentoring__hero__wrapper">
+    <div class="container post__mentoring__hero">
+      <div class="post__mentoring__info">
+        <h2 class="post__title">{{ page.name }}</h2>
+        <p>{{ page.specialization }}</p>
+        <div class="post__mentoring__socials">
+          {% if page.discord %}
+          <a class="refs__links__link" rel="noopener noreferrer" target="_blank"><iconify-icon noobserver class="post__mentoring__socials__icon" icon="ion:logo-discord"></iconify-icon> @{{ page.discord }}</a>
+          {% endif %}
+        </div>
+      </div>
+      <img class="post__mentoring__img" src="{{ page.img | relative_url }}">
+    </div>
+  </div>
+  <div class="post__categories">
+    {% for tag in page.tags %}
+      <small class="post__category">{{tag}}</small>
+    {% endfor %}
+  </div>
+</div>
+<main class="post__main">
+  <article class="post__article">
+        {{ content }}
+  </article>
+</main>
+
+</section>
