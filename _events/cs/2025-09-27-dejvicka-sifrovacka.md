@@ -10,40 +10,44 @@ img: "/assets/images/event/sifrovacka.webp"
 
 ## Výsledky
 
-|Pořadí|Název týmu|Počet členů|Počet bodů|Příchod do cíle|
+<div style="overflow-x:auto;" markdown="1">
+
+|<span style="white-space:nowrap;">Pořadí</span>|<span style="white-space:nowrap;">Název týmu</span>|<span style="white-space:nowrap;">Počet členů</span>|<span style="white-space:nowrap;">Počet bodů</span>|<span style="white-space:nowrap;">Příchod do cíle</span>|
 |---:|:---|---:|---:|---:|
-|1     |Bambulus|2|106|17:58:00|
-|2     |14. patro|3|106|18:58:00|
-|3     |ŠiRust|4|102|16:55:00|
-|4     |Fríčka|4|98|17:04:00|
-|5     |Slevy jako krysa|5|98|18:41:00|
-|6     |Zaber máslo|5|98|18:54:00|
-|7     |Temné opičky|3|98|19:00:00|
-|8     |Máme okno!|?|94|17:35:00|
-|9     |Název týmu|5|94|18:24:00|
-|10     |Lištičky|4|92|19:00:00|
-|11     |A+M|2|90|17:30:00|
-|12     |DejvVice šifer|5|90|18:02:00|
-|13     |Sekta|5|88|17:54:00|
-|14     |Brambory s párkama|3|88|18:05:00|
-|15     |Alenka|4|88|18:20:00|
-|16     |(amogus?)|3|88|18:43:00|
-|17     |Kokosky|3|88|18:55:00|
-|18     |Koťátka|2|86|17:24:00|
-|19     |Zkrat|5|86|18:34:00|
-|20     |Ondřej S. + Jakub O.|2|86|18:54:00|
-|21     |Segfaultky|4|82|18:45:00|
-|22     |Jak?|3|82|19:00:00|
-|23     |Pozornost je vše co potřebujem|2|76|18:56:00|
-|24     |El Equipo Eugenio|2|74|18:58:00|
-|25     |Hunka fanclub|3|70|18:59:00|
-|26     |JaVa|4|68|18:59:00|
-|27     |Ořezané tužky|3|68|19:00:00|
-|28     |Nerdi s. r. o.|3|60|18:56:00|
-|29     |Pampeliščin harém|"3.5"|58|18:58:00|
-|30     |Bezzubkové|2|58|19:00:00|
-|31     |The Bill|"3.5"|48|18:49:00|
-|32     |Goats|3|42|19:00:00|
+|<span style="white-space:nowrap;">1</span>|<span style="white-space:nowrap;">Bambulus</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">106</span>|<span style="white-space:nowrap;">17:58:00</span>|
+|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">14. patro</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">106</span>|<span style="white-space:nowrap;">18:58:00</span>|
+|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">ŠiRust</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">102</span>|<span style="white-space:nowrap;">16:55:00</span>|
+|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">Fríčka</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">98</span>|<span style="white-space:nowrap;">17:04:00</span>|
+|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">Slevy jako krysa</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">98</span>|<span style="white-space:nowrap;">18:41:00</span>|
+|<span style="white-space:nowrap;">6</span>|<span style="white-space:nowrap;">Zaber máslo</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">98</span>|<span style="white-space:nowrap;">18:54:00</span>|
+|<span style="white-space:nowrap;">7</span>|<span style="white-space:nowrap;">Temné opičky</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">98</span>|<span style="white-space:nowrap;">19:00:00</span>|
+|<span style="white-space:nowrap;">8</span>|<span style="white-space:nowrap;">Máme okno!</span>|<span style="white-space:nowrap;">?</span>|<span style="white-space:nowrap;">94</span>|<span style="white-space:nowrap;">17:35:00</span>|
+|<span style="white-space:nowrap;">9</span>|<span style="white-space:nowrap;">Název týmu</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">94</span>|<span style="white-space:nowrap;">18:24:00</span>|
+|<span style="white-space:nowrap;">10</span>|<span style="white-space:nowrap;">Lištičky</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">92</span>|<span style="white-space:nowrap;">19:00:00</span>|
+|<span style="white-space:nowrap;">11</span>|<span style="white-space:nowrap;">A+M</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">90</span>|<span style="white-space:nowrap;">17:30:00</span>|
+|<span style="white-space:nowrap;">12</span>|<span style="white-space:nowrap;">DejvVice šifer</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">90</span>|<span style="white-space:nowrap;">18:02:00</span>|
+|<span style="white-space:nowrap;">13</span>|<span style="white-space:nowrap;">Sekta</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">88</span>|<span style="white-space:nowrap;">17:54:00</span>|
+|<span style="white-space:nowrap;">14</span>|<span style="white-space:nowrap;">Brambory s párkama</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">88</span>|<span style="white-space:nowrap;">18:05:00</span>|
+|<span style="white-space:nowrap;">15</span>|<span style="white-space:nowrap;">Alenka</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">88</span>|<span style="white-space:nowrap;">18:20:00</span>|
+|<span style="white-space:nowrap;">16</span>|<span style="white-space:nowrap;">(amogus?)</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">88</span>|<span style="white-space:nowrap;">18:43:00</span>|
+|<span style="white-space:nowrap;">17</span>|<span style="white-space:nowrap;">Kokosky</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">88</span>|<span style="white-space:nowrap;">18:55:00</span>|
+|<span style="white-space:nowrap;">18</span>|<span style="white-space:nowrap;">Koťátka</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">86</span>|<span style="white-space:nowrap;">17:24:00</span>|
+|<span style="white-space:nowrap;">19</span>|<span style="white-space:nowrap;">Zkrat</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">86</span>|<span style="white-space:nowrap;">18:34:00</span>|
+|<span style="white-space:nowrap;">20</span>|<span style="white-space:nowrap;">Ondřej S. + Jakub O.</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">86</span>|<span style="white-space:nowrap;">18:54:00</span>|
+|<span style="white-space:nowrap;">21</span>|<span style="white-space:nowrap;">Segfaultky</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">82</span>|<span style="white-space:nowrap;">18:45:00</span>|
+|<span style="white-space:nowrap;">22</span>|<span style="white-space:nowrap;">Jak?</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">82</span>|<span style="white-space:nowrap;">19:00:00</span>|
+|<span style="white-space:nowrap;">23</span>|<span style="white-space:nowrap;">Pozornost je vše co potřebujem</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">76</span>|<span style="white-space:nowrap;">18:56:00</span>|
+|<span style="white-space:nowrap;">24</span>|<span style="white-space:nowrap;">El Equipo Eugenio</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">74</span>|<span style="white-space:nowrap;">18:58:00</span>|
+|<span style="white-space:nowrap;">25</span>|<span style="white-space:nowrap;">Hunka fanclub</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">70</span>|<span style="white-space:nowrap;">18:59:00</span>|
+|<span style="white-space:nowrap;">26</span>|<span style="white-space:nowrap;">JaVa</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">68</span>|<span style="white-space:nowrap;">18:59:00</span>|
+|<span style="white-space:nowrap;">27</span>|<span style="white-space:nowrap;">Ořezané tužky</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">68</span>|<span style="white-space:nowrap;">19:00:00</span>|
+|<span style="white-space:nowrap;">28</span>|<span style="white-space:nowrap;">Nerdi s. r. o.</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">60</span>|<span style="white-space:nowrap;">18:56:00</span>|
+|<span style="white-space:nowrap;">29</span>|<span style="white-space:nowrap;">Pampeliščin harém</span>|<span style="white-space:nowrap;">"3.5"</span>|<span style="white-space:nowrap;">58</span>|<span style="white-space:nowrap;">18:58:00</span>|
+|<span style="white-space:nowrap;">30</span>|<span style="white-space:nowrap;">Bezzubkové</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">58</span>|<span style="white-space:nowrap;">19:00:00</span>|
+|<span style="white-space:nowrap;">31</span>|<span style="white-space:nowrap;">The Bill</span>|<span style="white-space:nowrap;">"3.5"</span>|<span style="white-space:nowrap;">48</span>|<span style="white-space:nowrap;">18:49:00</span>|
+|<span style="white-space:nowrap;">32</span>|<span style="white-space:nowrap;">Goats</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">42</span>|<span style="white-space:nowrap;">19:00:00</span>|
+
+</div>
 
 ## Šifry
 
