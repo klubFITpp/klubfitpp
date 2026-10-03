@@ -8,6 +8,87 @@ tags:
 img: "/assets/images/event/sifrovacka2026.webp"
 ---
 
+## Výsledky
+
+<div style="overflow-x:auto;" markdown="1">
+
+|<span style="white-space:nowrap;">Pořadí</span>|<span style="white-space:nowrap;">Název týmu</span>|<span style="white-space:nowrap;">Počet členů</span>|<span style="white-space:nowrap;">Počet bodů</span>|<span style="white-space:nowrap;">Příchod do cíle</span>|
+|---:|:---|---:|---:|---:|
+|<span style="white-space:nowrap;">1.</span>|<span style="white-space:nowrap;">Koumesové</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">96</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">2.</span>|<span style="white-space:nowrap;">Fríčka</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">94</span>|<span style="white-space:nowrap;">17:45</span>|
+|<span style="white-space:nowrap;">3.</span>|<span style="white-space:nowrap;">Bambulus</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">94</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">4.</span>|<span style="white-space:nowrap;">Maruščin Harém</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">90</span>|<span style="white-space:nowrap;">17:54</span>|
+|<span style="white-space:nowrap;">5.-7.</span>|<span style="white-space:nowrap;">?</span>|<span style="white-space:nowrap;">?</span>|<span style="white-space:nowrap;">90</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">5.-7.</span>|<span style="white-space:nowrap;">Druhý Vot Konce</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">90</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">5.-7.</span>|<span style="white-space:nowrap;">Zvrž</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">90</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">8.-9.</span>|<span style="white-space:nowrap;">In progres</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">88</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">8.-9.</span>|<span style="white-space:nowrap;">Nahatej meloun</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">88</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">10.</span>|<span style="white-space:nowrap;">Želvonohý</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">86</span>|<span style="white-space:nowrap;">17:46</span>|
+|<span style="white-space:nowrap;">11.</span>|<span style="white-space:nowrap;">Společenští poustevníci</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">86</span>|<span style="white-space:nowrap;">17:54</span>|
+|<span style="white-space:nowrap;">12.-13.</span>|<span style="white-space:nowrap;">Omnes virtutes</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">84</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">12.-13.</span>|<span style="white-space:nowrap;">Šavlozubé vakoveverky</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">84</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">14.</span>|<span style="white-space:nowrap;">Mini Enjoy Team</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">82</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">15.</span>|<span style="white-space:nowrap;">Squeak!</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">80</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">16.</span>|<span style="white-space:nowrap;">Na výletě</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">78</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">17.-18.</span>|<span style="white-space:nowrap;">Mikro piraně</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">76</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">17.-18.</span>|<span style="white-space:nowrap;">Poslední Amoleta</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">76</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">19.-21.</span>|<span style="white-space:nowrap;">Prohráli jsme</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">74</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">19.-21.</span>|<span style="white-space:nowrap;">14. patro</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">74</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">19.-21.</span>|<span style="white-space:nowrap;">Doma</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">74</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">22.-24.</span>|<span style="white-space:nowrap;">Indukční gauč 1</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">72</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">22.-24.</span>|<span style="white-space:nowrap;">Člověče, zlob se</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">72</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">22.-24.</span>|<span style="white-space:nowrap;">Dezorientovaní bizoni</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">72</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">25.-26.</span>|<span style="white-space:nowrap;">HaD</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">70</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">25.-26.</span>|<span style="white-space:nowrap;">Baxx</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">70</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">27.-28.</span>|<span style="white-space:nowrap;">Betelgeuze</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">68</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">27.-28.</span>|<span style="white-space:nowrap;">Posloupnost rolniček</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">68</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">29.</span>|<span style="white-space:nowrap;">Jiřice 223</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">66</span>|<span style="white-space:nowrap;">17:45</span>|
+|<span style="white-space:nowrap;">30.</span>|<span style="white-space:nowrap;">Sousová tiskárna 67</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">64</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">31.-32.</span>|<span style="white-space:nowrap;">Křemílek a Vochomůrka</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">62</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">31.-32.</span>|<span style="white-space:nowrap;">Indukční gauč 2</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">62</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">33.-34.</span>|<span style="white-space:nowrap;">Fatranky</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">58</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">33.-34.</span>|<span style="white-space:nowrap;">Sousová tiskárna 6667</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">58</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">35.-37.</span>|<span style="white-space:nowrap;">Kde je svačina?</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">56</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">35.-37.</span>|<span style="white-space:nowrap;">Tigr+</span>|<span style="white-space:nowrap;">?</span>|<span style="white-space:nowrap;">56</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">35.-37.</span>|<span style="white-space:nowrap;">Pink fluffy unicorn</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">56</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">38.-39.</span>|<span style="white-space:nowrap;">Emenems</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">54</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">38.-39.</span>|<span style="white-space:nowrap;">Náhodné číslo</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">54</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">40.</span>|<span style="white-space:nowrap;">Bulbasauři</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">52</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">41.</span>|<span style="white-space:nowrap;">Kočky</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">50</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">42.-45.</span>|<span style="white-space:nowrap;">Tozu</span>|<span style="white-space:nowrap;">2</span>|<span style="white-space:nowrap;">48</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">42.-45.</span>|<span style="white-space:nowrap;">Tlapková patrola</span>|<span style="white-space:nowrap;">2,5</span>|<span style="white-space:nowrap;">48</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">42.-45.</span>|<span style="white-space:nowrap;">Pandí kulička</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">48</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">42.-45.</span>|<span style="white-space:nowrap;">Kokosky</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">48</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">46.-47.</span>|<span style="white-space:nowrap;">Kočkolodi</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">44</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">46.-47.</span>|<span style="white-space:nowrap;">Bagr</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">44</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">48.</span>|<span style="white-space:nowrap;">Lapačinka</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">42</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">49.-50.</span>|<span style="white-space:nowrap;">Nuclear Ladies</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">40</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">49.-50.</span>|<span style="white-space:nowrap;">Zapomněli jsme (sloup.)</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">40</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">51.</span>|<span style="white-space:nowrap;">Myši</span>|<span style="white-space:nowrap;">5</span>|<span style="white-space:nowrap;">38</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">52.</span>|<span style="white-space:nowrap;">Tygr na stromě</span>|<span style="white-space:nowrap;">4</span>|<span style="white-space:nowrap;">32</span>|<span style="white-space:nowrap;">18:00</span>|
+|<span style="white-space:nowrap;">53.</span>|<span style="white-space:nowrap;">Tým co hledá jméno</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">22</span>|<span style="white-space:nowrap;">16:48</span>|
+|<span style="white-space:nowrap;">54.</span>|<span style="white-space:nowrap;">Parkside kobliha</span>|<span style="white-space:nowrap;">3</span>|<span style="white-space:nowrap;">14</span>|<span style="white-space:nowrap;">18:00</span>|
+
+</div>
+
+## Šifry
+
+[1. Among us](/documents/event/sifrovacka/2026/1_Among-us.pdf)  
+[2. Domino](/documents/event/sifrovacka/2026/2_Domino.pdf)  
+[3. Fruit ninja](/documents/event/sifrovacka/2026/3_Fruit-ninja.pdf)  
+[4. Hadi a žebříky](/documents/event/sifrovacka/2026/4_Hadi-a-zebriky.pdf)  
+[5. Krycí jména](/documents/event/sifrovacka/2026/5_Kryci-jmena.pdf)  
+[6. Pacman](/documents/event/sifrovacka/2026/6_Pacman.pdf)  
+[7. Portál](/documents/event/sifrovacka/2026/7_Portal.pdf)  
+[8. Scrabble](/documents/event/sifrovacka/2026/8_Scrabble.pdf)  
+[9. Slovní fotbal](/documents/event/sifrovacka/2026/9_Slovni-fotbal.pdf)  
+[10. Retro snake](/documents/event/sifrovacka/2026/10_Retro-snake.pdf)  
+[11. * Pokémoni](/documents/event/sifrovacka/2026/11_Sberatelske-karticky.pdf)
+
+[NÁPOVĚDY + ŘEŠENÍ](/documents/event/sifrovacka/2026/Reseni.pdf)
+
+Budeme moc rádi za vyplnění feedbacku k Šifrovačce [zde](https://forms.gle/MKmpQwTHdCVksbzJA){:target="_blank" rel="noopener noreferrer"}.
+
 # Informace
 
 - **Kdy**: 3. 10. 2026
