@@ -1,15 +1,15 @@
 ---
-title: "FIT++ Karaoke"
+title: "FIT++ Narozeniny"
 layout: event
 categories:
-  - Karaoke
-  - Pivo
+  - Oslava
+  - Akce
 tags:
-  - Karaoke
-  - Pivo
-img: "/assets/images/event/fitpp-karaoke_26-10.png"
+  - Oslava
+  - Akce
+img: "/assets/images/event/narozeniny.webp"
 ---
 
-Podzimní semestr už je v plném proudu, ale nezoufej! Čeká nás karaoke, ta nejlepší příležitost, jak se odreagovat a pobavit. Přijď 14. 10. v 18:30 do [le fakap. cefé & bar](https://maps.app.goo.gl/qzR55m6DXgM6TPtv9) a ukaž, co v tobě je! Pokud se necítíš na zpěv, tak se s tebou samozřejmě rádi i jen napijeme.
+Klubu FIT++ je již 10 let! A protože takové kulatiny je potřeba řádně oslavit, rádi bychom tě pozvali na akci narozenin! Budou zajímavé proslovy, vědomostní hra, kulturně-hudební vsuvky a samozřejmě nebude chybět ani dort.
 
-Budeme se na tebe těšit! 🎤
+Přijď ve středu 21. 10. v 18:00 do TH:A-1455 a oslav FIT++ Narozeniny s námi! Budeme se na tebe těšit! 🎂
