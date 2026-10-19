@@ -7,7 +7,7 @@ tags:
   - FIT LAN Party
   - Factorio
   - FITctorio
-img: "/assets/images/event/fitctorio_261.png"
+img: "/assets/images/event/fitctorio_261.webp"
 ---
 
 Přijďte si dostat Factorio ze systému!
