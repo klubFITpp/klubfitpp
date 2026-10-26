@@ -6,7 +6,7 @@ categories:
 tags:
   - FIT LAN Party
   - Deskovky
-img: "/assets/images/event/fit-lan-party-b261-en.png"
+img: "/assets/images/event/fit-lan-party-b261-en.webp"
 ---
 
 Another FIT LAN Party is on its way! Mark November 4th in your calendar. 🎮

@@ -6,7 +6,7 @@ categories:
 tags:
   - FIT LAN Party
   - Deskovky
-img: "/assets/images/event/fit-lan-party-b261-cs.png"
+img: "/assets/images/event/fit-lan-party-b261-cs.webp"
 ---
 
 Další FIT LAN Party je tady! Už 4. 11. se můžeš těšit na večer plný her. 🎮
