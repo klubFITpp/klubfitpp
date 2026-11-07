@@ -46,6 +46,8 @@ collections:
     output: true
   people:
     output: false
+  mentoring:
+    output: true
 plugins:
   - jekyll-paginate-v2
   - jekyll-redirect-from

@@ -11,6 +11,11 @@
     en: Join us
   url: /pridejse
 - title:
+    cs: Mentoring
+    en: Mentoring
+  url: /mentoring
+  burger: true
+- title:
     cs: Dokumenty
     en: Documents
   url: /documents
