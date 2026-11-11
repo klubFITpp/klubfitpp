@@ -10,7 +10,7 @@ tags:
 img: "/assets/images/event/OSS_B261_1112_web.webp"
 ---
 
-**Přesunuto do T9:111**
+# Přesunuto do T9:111
 
 Chceš si utvrdit jak fungují pointery, či zjistit jak hezky používat structy? Máš mnoho dotazů na ProgTesty a nevíš kde se ptát?
 
