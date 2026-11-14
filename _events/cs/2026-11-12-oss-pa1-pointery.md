@@ -11,6 +11,7 @@ img: "/assets/images/event/OSS_B261_1112_web.webp"
 ---
 
 *Záznam akce je dostupný na [YouTube](https://youtu.be/_3dTFobktP8).*
+{: style="text-align: center;"}
 
 Chceš si utvrdit jak fungují pointery, či zjistit jak hezky používat structy? Máš mnoho dotazů na ProgTesty a nevíš kde se ptát?
 
