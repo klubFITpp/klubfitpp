@@ -46,6 +46,10 @@ collections:
     output: true
   people:
     output: false
+  mentors:
+    permalink: /mentors/:title/
+    output: true
+
 plugins:
   - jekyll-paginate-v2
   - jekyll-redirect-from

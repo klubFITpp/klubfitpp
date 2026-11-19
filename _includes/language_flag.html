@@ -1,0 +1,10 @@
+{% assign lang_key = include.lang | downcase %}
+{% assign custom_flag = site.data.flags[lang_key] %}
+{% if custom_flag %}
+  {% assign flag_icon = custom_flag %}
+{% else %}
+  {% assign flag_icon = 'circle-flags:' | append: lang_key %}
+{% endif %}
+<span class="mentor__lang__flag" title="{{ include.lang }}">
+  <iconify-icon noobserver icon="{{ flag_icon }}"></iconify-icon>
+</span>

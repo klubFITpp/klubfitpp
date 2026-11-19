@@ -1,149 +1,208 @@
 ---
-layout: page
-title: MEntoring
+layout: default
+title: Mentoring
 permalink: /mentoring
 ---
+{% include nav.html %}
 
-<head>
-    <title>MENTORING – Klub FIT++</title>
-    <style>
-        body {
-            background: repeating-linear-gradient(45deg, #ff00ff, #ff00ff 10px, #00ffff 10px, #00ffff 20px);
-            font-family: "Comic Sans MS", cursive, sans-serif;
-            text-align: center;
-            color: lime;
-        }
-        h1 {
-            font-size: 60px;
-            color: yellow;
-            text-shadow: 5px 5px red;
-            transform: rotate(-2deg);
-        }
-        .mentor-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            margin: 20px;
-            transform: skewX(5deg);
-        }
-        .mentor {
-            width: 180px;
-            padding: 10px;
-            background: rgba(255,255,255,0.3);
-            border: 5px dotted black;
-            transform: rotate(calc(-10deg + (random() * 20deg)));
-            /* Random rotation with CSS trick below */
-            animation: spin 4s infinite alternate;
-            position: relative;
-        }
-        @keyframes spin {
-            from {transform: rotate(-10deg) translateX(0px);}
-            to {transform: rotate(10deg) translateX(20px);}
-        }
-        .mentor img {
-            width: 120px;
-            height: 120px;
-            border-radius: 40%;
-            background: pink;
-            transform: rotate(-10deg);
-        }
-        .mentor h3 {
-            margin: 5px;
-            font-size: 22px;
-            color: #00ff00;
-        }
-        .mentor p {
-            margin: 5px;
-            font-size: 14px;
-            color: #ffffff;
-        }
-        .skills span {
-            background: yellow;
-            color: black;
-            display: inline-block;
-            margin: 2px;
-            padding: 2px 4px;
-            font-size: 12px;
-            transform: rotate(calc(-15deg + (random() * 30deg)));
-        }
-        .bad-button {
-            background: red;
-            color: white;
-            padding: 5px;
-            display: inline-block;
-            border: 5px ridge lime;
-            margin-top: 5px;
-            font-size: 18px;
-            transform: skewX(10deg);
-        }
-        /* Make some mentors randomly offset to break alignment */
-        .mentor:nth-child(odd) {
-            margin-top: 40px;
-        }
-        .mentor:nth-child(3n) {
-            margin-left: -30px;
-        }
-    </style>
-</head>
-<body>
-    <h1>MENTORING</h1>
-    <p>Need help? Meet our mentors!</p>
+<section class="mentoring">
+  <h2 class="main__title">{{ 'mentoring.title' | t }}</h2>
+  <p class="mentoring__subtitle">{{ 'mentoring.subtitle' | t }}</p>
+</section>
 
-    <div class="mentor-container">
-        <div class="mentor">
-            <img src="https://via.placeholder.com/120">
-            <h3>Jan Novak</h3>
-            <p>Teoretická informatika</p>
-            <div class="skills">
-                <span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span>
-            </div>
-            <div class="bad-button">Detail</div>
-        </div>
-        <div class="mentor">
-            <img src="https://via.placeholder.com/120">
-            <h3>Petra Svobodová</h3>
-            <p>Softwarové inženýrství</p>
-            <div class="skills">
-                <span>OOP</span><span>DBS</span><span>Koleje</span>
-            </div>
-            <div class="bad-button">Detail</div>
-        </div>
-        <div class="mentor">
-            <img src="https://via.placeholder.com/120">
-            <h3>Karel Dvořák</h3>
-            <p>Kybernetika</p>
-            <div class="skills">
-                <span>PA2</span><span>ALG</span><span>MAT</span>
-            </div>
-            <div class="bad-button">Detail</div>
-        </div>
-        <div class="mentor">
-            <img src="https://via.placeholder.com/120">
-            <h3>Lucie Horáková</h3>
-            <p>Datové vědy</p>
-            <div class="skills">
-                <span>DBS</span><span>ML</span><span>STATS</span>
-            </div>
-            <div class="bad-button">Detail</div>
-        </div>
+{% assign all_fields = "" | split: "|||" %}
+{% assign all_languages = "" | split: "|||" %}
+{% for mentor in site.mentors %}
+  {% for field in mentor.fields %}
+    {% assign all_fields = all_fields | push: field %}
+  {% endfor %}
+  {% for lang in mentor.languages %}
+    {% assign all_languages = all_languages | push: lang %}
+  {% endfor %}
+{% endfor %}
+{% assign all_fields = all_fields | uniq | sort %}
+{% assign all_languages = all_languages | uniq | sort %}
 
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Michal Černý</h3><p>Teoretická informatika</p><div class="skills"><span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Eva Kovářová</h3><p>Softwarové inženýrství</p><div class="skills"><span>OOP</span><span>DBS</span><span>Koleje</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Filip Marek</h3><p>Kybernetika</p><div class="skills"><span>PA2</span><span>ALG</span><span>MAT</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Barbora Malá</h3><p>Datové vědy</p><div class="skills"><span>DBS</span><span>ML</span><span>STATS</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Michal Černý</h3><p>Teoretická informatika</p><div class="skills"><span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Eva Kovářová</h3><p>Softwarové inženýrství</p><div class="skills"><span>OOP</span><span>DBS</span><span>Koleje</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Filip Marek</h3><p>Kybernetika</p><div class="skills"><span>PA2</span><span>ALG</span><span>MAT</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Barbora Malá</h3><p>Datové vědy</p><div class="skills"><span>DBS</span><span>ML</span><span>STATS</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Michal Černý</h3><p>Teoretická informatika</p><div class="skills"><span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Eva Kovářová</h3><p>Softwarové inženýrství</p><div class="skills"><span>OOP</span><span>DBS</span><span>Koleje</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Filip Marek</h3><p>Kybernetika</p><div class="skills"><span>PA2</span><span>ALG</span><span>MAT</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Barbora Malá</h3><p>Datové vědy</p><div class="skills"><span>DBS</span><span>ML</span><span>STATS</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Michal Černý</h3><p>Teoretická informatika</p><div class="skills"><span>PA1</span><span>MA1</span><span>DML</span><span>PPT</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Eva Kovářová</h3><p>Softwarové inženýrství</p><div class="skills"><span>OOP</span><span>DBS</span><span>Koleje</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Filip Marek</h3><p>Kybernetika</p><div class="skills"><span>PA2</span><span>ALG</span><span>MAT</span></div><div class="bad-button">Detail</div></div>
-        <div class="mentor"><img src="https://via.placeholder.com/120"><h3>Barbora Malá</h3><p>Datové vědy</p><div class="skills"><span>DBS</span><span>ML</span><span>STATS</span></div><div class="bad-button">Detail</div></div>
+<div class="mentoring__filters__container">
+  {% if all_fields.size > 0 %}
+  <div class="mentoring__filters__wrapper">
+    <span class="mentoring__filters__label">{{ 'mentoring.filter_by_field' | t }}</span>
+    <div class="mentoring__filters" id="mentor-field-filters">
+      <button 
+        type="button" 
+        data-filter="all" 
+        class="mentoring__filter__btn active"
+      >
+        {{ 'mentoring.filter_all' | t }}
+      </button>
 
+      {% for field in all_fields %}
+      <button 
+        type="button" 
+        data-filter="{{ field | downcase | escape }}" 
+        class="mentoring__filter__btn"
+      >
+        {{ field }}
+      </button>
+      {% endfor %}
     </div>
-</body>
+  </div>
+  {% endif %}
+
+  {% if all_languages.size > 0 %}
+  <div class="mentoring__filters__wrapper">
+    <span class="mentoring__filters__label">{{ 'mentoring.filter_by_language' | t }}</span>
+    <div class="mentoring__filters" id="mentor-lang-filters">
+      <button 
+        type="button" 
+        data-filter-lang="all" 
+        class="mentoring__filter__btn active"
+      >
+        {{ 'mentoring.filter_all_languages' | t }}
+      </button>
+
+      {% for lang in all_languages %}
+      <button 
+        type="button" 
+        data-filter-lang="{{ lang | downcase | escape }}" 
+        class="mentoring__filter__btn"
+      >
+        {% include language_flag.html lang=lang %}
+        <span>{{ lang }}</span>
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+{% assign shuffled_mentors = site.mentors | sample: site.mentors.size %}
+
+<div class="mentors__wrapper" id="mentors-grid">
+  {% for mentor in shuffled_mentors %}
+    {% assign m_fields_str = "" %}
+    {% for f in mentor.fields %}
+      {% assign f_down = f | downcase %}
+      {% assign m_fields_str = m_fields_str | append: " " | append: f_down %}
+    {% endfor %}
+
+    {% assign m_langs_str = "" %}
+    {% for l in mentor.languages %}
+      {% assign l_down = l | downcase %}
+      {% assign m_langs_str = m_langs_str | append: " " | append: l_down %}
+    {% endfor %}
+
+    <a 
+      href="{{ mentor.url }}" 
+      class="mentor__card__link" 
+      data-fields="{{ m_fields_str | strip }}"
+      data-languages="{{ m_langs_str | strip }}"
+    >
+      <article class="mentor__card">
+        <div class="mentor__card__header">
+          {% if mentor.img %}
+          <div class="mentor__card__img" style="background-image: url({{ mentor.img | relative_url }});"></div>
+          {% else %}
+          <div class="mentor__card__img">
+            {{ mentor.name | slice: 0, 1 }}
+          </div>
+          {% endif %}
+        </div>
+
+        <div class="mentor__card__body">
+          <h3 class="mentor__card__name">{{ mentor.name }}</h3>
+
+          {% if mentor.languages and mentor.languages.size > 0 %}
+          <div class="mentor__card__languages">
+            {% for lang in mentor.languages %}
+              {% include language_flag.html lang=lang %}
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if mentor.short-description or mentor.short_description %}
+          <p class="mentor__card__desc">
+            {{ mentor.short-description | default: mentor.short_description }}
+          </p>
+          {% endif %}
+
+          {% if mentor.fields and mentor.fields.size > 0 %}
+          <div class="mentor__card__fields">
+            {% for field in mentor.fields %}
+            <span class="mentor__field__tag">{{ field }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+
+        <div class="mentor__card__footer">
+          <span class="mentor__card__btn">
+            {{ 'mentoring.detail' | t }}
+          </span>
+        </div>
+      </article>
+    </a>
+  {% endfor %}
+</div>
+
+<div id="no-mentors-message" class="no-mentors-msg hidden">
+  <p>{{ 'mentoring.no_mentors' | t }}</p>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const fieldButtons = document.querySelectorAll('#mentor-field-filters .mentoring__filter__btn');
+    const langButtons = document.querySelectorAll('#mentor-lang-filters .mentoring__filter__btn');
+    const mentorCardLinks = document.querySelectorAll('#mentors-grid .mentor__card__link');
+    const noMentorsMessage = document.getElementById('no-mentors-message');
+
+    let currentFieldFilter = 'all';
+    let currentLangFilter = 'all';
+
+    function applyFilters() {
+      let visibleCount = 0;
+
+      mentorCardLinks.forEach(link => {
+        const fieldsStr = link.getAttribute('data-fields') || '';
+        const cardFields = fieldsStr.split(' ').map(f => f.trim()).filter(Boolean);
+
+        const langsStr = link.getAttribute('data-languages') || '';
+        const cardLangs = langsStr.split(' ').map(l => l.trim()).filter(Boolean);
+
+        const fieldMatches = currentFieldFilter === 'all' || cardFields.includes(currentFieldFilter);
+        const langMatches = currentLangFilter === 'all' || cardLangs.includes(currentLangFilter);
+
+        if (fieldMatches && langMatches) {
+          link.style.display = 'block';
+          visibleCount++;
+        } else {
+          link.style.display = 'none';
+        }
+      });
+
+      if (visibleCount === 0) {
+        noMentorsMessage.classList.remove('hidden');
+      } else {
+        noMentorsMessage.classList.add('hidden');
+      }
+    }
+
+    fieldButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        fieldButtons.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentFieldFilter = this.getAttribute('data-filter');
+        applyFilters();
+      });
+    });
+
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        langButtons.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentLangFilter = this.getAttribute('data-filter-lang');
+        applyFilters();
+      });
+    });
+  });
+</script>

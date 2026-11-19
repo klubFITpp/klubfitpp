@@ -1,0 +1,208 @@
+---
+layout: default
+title: Mentoring
+permalink: /mentoring
+---
+{% include nav.html %}
+
+<section class="mentoring">
+  <h2 class="main__title">{{ 'mentoring.title' | t }}</h2>
+  <p class="mentoring__subtitle">{{ 'mentoring.subtitle' | t }}</p>
+</section>
+
+{% assign all_fields = "" | split: "|||" %}
+{% assign all_languages = "" | split: "|||" %}
+{% for mentor in site.mentors %}
+  {% for field in mentor.fields %}
+    {% assign all_fields = all_fields | push: field %}
+  {% endfor %}
+  {% for lang in mentor.languages %}
+    {% assign all_languages = all_languages | push: lang %}
+  {% endfor %}
+{% endfor %}
+{% assign all_fields = all_fields | uniq | sort %}
+{% assign all_languages = all_languages | uniq | sort %}
+
+<div class="mentoring__filters__container">
+  {% if all_fields.size > 0 %}
+  <div class="mentoring__filters__wrapper">
+    <span class="mentoring__filters__label">{{ 'mentoring.filter_by_field' | t }}</span>
+    <div class="mentoring__filters" id="mentor-field-filters">
+      <button 
+        type="button" 
+        data-filter="all" 
+        class="mentoring__filter__btn active"
+      >
+        {{ 'mentoring.filter_all' | t }}
+      </button>
+
+      {% for field in all_fields %}
+      <button 
+        type="button" 
+        data-filter="{{ field | downcase | escape }}" 
+        class="mentoring__filter__btn"
+      >
+        {{ field }}
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if all_languages.size > 0 %}
+  <div class="mentoring__filters__wrapper">
+    <span class="mentoring__filters__label">{{ 'mentoring.filter_by_language' | t }}</span>
+    <div class="mentoring__filters" id="mentor-lang-filters">
+      <button 
+        type="button" 
+        data-filter-lang="all" 
+        class="mentoring__filter__btn active"
+      >
+        {{ 'mentoring.filter_all_languages' | t }}
+      </button>
+
+      {% for lang in all_languages %}
+      <button 
+        type="button" 
+        data-filter-lang="{{ lang | downcase | escape }}" 
+        class="mentoring__filter__btn"
+      >
+        {% include language_flag.html lang=lang %}
+        <span>{{ lang }}</span>
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+{% assign shuffled_mentors = site.mentors | sample: site.mentors.size %}
+
+<div class="mentors__wrapper" id="mentors-grid">
+  {% for mentor in shuffled_mentors %}
+    {% assign m_fields_str = "" %}
+    {% for f in mentor.fields %}
+      {% assign f_down = f | downcase %}
+      {% assign m_fields_str = m_fields_str | append: " " | append: f_down %}
+    {% endfor %}
+
+    {% assign m_langs_str = "" %}
+    {% for l in mentor.languages %}
+      {% assign l_down = l | downcase %}
+      {% assign m_langs_str = m_langs_str | append: " " | append: l_down %}
+    {% endfor %}
+
+    <a 
+      href="{{ mentor.url }}" 
+      class="mentor__card__link" 
+      data-fields="{{ m_fields_str | strip }}"
+      data-languages="{{ m_langs_str | strip }}"
+    >
+      <article class="mentor__card">
+        <div class="mentor__card__header">
+          {% if mentor.img %}
+          <div class="mentor__card__img" style="background-image: url({{ mentor.img | relative_url }});"></div>
+          {% else %}
+          <div class="mentor__card__img">
+            {{ mentor.name | slice: 0, 1 }}
+          </div>
+          {% endif %}
+        </div>
+
+        <div class="mentor__card__body">
+          <h3 class="mentor__card__name">{{ mentor.name }}</h3>
+
+          {% if mentor.languages and mentor.languages.size > 0 %}
+          <div class="mentor__card__languages">
+            {% for lang in mentor.languages %}
+              {% include language_flag.html lang=lang %}
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if mentor.short-description or mentor.short_description %}
+          <p class="mentor__card__desc">
+            {{ mentor.short-description | default: mentor.short_description }}
+          </p>
+          {% endif %}
+
+          {% if mentor.fields and mentor.fields.size > 0 %}
+          <div class="mentor__card__fields">
+            {% for field in mentor.fields %}
+            <span class="mentor__field__tag">{{ field }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+
+        <div class="mentor__card__footer">
+          <span class="mentor__card__btn">
+            {{ 'mentoring.detail' | t }}
+          </span>
+        </div>
+      </article>
+    </a>
+  {% endfor %}
+</div>
+
+<div id="no-mentors-message" class="no-mentors-msg hidden">
+  <p>{{ 'mentoring.no_mentors' | t }}</p>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const fieldButtons = document.querySelectorAll('#mentor-field-filters .mentoring__filter__btn');
+    const langButtons = document.querySelectorAll('#mentor-lang-filters .mentoring__filter__btn');
+    const mentorCardLinks = document.querySelectorAll('#mentors-grid .mentor__card__link');
+    const noMentorsMessage = document.getElementById('no-mentors-message');
+
+    let currentFieldFilter = 'all';
+    let currentLangFilter = 'all';
+
+    function applyFilters() {
+      let visibleCount = 0;
+
+      mentorCardLinks.forEach(link => {
+        const fieldsStr = link.getAttribute('data-fields') || '';
+        const cardFields = fieldsStr.split(' ').map(f => f.trim()).filter(Boolean);
+
+        const langsStr = link.getAttribute('data-languages') || '';
+        const cardLangs = langsStr.split(' ').map(l => l.trim()).filter(Boolean);
+
+        const fieldMatches = currentFieldFilter === 'all' || cardFields.includes(currentFieldFilter);
+        const langMatches = currentLangFilter === 'all' || cardLangs.includes(currentLangFilter);
+
+        if (fieldMatches && langMatches) {
+          link.style.display = 'block';
+          visibleCount++;
+        } else {
+          link.style.display = 'none';
+        }
+      });
+
+      if (visibleCount === 0) {
+        noMentorsMessage.classList.remove('hidden');
+      } else {
+        noMentorsMessage.classList.add('hidden');
+      }
+    }
+
+    fieldButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        fieldButtons.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentFieldFilter = this.getAttribute('data-filter');
+        applyFilters();
+      });
+    });
+
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', function() {
+        langButtons.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentLangFilter = this.getAttribute('data-filter-lang');
+        applyFilters();
+      });
+    });
+  });
+</script>

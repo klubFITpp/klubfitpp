@@ -5,6 +5,7 @@ module.exports = {
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/*.md',
+    './_mentors/*.md',
     './*.md',
     './*.html',
     './*/*.html',
